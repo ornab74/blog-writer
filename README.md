@@ -109,9 +109,4 @@ This notebook adds controlled variance through:
 The pattern still produces interesting results even when swapping in stronger base models.
 
 ## License
-
-MIT
-
-Fork, upgrade the model, extract the agent / micro-chunk / shadow logic — it's the most reusable part.
-
-2024–2026
+ GPL3
