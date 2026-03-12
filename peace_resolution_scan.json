@@ -1,0 +1,2950 @@
+{
+  "scenario": "Regional de-escalation framework around Iran with humanitarian corridors and backchannel diplomacy",
+  "objective": "Model peaceful resolution pathways only.\nFocus on diplomacy, civilian protection, humanitarian access, inspections, confidence-building,\nand de-escalation sequencing. Do not produce military targeting, force posture advice,\nor operational harm guidance.",
+  "region": "Iran regional conflict environment",
+  "horizon_months": 12,
+  "runs": 64,
+  "aggregate": {
+    "top_results": [
+      {
+        "scenario": "Regional de-escalation framework around Iran with humanitarian corridors and backchannel diplomacy",
+        "run_id": "run::c8db2c8abf0d",
+        "score": 1.0,
+        "deescalation_score": 1.0,
+        "civilian_safety_score": 1.0,
+        "humanitarian_score": 1.0,
+        "negotiation_score": 1.0,
+        "verification_score": 1.0,
+        "spillover_containment_score": 1.0,
+        "applied_path": [
+          "Humanitarian corridor guarantee",
+          "Third-party monitoring mission",
+          "Third-party monitoring mission",
+          "Inspection-first nuclear confidence step",
+          "Third-party monitoring mission",
+          "Inspection-first nuclear confidence step",
+          "Humanitarian corridor guarantee",
+          "Regional non-aggression forum",
+          "Sequenced sanctions relief",
+          "Regional non-aggression forum",
+          "Phased prisoner exchange",
+          "Inspection-first nuclear confidence step",
+          "Sequenced sanctions relief",
+          "Regional non-aggression forum",
+          "Regional non-aggression forum",
+          "Sequenced sanctions relief",
+          "Regional non-aggression forum",
+          "Sequenced sanctions relief",
+          "Regional non-aggression forum",
+          "Sequenced sanctions relief",
+          "Inspection-first nuclear confidence step",
+          "Phased prisoner exchange",
+          "Regional non-aggression forum",
+          "Regional non-aggression forum",
+          "Sequenced sanctions relief",
+          "Inspection-first nuclear confidence step",
+          "Third-party monitoring mission",
+          "Sequenced sanctions relief"
+        ],
+        "timeline": [
+          {
+            "month": 1,
+            "snapshot": {
+              "cpu": 0.95,
+              "ram": 0.128,
+              "hash_entropy": 0.596078431372549,
+              "time_wave": 0.9985923731705447
+            },
+            "qmetrics": {
+              "openness": 0.006155829702431115,
+              "stability": 0.04554886685620274,
+              "reciprocity": 0.5109124119262101,
+              "verification": 0.3680080901816819,
+              "coherence": 0.23265629966663146
+            },
+            "tensions": 0.7615851681290543,
+            "civilian_risk": 0.687896592377023,
+            "humanitarian_access": 0.3414035291721543,
+            "negotiation_readiness": 0.36492880807405526,
+            "regional_spillover_risk": 0.6310211257538567,
+            "verification_strength": 0.2950736503970631,
+            "interventions": [
+              "Humanitarian corridor guarantee",
+              "Third-party monitoring mission"
+            ]
+          },
+          {
+            "month": 2,
+            "snapshot": {
+              "cpu": 1.0,
+              "ram": 0.128,
+              "hash_entropy": 0.3715686274509804,
+              "time_wave": 0.9986921883404859
+            },
+            "qmetrics": {
+              "openness": 5.551115123125783e-17,
+              "stability": 0.039884076317064865,
+              "reciprocity": 0.5007422262651773,
+              "verification": 0.6770830874152614,
+              "coherence": 0.3044273474993759
+            },
+            "tensions": 0.7814025387749439,
+            "civilian_risk": 0.689805119956104,
+            "humanitarian_access": 0.3414035291721543,
+            "negotiation_readiness": 0.4580231162962174,
+            "regional_spillover_risk": 0.6242579808885361,
+            "verification_strength": 0.49007357957265835,
+            "interventions": [
+              "Third-party monitoring mission",
+              "Inspection-first nuclear confidence step"
+            ]
+          },
+          {
+            "month": 3,
+            "snapshot": {
+              "cpu": 0.65,
+              "ram": 0.128,
+              "hash_entropy": 0.29215686274509806,
+              "time_wave": 0.9987873336113673
+            },
+            "qmetrics": {
+              "openness": 0.2730047501302265,
+              "stability": 0.29111174186906097,
+              "reciprocity": 0.4704343874424104,
+              "verification": 0.6227268052236089,
+              "coherence": 0.4143194211663267
+            },
+            "tensions": 0.7378063278864762,
+            "civilian_risk": 0.6230456246373164,
+            "humanitarian_access": 0.41757185445848743,
+            "negotiation_readiness": 0.5822239286557497,
+            "regional_spillover_risk": 0.5684258181024229,
+            "verification_strength": 0.7077165979983097,
+            "interventions": [
+              "Third-party monitoring mission",
+              "Inspection-first nuclear confidence step",
+              "Humanitarian corridor guarantee"
+            ]
+          },
+          {
+            "month": 4,
+            "snapshot": {
+              "cpu": 0.1,
+              "ram": 0.128,
+              "hash_entropy": 0.5274509803921569,
+              "time_wave": 0.9988715092649418
+            },
+            "qmetrics": {
+              "openness": 0.975528258147577,
+              "stability": 0.9375962474698192,
+              "reciprocity": 0.4622999496044198,
+              "verification": 0.5377582943633157,
+              "coherence": 0.7282956873962829
+            },
+            "tensions": 0.5554086694418843,
+            "civilian_risk": 0.5071392873435331,
+            "humanitarian_access": 0.552194754082853,
+            "negotiation_readiness": 0.6961759233433177,
+            "regional_spillover_risk": 0.4076362683097782,
+            "verification_strength": 0.8085462781914314,
+            "interventions": [
+              "Regional non-aggression forum",
+              "Sequenced sanctions relief"
+            ]
+          },
+          {
+            "month": 5,
+            "snapshot": {
+              "cpu": 0.0,
+              "ram": 0.128,
+              "hash_entropy": 0.3049019607843137,
+              "time_wave": 0.9989533356645315
+            },
+            "qmetrics": {
+              "openness": 1.0,
+              "stability": 0.9601159236829351,
+              "reciprocity": 0.7646850045080757,
+              "verification": 0.23509300182055198,
+              "coherence": 0.7399734825028907
+            },
+            "tensions": 0.37172668391933583,
+            "civilian_risk": 0.35673708758728434,
+            "humanitarian_access": 0.717194754082853,
+            "negotiation_readiness": 0.8790519486873626,
+            "regional_spillover_risk": 0.25365469730601564,
+            "verification_strength": 0.8409891124426676,
+            "interventions": [
+              "Regional non-aggression forum",
+              "Phased prisoner exchange"
+            ]
+          },
+          {
+            "month": 6,
+            "snapshot": {
+              "cpu": 0.048,
+              "ram": 0.128,
+              "hash_entropy": 0.6460784313725491,
+              "time_wave": 0.9990311802304711
+            },
+            "qmetrics": {
+              "openness": 0.9943258723689569,
+              "stability": 0.9548944107308306,
+              "reciprocity": 0.2984882860568336,
+              "verification": 0.7017170953484673,
+              "coherence": 0.7373564161262721
+            },
+            "tensions": 0.0967108047086343,
+            "civilian_risk": 0.1782071053555177,
+            "humanitarian_access": 0.9051223439605858,
+            "negotiation_readiness": 0.9993128655121224,
+            "regional_spillover_risk": 0.001232172155230641,
+            "verification_strength": 1.0,
+            "interventions": [
+              "Inspection-first nuclear confidence step",
+              "Sequenced sanctions relief",
+              "Regional non-aggression forum"
+            ]
+          },
+          {
+            "month": 7,
+            "snapshot": {
+              "cpu": 0.0,
+              "ram": 0.128,
+              "hash_entropy": 0.4215686274509804,
+              "time_wave": 0.9991061512195648
+            },
+            "qmetrics": {
+              "openness": 1.0,
+              "stability": 0.9601159236829353,
+              "reciprocity": 0.6122285866266068,
+              "verification": 0.3876804242412702,
+              "coherence": 0.7400062336377031
+            },
+            "tensions": 0.0,
+            "civilian_risk": 0.034726260490881775,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 1.0,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 1.0,
+            "interventions": [
+              "Regional non-aggression forum",
+              "Sequenced sanctions relief"
+            ]
+          },
+          {
+            "month": 8,
+            "snapshot": {
+              "cpu": 0.0,
+              "ram": 0.128,
+              "hash_entropy": 0.4107843137254902,
+              "time_wave": 0.999178177084993
+            },
+            "qmetrics": {
+              "openness": 1.0,
+              "stability": 0.9601159236829353,
+              "reciprocity": 0.6272791548537721,
+              "verification": 0.3726161699975351,
+              "coherence": 0.7400028121335607
+            },
+            "tensions": 0.0,
+            "civilian_risk": 0.0,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 1.0,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 1.0,
+            "interventions": [
+              "Regional non-aggression forum",
+              "Sequenced sanctions relief"
+            ]
+          },
+          {
+            "month": 9,
+            "snapshot": {
+              "cpu": 0.0,
+              "ram": 0.128,
+              "hash_entropy": 0.5264705882352941,
+              "time_wave": 0.9992471990229039
+            },
+            "qmetrics": {
+              "openness": 1.0,
+              "stability": 0.9601159236829351,
+              "reciprocity": 0.46178093582495794,
+              "verification": 0.5382578502562863,
+              "coherence": 0.7400386774410448
+            },
+            "tensions": 0.0,
+            "civilian_risk": 0.0,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 1.0,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 1.0,
+            "interventions": [
+              "Regional non-aggression forum",
+              "Sequenced sanctions relief",
+              "Inspection-first nuclear confidence step"
+            ]
+          },
+          {
+            "month": 10,
+            "snapshot": {
+              "cpu": 0.0,
+              "ram": 0.128,
+              "hash_entropy": 0.2372549019607843,
+              "time_wave": 0.9993131140585233
+            },
+            "qmetrics": {
+              "openness": 1.0,
+              "stability": 0.9601159236829353,
+              "reciprocity": 0.8381138707765754,
+              "verification": 0.16159674791956113,
+              "coherence": 0.739956635594768
+            },
+            "tensions": 0.0,
+            "civilian_risk": 0.0,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 1.0,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 1.0,
+            "interventions": [
+              "Phased prisoner exchange",
+              "Regional non-aggression forum"
+            ]
+          },
+          {
+            "month": 11,
+            "snapshot": {
+              "cpu": 0.0,
+              "ram": 0.128,
+              "hash_entropy": 0.4970588235294118,
+              "time_wave": 0.9993760799686686
+            },
+            "qmetrics": {
+              "openness": 1.0,
+              "stability": 0.9601159236829351,
+              "reciprocity": 0.5042514006970137,
+              "verification": 0.49574947532709623,
+              "coherence": 0.7400291999267612
+            },
+            "tensions": 0.0,
+            "civilian_risk": 0.0,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 1.0,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 1.0,
+            "interventions": [
+              "Regional non-aggression forum",
+              "Sequenced sanctions relief"
+            ]
+          },
+          {
+            "month": 12,
+            "snapshot": {
+              "cpu": 0.0,
+              "ram": 0.128,
+              "hash_entropy": 0.7333333333333333,
+              "time_wave": 0.9994364132578518
+            },
+            "qmetrics": {
+              "openness": 1.0,
+              "stability": 0.9601159236829353,
+              "reciprocity": 0.19212235299067149,
+              "verification": 0.8081501124028019,
+              "coherence": 0.7400970972691021
+            },
+            "tensions": 0.0,
+            "civilian_risk": 0.0,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 1.0,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 1.0,
+            "interventions": [
+              "Inspection-first nuclear confidence step",
+              "Third-party monitoring mission",
+              "Sequenced sanctions relief"
+            ]
+          }
+        ],
+        "summary": "Peace pathway score 1.000. De-escalation=1.000, civilian_safety=1.000, humanitarian_access=1.000, negotiation=1.000, verification=1.000, spillover_containment=1.000. Recent stabilizing measures: High-verification steps can unlock broader diplomatic sequencing.; External monitoring increases verification and lowers fear of deception.; Reciprocal economic easing supports negotiation durability when matched to compliance."
+      },
+      {
+        "scenario": "Regional de-escalation framework around Iran with humanitarian corridors and backchannel diplomacy",
+        "run_id": "run::4fc352172b47",
+        "score": 1.0,
+        "deescalation_score": 1.0,
+        "civilian_safety_score": 1.0,
+        "humanitarian_score": 1.0,
+        "negotiation_score": 1.0,
+        "verification_score": 1.0,
+        "spillover_containment_score": 1.0,
+        "applied_path": [
+          "Regional non-aggression forum",
+          "Phased prisoner exchange",
+          "Regional non-aggression forum",
+          "Sequenced sanctions relief",
+          "Inspection-first nuclear confidence step",
+          "Third-party monitoring mission",
+          "Sequenced sanctions relief",
+          "Inspection-first nuclear confidence step",
+          "Third-party monitoring mission",
+          "Phased prisoner exchange",
+          "Regional non-aggression forum",
+          "Regional non-aggression forum",
+          "Phased prisoner exchange",
+          "Sequenced sanctions relief",
+          "Regional non-aggression forum",
+          "Phased prisoner exchange",
+          "Regional non-aggression forum",
+          "Phased prisoner exchange",
+          "Phased prisoner exchange",
+          "Regional non-aggression forum",
+          "Sequenced sanctions relief",
+          "Inspection-first nuclear confidence step",
+          "Regional non-aggression forum",
+          "Regional non-aggression forum",
+          "Sequenced sanctions relief",
+          "Regional non-aggression forum",
+          "Phased prisoner exchange",
+          "Sequenced sanctions relief"
+        ],
+        "timeline": [
+          {
+            "month": 1,
+            "snapshot": {
+              "cpu": 0.0,
+              "ram": 0.128,
+              "hash_entropy": 0.3156862745098039,
+              "time_wave": 0.9995013024595326
+            },
+            "qmetrics": {
+              "openness": 1.0,
+              "stability": 0.9601159236829353,
+              "reciprocity": 0.7517844272894246,
+              "verification": 0.2479997087652926,
+              "coherence": 0.7399750149344131
+            },
+            "tensions": 0.5629541923186425,
+            "civilian_risk": 0.5498227028381445,
+            "humanitarian_access": 0.505,
+            "negotiation_readiness": 0.4607256242628686,
+            "regional_spillover_risk": 0.47952031149060503,
+            "verification_strength": 0.2542239598096104,
+            "interventions": [
+              "Regional non-aggression forum",
+              "Phased prisoner exchange"
+            ]
+          },
+          {
+            "month": 2,
+            "snapshot": {
+              "cpu": 0.105,
+              "ram": 0.128,
+              "hash_entropy": 0.5,
+              "time_wave": 0.9995547184814391
+            },
+            "qmetrics": {
+              "openness": 0.9730426794137723,
+              "stability": 0.9353089387598369,
+              "reciprocity": 0.5000014899797953,
+              "verification": 0.5000053043380677,
+              "coherence": 0.7270896031228681
+            },
+            "tensions": 0.38275365892855245,
+            "civilian_risk": 0.4280364302482661,
+            "humanitarian_access": 0.6392798897591007,
+            "negotiation_readiness": 0.5840509036135172,
+            "regional_spillover_risk": 0.31660804141031196,
+            "verification_strength": 0.3479749543729981,
+            "interventions": [
+              "Regional non-aggression forum",
+              "Sequenced sanctions relief"
+            ]
+          },
+          {
+            "month": 3,
+            "snapshot": {
+              "cpu": 0.0,
+              "ram": 0.128,
+              "hash_entropy": 0.7215686274509804,
+              "time_wave": 0.9996052677486893
+            },
+            "qmetrics": {
+              "openness": 1.0,
+              "stability": 0.9601159236829353,
+              "reciprocity": 0.2049675433675514,
+              "verification": 0.7952927245347894,
+              "coherence": 0.740094047896319
+            },
+            "tensions": 0.14491872706952197,
+            "civilian_risk": 0.24323089430386863,
+            "humanitarian_access": 0.8387798897591007,
+            "negotiation_readiness": 0.6581886233079036,
+            "regional_spillover_risk": 0.09031882647545275,
+            "verification_strength": 0.6617179342019724,
+            "interventions": [
+              "Inspection-first nuclear confidence step",
+              "Third-party monitoring mission",
+              "Sequenced sanctions relief"
+            ]
+          },
+          {
+            "month": 4,
+            "snapshot": {
+              "cpu": 0.048,
+              "ram": 0.128,
+              "hash_entropy": 0.7166666666666667,
+              "time_wave": 0.9996526177203257
+            },
+            "qmetrics": {
+              "openness": 0.994325872368957,
+              "stability": 0.9548944107308306,
+              "reciprocity": 0.21372110155271068,
+              "verification": 0.7865629598546233,
+              "coherence": 0.7373760861267804
+            },
+            "tensions": 0.0,
+            "civilian_risk": 0.10461116510582749,
+            "humanitarian_access": 0.9730138825289099,
+            "negotiation_readiness": 0.7148603305857136,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 0.8882480666401039,
+            "interventions": [
+              "Inspection-first nuclear confidence step",
+              "Third-party monitoring mission"
+            ]
+          },
+          {
+            "month": 5,
+            "snapshot": {
+              "cpu": 0.0,
+              "ram": 0.128,
+              "hash_entropy": 0.2411764705882353,
+              "time_wave": 0.9996968976640238
+            },
+            "qmetrics": {
+              "openness": 1.0,
+              "stability": 0.9601159236829352,
+              "reciprocity": 0.834243654902771,
+              "verification": 0.16546689269156145,
+              "coherence": 0.7399566178193169
+            },
+            "tensions": 0.0,
+            "civilian_risk": 0.0,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 0.9209467915176621,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 0.9110824978315394,
+            "interventions": [
+              "Phased prisoner exchange",
+              "Regional non-aggression forum"
+            ]
+          },
+          {
+            "month": 6,
+            "snapshot": {
+              "cpu": 0.0,
+              "ram": 0.128,
+              "hash_entropy": 0.40490196078431373,
+              "time_wave": 0.9997381975483692
+            },
+            "qmetrics": {
+              "openness": 1.0,
+              "stability": 0.9601159236829353,
+              "reciprocity": 0.635428079988681,
+              "verification": 0.36445564622608395,
+              "coherence": 0.7399999124744251
+            },
+            "tensions": 0.0,
+            "civilian_risk": 0.0,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 1.0,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 1.0,
+            "interventions": [
+              "Regional non-aggression forum",
+              "Phased prisoner exchange",
+              "Sequenced sanctions relief"
+            ]
+          },
+          {
+            "month": 7,
+            "snapshot": {
+              "cpu": 0.0,
+              "ram": 0.128,
+              "hash_entropy": 0.3137254901960784,
+              "time_wave": 0.9997765095457427
+            },
+            "qmetrics": {
+              "openness": 0.9999999999999999,
+              "stability": 0.9601159236829351,
+              "reciprocity": 0.7541519197438225,
+              "verification": 0.24562788313921324,
+              "coherence": 0.7399739316414926
+            },
+            "tensions": 0.0,
+            "civilian_risk": 0.0,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 1.0,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 1.0,
+            "interventions": [
+              "Regional non-aggression forum",
+              "Phased prisoner exchange"
+            ]
+          },
+          {
+            "month": 8,
+            "snapshot": {
+              "cpu": 0.0,
+              "ram": 0.128,
+              "hash_entropy": 0.2852941176470588,
+              "time_wave": 0.9998117412254381
+            },
+            "qmetrics": {
+              "openness": 1.0,
+              "stability": 0.9601159236829353,
+              "reciprocity": 0.7873521826257117,
+              "verification": 0.21239836163439996,
+              "coherence": 0.7399666169857617
+            },
+            "tensions": 0.0,
+            "civilian_risk": 0.0,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 1.0,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 1.0,
+            "interventions": [
+              "Regional non-aggression forum",
+              "Phased prisoner exchange"
+            ]
+          },
+          {
+            "month": 9,
+            "snapshot": {
+              "cpu": 0.0,
+              "ram": 0.128,
+              "hash_entropy": 0.2549019607843137,
+              "time_wave": 0.9998439045573139
+            },
+            "qmetrics": {
+              "openness": 1.0000000000000002,
+              "stability": 0.9601159236829353,
+              "reciprocity": 0.8203023135537786,
+              "verification": 0.17941921360927832,
+              "coherence": 0.7399593627114981
+            },
+            "tensions": 0.0,
+            "civilian_risk": 0.0,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 1.0,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 1.0,
+            "interventions": [
+              "Phased prisoner exchange",
+              "Regional non-aggression forum",
+              "Sequenced sanctions relief"
+            ]
+          },
+          {
+            "month": 10,
+            "snapshot": {
+              "cpu": 0.0,
+              "ram": 0.128,
+              "hash_entropy": 0.638235294117647,
+              "time_wave": 0.9998731386501795
+            },
+            "qmetrics": {
+              "openness": 1.0,
+              "stability": 0.9601159236829353,
+              "reciprocity": 0.3064032690964288,
+              "verification": 0.6937666791567161,
+              "coherence": 0.74007146798402
+            },
+            "tensions": 0.0,
+            "civilian_risk": 0.0,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 1.0,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 1.0,
+            "interventions": [
+              "Inspection-first nuclear confidence step",
+              "Regional non-aggression forum"
+            ]
+          },
+          {
+            "month": 11,
+            "snapshot": {
+              "cpu": 0.105,
+              "ram": 0.128,
+              "hash_entropy": 0.41862745098039217,
+              "time_wave": 0.9998997124549156
+            },
+            "qmetrics": {
+              "openness": 0.9730426794137725,
+              "stability": 0.9353089387598371,
+              "reciprocity": 0.6101168492455418,
+              "verification": 0.38976243973774266,
+              "coherence": 0.7270577267892235
+            },
+            "tensions": 0.0,
+            "civilian_risk": 0.0,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 1.0,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 1.0,
+            "interventions": [
+              "Regional non-aggression forum",
+              "Sequenced sanctions relief"
+            ]
+          },
+          {
+            "month": 12,
+            "snapshot": {
+              "cpu": 0.3,
+              "ram": 0.129,
+              "hash_entropy": 0.2892156862745098,
+              "time_wave": 0.999922856454562
+            },
+            "qmetrics": {
+              "openness": 0.7938926261462367,
+              "stability": 0.77008666851613,
+              "reciprocity": 0.6724129491449421,
+              "verification": 0.3324938061966056,
+              "coherence": 0.6422215125009786
+            },
+            "tensions": 0.0,
+            "civilian_risk": 0.0,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 1.0,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 1.0,
+            "interventions": [
+              "Regional non-aggression forum",
+              "Phased prisoner exchange",
+              "Sequenced sanctions relief"
+            ]
+          }
+        ],
+        "summary": "Peace pathway score 1.000. De-escalation=1.000, civilian_safety=1.000, humanitarian_access=1.000, negotiation=1.000, verification=1.000, spillover_containment=1.000. Recent stabilizing measures: A standing forum creates repeated contact and lowers accidental escalation.; Visible reciprocal steps raise trust without demanding immediate final settlement.; Reciprocal economic easing supports negotiation durability when matched to compliance."
+      },
+      {
+        "scenario": "Regional de-escalation framework around Iran with humanitarian corridors and backchannel diplomacy",
+        "run_id": "run::df8fcb5e17a4",
+        "score": 1.0,
+        "deescalation_score": 1.0,
+        "civilian_safety_score": 1.0,
+        "humanitarian_score": 1.0,
+        "negotiation_score": 1.0,
+        "verification_score": 1.0,
+        "spillover_containment_score": 1.0,
+        "applied_path": [
+          "Third-party monitoring mission",
+          "Humanitarian corridor guarantee",
+          "Third-party monitoring mission",
+          "Sequenced sanctions relief",
+          "Third-party monitoring mission",
+          "Sequenced sanctions relief",
+          "Regional non-aggression forum",
+          "Third-party monitoring mission",
+          "Sequenced sanctions relief",
+          "Third-party monitoring mission",
+          "Sequenced sanctions relief",
+          "Third-party monitoring mission",
+          "Sequenced sanctions relief",
+          "Humanitarian corridor guarantee",
+          "Third-party monitoring mission",
+          "Sequenced sanctions relief",
+          "Humanitarian corridor guarantee",
+          "Third-party monitoring mission",
+          "Third-party monitoring mission",
+          "Inspection-first nuclear confidence step",
+          "Humanitarian corridor guarantee",
+          "Third-party monitoring mission",
+          "Humanitarian corridor guarantee",
+          "Third-party monitoring mission",
+          "Sequenced sanctions relief",
+          "Third-party monitoring mission",
+          "Humanitarian corridor guarantee",
+          "Sequenced sanctions relief"
+        ],
+        "timeline": [
+          {
+            "month": 1,
+            "snapshot": {
+              "cpu": 0.55,
+              "ram": 0.129,
+              "hash_entropy": 0.6705882352941177,
+              "time_wave": 0.9999471984068541
+            },
+            "qmetrics": {
+              "openness": 0.4217827674798843,
+              "stability": 0.42811853761380925,
+              "reciprocity": 0.4891624981450319,
+              "verification": 0.4662880428823826,
+              "coherence": 0.451337961530277
+            },
+            "tensions": 0.70408351258497,
+            "civilian_risk": 0.6085463354425894,
+            "humanitarian_access": 0.4361664709854136,
+            "negotiation_readiness": 0.36272935446263554,
+            "regional_spillover_risk": 0.5853314300421207,
+            "verification_strength": 0.31512276074800605,
+            "interventions": [
+              "Third-party monitoring mission",
+              "Humanitarian corridor guarantee"
+            ]
+          },
+          {
+            "month": 2,
+            "snapshot": {
+              "cpu": 0.526,
+              "ram": 0.129,
+              "hash_entropy": 0.5490196078431373,
+              "time_wave": 0.9999638781917021
+            },
+            "qmetrics": {
+              "openness": 0.4592046942159214,
+              "stability": 0.46250920489295955,
+              "reciprocity": 0.4934748699920891,
+              "verification": 0.4950962550589775,
+              "coherence": 0.4775712560399869
+            },
+            "tensions": 0.646037570770808,
+            "civilian_risk": 0.5485682638910854,
+            "humanitarian_access": 0.5043583680764779,
+            "negotiation_readiness": 0.45851881274767997,
+            "regional_spillover_risk": 0.5215859956009411,
+            "verification_strength": 0.4384017282576914,
+            "interventions": [
+              "Third-party monitoring mission",
+              "Sequenced sanctions relief"
+            ]
+          },
+          {
+            "month": 3,
+            "snapshot": {
+              "cpu": 0.5,
+              "ram": 0.129,
+              "hash_entropy": 0.5745098039215686,
+              "time_wave": 0.9999773670257581
+            },
+            "qmetrics": {
+              "openness": 0.5000000000000001,
+              "stability": 0.5,
+              "reciprocity": 0.4843980613451034,
+              "verification": 0.5011885066538467,
+              "coherence": 0.49639664199973754
+            },
+            "tensions": 0.5315829119439036,
+            "civilian_risk": 0.4472968181464927,
+            "humanitarian_access": 0.615358368076478,
+            "negotiation_readiness": 0.616308858404276,
+            "regional_spillover_risk": 0.406187941173473,
+            "verification_strength": 0.6037939354534608,
+            "interventions": [
+              "Third-party monitoring mission",
+              "Sequenced sanctions relief",
+              "Regional non-aggression forum"
+            ]
+          },
+          {
+            "month": 4,
+            "snapshot": {
+              "cpu": 0.5,
+              "ram": 0.129,
+              "hash_entropy": 0.3627450980392157,
+              "time_wave": 0.9999876612141242
+            },
+            "qmetrics": {
+              "openness": 0.49999999999999994,
+              "stability": 0.4999999999999999,
+              "reciprocity": 0.5281278168505759,
+              "verification": 0.49786329376206157,
+              "coherence": 0.5064977776531593
+            },
+            "tensions": 0.46133330528329286,
+            "civilian_risk": 0.3726460175235897,
+            "humanitarian_access": 0.6896083680764781,
+            "negotiation_readiness": 0.7255358654577323,
+            "regional_spillover_risk": 0.33346802493508737,
+            "verification_strength": 0.7277618956002141,
+            "interventions": [
+              "Third-party monitoring mission",
+              "Sequenced sanctions relief"
+            ]
+          },
+          {
+            "month": 5,
+            "snapshot": {
+              "cpu": 0.5,
+              "ram": 0.129,
+              "hash_entropy": 0.5774509803921568,
+              "time_wave": 0.9999948560632644
+            },
+            "qmetrics": {
+              "openness": 0.5000000000000001,
+              "stability": 0.5000000000000001,
+              "reciprocity": 0.48378905188790783,
+              "verification": 0.501232803908673,
+              "coherence": 0.49625546394914527
+            },
+            "tensions": 0.39046567766612494,
+            "civilian_risk": 0.2950374231718728,
+            "humanitarian_access": 0.7638583680764781,
+            "negotiation_readiness": 0.8287519014017967,
+            "regional_spillover_risk": 0.25924651839069296,
+            "verification_strength": 0.8525688637734736,
+            "interventions": [
+              "Third-party monitoring mission",
+              "Sequenced sanctions relief"
+            ]
+          },
+          {
+            "month": 6,
+            "snapshot": {
+              "cpu": 0.526,
+              "ram": 0.129,
+              "hash_entropy": 0.7029411764705882,
+              "time_wave": 0.9999989612015665
+            },
+            "qmetrics": {
+              "openness": 0.4592046942159213,
+              "stability": 0.4625092048929595,
+              "reciprocity": 0.4746358734101897,
+              "verification": 0.4809571546099568,
+              "coherence": 0.4693267317822568
+            },
+            "tensions": 0.30048967902490165,
+            "civilian_risk": 0.16022997872502537,
+            "humanitarian_access": 0.898175741134635,
+            "negotiation_readiness": 0.9682197403711833,
+            "regional_spillover_risk": 0.16489312497138678,
+            "verification_strength": 1.0,
+            "interventions": [
+              "Third-party monitoring mission",
+              "Sequenced sanctions relief",
+              "Humanitarian corridor guarantee"
+            ]
+          },
+          {
+            "month": 7,
+            "snapshot": {
+              "cpu": 0.5,
+              "ram": 0.129,
+              "hash_entropy": 0.42843137254901964,
+              "time_wave": 0.9999999487615979
+            },
+            "qmetrics": {
+              "openness": 0.5000000000000002,
+              "stability": 0.5000000000000002,
+              "reciprocity": 0.5150027674293021,
+              "verification": 0.4988596239268941,
+              "coherence": 0.5034655978390492
+            },
+            "tensions": 0.22503295517375113,
+            "civilian_risk": 0.07257884598661817,
+            "humanitarian_access": 0.9724257411346351,
+            "negotiation_readiness": 1.0,
+            "regional_spillover_risk": 0.08742229347668942,
+            "verification_strength": 1.0,
+            "interventions": [
+              "Third-party monitoring mission",
+              "Sequenced sanctions relief"
+            ]
+          },
+          {
+            "month": 8,
+            "snapshot": {
+              "cpu": 0.7140000000000001,
+              "ram": 0.13,
+              "hash_entropy": 0.653921568627451,
+              "time_wave": 0.9999978311886649
+            },
+            "qmetrics": {
+              "openness": 0.18860610975594372,
+              "stability": 0.2142168168187874,
+              "reciprocity": 0.5349415925158492,
+              "verification": 0.3709256352340823,
+              "coherence": 0.32717253858116563
+            },
+            "tensions": 0.2086291362858928,
+            "civilian_risk": 0.006514734728551477,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 1.0,
+            "regional_spillover_risk": 0.058757885471488594,
+            "verification_strength": 1.0,
+            "interventions": [
+              "Humanitarian corridor guarantee",
+              "Third-party monitoring mission"
+            ]
+          },
+          {
+            "month": 9,
+            "snapshot": {
+              "cpu": 0.65,
+              "ram": 0.13,
+              "hash_entropy": 0.2980392156862745,
+              "time_wave": 0.9999926037959289
+            },
+            "qmetrics": {
+              "openness": 0.27300475013022657,
+              "stability": 0.29167405942372426,
+              "reciprocity": 0.47093859565169527,
+              "verification": 0.6191259524045176,
+              "coherence": 0.41368583940254094
+            },
+            "tensions": 0.1540538935955286,
+            "civilian_risk": 0.0,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 1.0,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 1.0,
+            "interventions": [
+              "Third-party monitoring mission",
+              "Inspection-first nuclear confidence step",
+              "Humanitarian corridor guarantee"
+            ]
+          },
+          {
+            "month": 10,
+            "snapshot": {
+              "cpu": 0.579,
+              "ram": 0.13,
+              "hash_entropy": 0.5696078431372549,
+              "time_wave": 0.9999841969468535
+            },
+            "qmetrics": {
+              "openness": 0.377177114403787,
+              "stability": 0.3872787286042211,
+              "reciprocity": 0.5005364989748693,
+              "verification": 0.4769288715399638,
+              "coherence": 0.4354803033807103
+            },
+            "tensions": 0.10824557920441251,
+            "civilian_risk": 0.0,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 1.0,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 1.0,
+            "interventions": [
+              "Third-party monitoring mission",
+              "Humanitarian corridor guarantee"
+            ]
+          },
+          {
+            "month": 11,
+            "snapshot": {
+              "cpu": 0.524,
+              "ram": 0.13,
+              "hash_entropy": 0.6588235294117647,
+              "time_wave": 0.9999724497404182
+            },
+            "qmetrics": {
+              "openness": 0.4623365972360336,
+              "stability": 0.465434237894371,
+              "reciprocity": 0.47876371856849576,
+              "verification": 0.48612000014513335,
+              "coherence": 0.4731636384610084
+            },
+            "tensions": 0.034944018700645896,
+            "civilian_risk": 0.0,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 1.0,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 1.0,
+            "interventions": [
+              "Third-party monitoring mission",
+              "Sequenced sanctions relief"
+            ]
+          },
+          {
+            "month": 12,
+            "snapshot": {
+              "cpu": 0.579,
+              "ram": 0.131,
+              "hash_entropy": 0.5372549019607843,
+              "time_wave": 0.999957716093056
+            },
+            "qmetrics": {
+              "openness": 0.3771771144037869,
+              "stability": 0.38743252788547683,
+              "reciprocity": 0.5003012647126768,
+              "verification": 0.4876146221379597,
+              "coherence": 0.43813138228497506
+            },
+            "tensions": 0.0,
+            "civilian_risk": 0.0,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 1.0,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 1.0,
+            "interventions": [
+              "Third-party monitoring mission",
+              "Humanitarian corridor guarantee",
+              "Sequenced sanctions relief"
+            ]
+          }
+        ],
+        "summary": "Peace pathway score 1.000. De-escalation=1.000, civilian_safety=1.000, humanitarian_access=1.000, negotiation=1.000, verification=1.000, spillover_containment=1.000. Recent stabilizing measures: External monitoring increases verification and lowers fear of deception.; Protected aid routes reduce civilian harm and increase diplomatic legitimacy.; Reciprocal economic easing supports negotiation durability when matched to compliance."
+      },
+      {
+        "scenario": "Regional de-escalation framework around Iran with humanitarian corridors and backchannel diplomacy",
+        "run_id": "run::a704da32a88d",
+        "score": 1.0,
+        "deescalation_score": 1.0,
+        "civilian_safety_score": 1.0,
+        "humanitarian_score": 1.0,
+        "negotiation_score": 1.0,
+        "verification_score": 1.0,
+        "spillover_containment_score": 1.0,
+        "applied_path": [
+          "Third-party monitoring mission",
+          "Humanitarian corridor guarantee",
+          "Phased prisoner exchange",
+          "Regional non-aggression forum",
+          "Regional non-aggression forum",
+          "Sequenced sanctions relief",
+          "Phased prisoner exchange",
+          "Regional non-aggression forum",
+          "Phased prisoner exchange",
+          "Regional non-aggression forum",
+          "Sequenced sanctions relief",
+          "Regional non-aggression forum",
+          "Sequenced sanctions relief",
+          "Inspection-first nuclear confidence step",
+          "Regional non-aggression forum",
+          "Sequenced sanctions relief",
+          "Regional non-aggression forum",
+          "Sequenced sanctions relief",
+          "Regional non-aggression forum",
+          "Phased prisoner exchange",
+          "Sequenced sanctions relief",
+          "Regional non-aggression forum",
+          "Sequenced sanctions relief",
+          "Inspection-first nuclear confidence step",
+          "Third-party monitoring mission",
+          "Phased prisoner exchange",
+          "Regional non-aggression forum",
+          "Sequenced sanctions relief"
+        ],
+        "timeline": [
+          {
+            "month": 1,
+            "snapshot": {
+              "cpu": 0.579,
+              "ram": 0.129,
+              "hash_entropy": 0.6784313725490196,
+              "time_wave": 0.999936706354903
+            },
+            "qmetrics": {
+              "openness": 0.3771771144037869,
+              "stability": 0.3871260418364064,
+              "reciprocity": 0.5013238940435519,
+              "verification": 0.44333002195961996,
+              "coherence": 0.4272392680608413
+            },
+            "tensions": 0.7103068532758431,
+            "civilian_risk": 0.6171011201282778,
+            "humanitarian_access": 0.42599638208406343,
+            "negotiation_readiness": 0.36447774261719007,
+            "regional_spillover_risk": 0.5905390219145217,
+            "verification_strength": 0.3104393244797624,
+            "interventions": [
+              "Third-party monitoring mission",
+              "Humanitarian corridor guarantee"
+            ]
+          },
+          {
+            "month": 2,
+            "snapshot": {
+              "cpu": 0.263,
+              "ram": 0.129,
+              "hash_entropy": 0.2392156862745098,
+              "time_wave": 0.999915202923123
+            },
+            "qmetrics": {
+              "openness": 0.8388232187350511,
+              "stability": 0.8113777829816222,
+              "reciprocity": 0.7320630808305879,
+              "verification": 0.27108396417137814,
+              "coherence": 0.6633370116796599
+            },
+            "tensions": 0.5633865869138514,
+            "civilian_risk": 0.496175252701001,
+            "humanitarian_access": 0.5644022131753469,
+            "negotiation_readiness": 0.5319219176112905,
+            "regional_spillover_risk": 0.4635864537054915,
+            "verification_strength": 0.3478489115354126,
+            "interventions": [
+              "Phased prisoner exchange",
+              "Regional non-aggression forum"
+            ]
+          },
+          {
+            "month": 3,
+            "snapshot": {
+              "cpu": 0.0,
+              "ram": 0.129,
+              "hash_entropy": 0.44019607843137254,
+              "time_wave": 0.9998909536538155
+            },
+            "qmetrics": {
+              "openness": 1.0000000000000002,
+              "stability": 0.9594988857967108,
+              "reciprocity": 0.5858234519065281,
+              "verification": 0.4140999877210967,
+              "coherence": 0.739855581356084
+            },
+            "tensions": 0.29435666400205573,
+            "civilian_risk": 0.2895139323772865,
+            "humanitarian_access": 0.7939022131753469,
+            "negotiation_readiness": 0.7398119226698503,
+            "regional_spillover_risk": 0.2259628580439044,
+            "verification_strength": 0.4490963585332207,
+            "interventions": [
+              "Regional non-aggression forum",
+              "Sequenced sanctions relief",
+              "Phased prisoner exchange"
+            ]
+          },
+          {
+            "month": 4,
+            "snapshot": {
+              "cpu": 0.0,
+              "ram": 0.129,
+              "hash_entropy": 0.3362745098039216,
+              "time_wave": 0.9998637928525826
+            },
+            "qmetrics": {
+              "openness": 1.0000000000000002,
+              "stability": 0.9594988857967108,
+              "reciprocity": 0.7260627517821774,
+              "verification": 0.27373445600049207,
+              "coherence": 0.7398240233948451
+            },
+            "tensions": 0.11010024829578771,
+            "civilian_risk": 0.12681660871038472,
+            "humanitarian_access": 0.958902213175347,
+            "negotiation_readiness": 0.9179609498081325,
+            "regional_spillover_risk": 0.06588268211074069,
+            "verification_strength": 0.4868717134612886,
+            "interventions": [
+              "Regional non-aggression forum",
+              "Phased prisoner exchange"
+            ]
+          },
+          {
+            "month": 5,
+            "snapshot": {
+              "cpu": 0.05,
+              "ram": 0.129,
+              "hash_entropy": 0.4774509803921569,
+              "time_wave": 0.9998335595302876
+            },
+            "qmetrics": {
+              "openness": 0.993844170297569,
+              "stability": 0.953841692017868,
+              "reciprocity": 0.5321238635075778,
+              "verification": 0.46784482151686724,
+              "coherence": 0.7369136368349705
+            },
+            "tensions": 0.0,
+            "civilian_risk": 0.0,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 1.0,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 0.5745926174957011,
+            "interventions": [
+              "Regional non-aggression forum",
+              "Sequenced sanctions relief"
+            ]
+          },
+          {
+            "month": 6,
+            "snapshot": {
+              "cpu": 0.15,
+              "ram": 0.129,
+              "hash_entropy": 0.5362745098039216,
+              "time_wave": 0.9998002448914365
+            },
+            "qmetrics": {
+              "openness": 0.9455032620941839,
+              "stability": 0.909416505102155,
+              "reciprocity": 0.45336722828423925,
+              "verification": 0.546664798464081,
+              "coherence": 0.7137379484861648
+            },
+            "tensions": 0.0,
+            "civilian_risk": 0.0,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 1.0,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 0.7566319953842401,
+            "interventions": [
+              "Regional non-aggression forum",
+              "Sequenced sanctions relief",
+              "Inspection-first nuclear confidence step"
+            ]
+          },
+          {
+            "month": 7,
+            "snapshot": {
+              "cpu": 0.0,
+              "ram": 0.129,
+              "hash_entropy": 0.45,
+              "time_wave": 0.9997637886476828
+            },
+            "qmetrics": {
+              "openness": 1.0,
+              "stability": 0.9594988857967108,
+              "reciprocity": 0.5718814623861906,
+              "verification": 0.42805551929065755,
+              "coherence": 0.7398589668683897
+            },
+            "tensions": 0.0,
+            "civilian_risk": 0.0,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 1.0,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 0.8368924052512384,
+            "interventions": [
+              "Regional non-aggression forum",
+              "Sequenced sanctions relief"
+            ]
+          },
+          {
+            "month": 8,
+            "snapshot": {
+              "cpu": 0.0,
+              "ram": 0.129,
+              "hash_entropy": 0.5009803921568627,
+              "time_wave": 0.9997244195542928
+            },
+            "qmetrics": {
+              "openness": 1.0,
+              "stability": 0.9594988857967108,
+              "reciprocity": 0.4985847489788221,
+              "verification": 0.5014185987694488,
+              "coherence": 0.7398755583862454
+            },
+            "tensions": 0.0,
+            "civilian_risk": 0.0,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 1.0,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 0.9309083925205102,
+            "interventions": [
+              "Regional non-aggression forum",
+              "Sequenced sanctions relief"
+            ]
+          },
+          {
+            "month": 9,
+            "snapshot": {
+              "cpu": 0.0,
+              "ram": 0.129,
+              "hash_entropy": 0.3656862745098039,
+              "time_wave": 0.9996821498622096
+            },
+            "qmetrics": {
+              "openness": 1.0,
+              "stability": 0.9594988857967107,
+              "reciprocity": 0.6881870439721659,
+              "verification": 0.3116457540712557,
+              "coherence": 0.7398329209600331
+            },
+            "tensions": 0.0,
+            "civilian_risk": 0.0,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 1.0,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 1.0,
+            "interventions": [
+              "Regional non-aggression forum",
+              "Phased prisoner exchange",
+              "Sequenced sanctions relief"
+            ]
+          },
+          {
+            "month": 10,
+            "snapshot": {
+              "cpu": 0.0,
+              "ram": 0.129,
+              "hash_entropy": 0.49117647058823527,
+              "time_wave": 0.9996367377062306
+            },
+            "qmetrics": {
+              "openness": 1.0,
+              "stability": 0.9594988857967108,
+              "reciprocity": 0.5127356481817743,
+              "verification": 0.4872556073136388,
+              "coherence": 0.739872535323031
+            },
+            "tensions": 0.0,
+            "civilian_risk": 0.0,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 1.0,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 1.0,
+            "interventions": [
+              "Regional non-aggression forum",
+              "Sequenced sanctions relief"
+            ]
+          },
+          {
+            "month": 11,
+            "snapshot": {
+              "cpu": 0.0,
+              "ram": 0.129,
+              "hash_entropy": 0.7843137254901961,
+              "time_wave": 0.999588451336601
+            },
+            "qmetrics": {
+              "openness": 1.0000000000000002,
+              "stability": 0.9594988857967109,
+              "reciprocity": 0.14201334405959298,
+              "verification": 0.8583122411743218,
+              "coherence": 0.7399561177576565
+            },
+            "tensions": 0.0,
+            "civilian_risk": 0.0,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 1.0,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 1.0,
+            "interventions": [
+              "Inspection-first nuclear confidence step",
+              "Third-party monitoring mission"
+            ]
+          },
+          {
+            "month": 12,
+            "snapshot": {
+              "cpu": 0.0,
+              "ram": 0.129,
+              "hash_entropy": 0.23431372549019608,
+              "time_wave": 0.9995370700666294
+            },
+            "qmetrics": {
+              "openness": 1.0,
+              "stability": 0.9594988857967107,
+              "reciprocity": 0.8405256118468414,
+              "verification": 0.15917118045723838,
+              "coherence": 0.7397989195251976
+            },
+            "tensions": 0.0,
+            "civilian_risk": 0.0,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 1.0,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 1.0,
+            "interventions": [
+              "Phased prisoner exchange",
+              "Regional non-aggression forum",
+              "Sequenced sanctions relief"
+            ]
+          }
+        ],
+        "summary": "Peace pathway score 1.000. De-escalation=1.000, civilian_safety=1.000, humanitarian_access=1.000, negotiation=1.000, verification=1.000, spillover_containment=1.000. Recent stabilizing measures: Visible reciprocal steps raise trust without demanding immediate final settlement.; A standing forum creates repeated contact and lowers accidental escalation.; Reciprocal economic easing supports negotiation durability when matched to compliance."
+      },
+      {
+        "scenario": "Regional de-escalation framework around Iran with humanitarian corridors and backchannel diplomacy",
+        "run_id": "run::905832ea5c78",
+        "score": 1.0,
+        "deescalation_score": 1.0,
+        "civilian_safety_score": 1.0,
+        "humanitarian_score": 1.0,
+        "negotiation_score": 1.0,
+        "verification_score": 1.0,
+        "spillover_containment_score": 1.0,
+        "applied_path": [
+          "Regional non-aggression forum",
+          "Sequenced sanctions relief",
+          "Inspection-first nuclear confidence step",
+          "Third-party monitoring mission",
+          "Regional non-aggression forum",
+          "Sequenced sanctions relief",
+          "Phased prisoner exchange",
+          "Inspection-first nuclear confidence step",
+          "Third-party monitoring mission",
+          "Regional non-aggression forum",
+          "Sequenced sanctions relief",
+          "Inspection-first nuclear confidence step",
+          "Third-party monitoring mission",
+          "Sequenced sanctions relief",
+          "Inspection-first nuclear confidence step",
+          "Sequenced sanctions relief",
+          "Regional non-aggression forum",
+          "Sequenced sanctions relief",
+          "Regional non-aggression forum",
+          "Sequenced sanctions relief",
+          "Phased prisoner exchange",
+          "Regional non-aggression forum",
+          "Phased prisoner exchange",
+          "Regional non-aggression forum",
+          "Sequenced sanctions relief",
+          "Regional non-aggression forum",
+          "Sequenced sanctions relief",
+          "Inspection-first nuclear confidence step"
+        ],
+        "timeline": [
+          {
+            "month": 1,
+            "snapshot": {
+              "cpu": 0.0,
+              "ram": 0.129,
+              "hash_entropy": 0.48137254901960785,
+              "time_wave": 0.9994753147272513
+            },
+            "qmetrics": {
+              "openness": 1.0000000000000004,
+              "stability": 0.959498885796711,
+              "reciprocity": 0.5268744668509859,
+              "verification": 0.4731052796467715,
+              "coherence": 0.7398696580736173
+            },
+            "tensions": 0.5569827887844235,
+            "civilian_risk": 0.5735839811912643,
+            "humanitarian_access": 0.4780000000000001,
+            "negotiation_readiness": 0.4149988430812548,
+            "regional_spillover_risk": 0.4671567120848751,
+            "verification_strength": 0.30870723993376964,
+            "interventions": [
+              "Regional non-aggression forum",
+              "Sequenced sanctions relief"
+            ]
+          },
+          {
+            "month": 2,
+            "snapshot": {
+              "cpu": 0.0,
+              "ram": 0.129,
+              "hash_entropy": 0.6931372549019608,
+              "time_wave": 0.9994176322238394
+            },
+            "qmetrics": {
+              "openness": 1.0,
+              "stability": 0.9594988857967108,
+              "reciprocity": 0.23799022809853543,
+              "verification": 0.7622499583665477,
+              "coherence": 0.7399347680654484
+            },
+            "tensions": 0.40944407676082134,
+            "civilian_risk": 0.45333953230395185,
+            "humanitarian_access": 0.6130000000000001,
+            "negotiation_readiness": 0.4651364872953375,
+            "regional_spillover_risk": 0.32483799730677837,
+            "verification_strength": 0.5282352279433354,
+            "interventions": [
+              "Inspection-first nuclear confidence step",
+              "Third-party monitoring mission"
+            ]
+          },
+          {
+            "month": 3,
+            "snapshot": {
+              "cpu": 0.048,
+              "ram": 0.129,
+              "hash_entropy": 0.4362745098039216,
+              "time_wave": 0.9993567650074704
+            },
+            "qmetrics": {
+              "openness": 0.9943258723689569,
+              "stability": 0.9542843751480454,
+              "reciprocity": 0.5903428682816045,
+              "verification": 0.4095714269196463,
+              "coherence": 0.7371311356795633
+            },
+            "tensions": 0.14336721110507702,
+            "civilian_risk": 0.2432578983249057,
+            "humanitarian_access": 0.8411977877086757,
+            "negotiation_readiness": 0.6775837868626379,
+            "regional_spillover_risk": 0.08557495269491368,
+            "verification_strength": 0.6283754418251889,
+            "interventions": [
+              "Regional non-aggression forum",
+              "Sequenced sanctions relief",
+              "Phased prisoner exchange"
+            ]
+          },
+          {
+            "month": 4,
+            "snapshot": {
+              "cpu": 0.1,
+              "ram": 0.129,
+              "hash_entropy": 0.7264705882352941,
+              "time_wave": 0.9992926296471902
+            },
+            "qmetrics": {
+              "openness": 0.9755282581475768,
+              "stability": 0.9370094095673243,
+              "reciprocity": 0.2145642227933785,
+              "verification": 0.7857754299089168,
+              "coherence": 0.7282193301042991
+            },
+            "tensions": 0.0,
+            "civilian_risk": 0.10676568021112376,
+            "humanitarian_access": 0.9728941025585985,
+            "negotiation_readiness": 0.7344172047944079,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 0.8546787656389568,
+            "interventions": [
+              "Inspection-first nuclear confidence step",
+              "Third-party monitoring mission"
+            ]
+          },
+          {
+            "month": 5,
+            "snapshot": {
+              "cpu": 0.0,
+              "ram": 0.129,
+              "hash_entropy": 0.4372549019607843,
+              "time_wave": 0.9992258030035682
+            },
+            "qmetrics": {
+              "openness": 1.0,
+              "stability": 0.9594988857967106,
+              "reciprocity": 0.5899907738781298,
+              "verification": 0.4099341617483597,
+              "coherence": 0.7398559553558001
+            },
+            "tensions": 0.0,
+            "civilian_risk": 0.0,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 0.8908890218939735,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 0.9315414209667743,
+            "interventions": [
+              "Regional non-aggression forum",
+              "Sequenced sanctions relief"
+            ]
+          },
+          {
+            "month": 6,
+            "snapshot": {
+              "cpu": 0.0,
+              "ram": 0.129,
+              "hash_entropy": 0.7088235294117646,
+              "time_wave": 0.9991558744241886
+            },
+            "qmetrics": {
+              "openness": 1.0,
+              "stability": 0.9594988857967108,
+              "reciprocity": 0.2197137356227996,
+              "verification": 0.7805443443046399,
+              "coherence": 0.7399392414310376
+            },
+            "tensions": 0.0,
+            "civilian_risk": 0.0,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 0.9765056540060519,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 1.0,
+            "interventions": [
+              "Inspection-first nuclear confidence step",
+              "Third-party monitoring mission",
+              "Sequenced sanctions relief"
+            ]
+          },
+          {
+            "month": 7,
+            "snapshot": {
+              "cpu": 0.0,
+              "ram": 0.129,
+              "hash_entropy": 0.6441176470588236,
+              "time_wave": 0.99908298775431
+            },
+            "qmetrics": {
+              "openness": 0.9999999999999999,
+              "stability": 0.9594988857967106,
+              "reciprocity": 0.2989930596363061,
+              "verification": 0.7011942324219307,
+              "coherence": 0.7399215444637368
+            },
+            "tensions": 0.0,
+            "civilian_risk": 0.0,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 1.0,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 1.0,
+            "interventions": [
+              "Inspection-first nuclear confidence step",
+              "Sequenced sanctions relief"
+            ]
+          },
+          {
+            "month": 8,
+            "snapshot": {
+              "cpu": 0.0,
+              "ram": 0.129,
+              "hash_entropy": 0.47647058823529415,
+              "time_wave": 0.9990071121197328
+            },
+            "qmetrics": {
+              "openness": 1.0,
+              "stability": 0.9594988857967108,
+              "reciprocity": 0.5339351540879756,
+              "verification": 0.4660418618631946,
+              "coherence": 0.7398689754369703
+            },
+            "tensions": 0.0,
+            "civilian_risk": 0.0,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 1.0,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 1.0,
+            "interventions": [
+              "Regional non-aggression forum",
+              "Sequenced sanctions relief"
+            ]
+          },
+          {
+            "month": 9,
+            "snapshot": {
+              "cpu": 0.0,
+              "ram": 0.129,
+              "hash_entropy": 0.48823529411764705,
+              "time_wave": 0.9989282909519641
+            },
+            "qmetrics": {
+              "openness": 1.0,
+              "stability": 0.9594988857967106,
+              "reciprocity": 0.51697917279783,
+              "verification": 0.4830136526627852,
+              "coherence": 0.7398729278143314
+            },
+            "tensions": 0.0,
+            "civilian_risk": 0.0,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 1.0,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 1.0,
+            "interventions": [
+              "Regional non-aggression forum",
+              "Sequenced sanctions relief",
+              "Phased prisoner exchange"
+            ]
+          },
+          {
+            "month": 10,
+            "snapshot": {
+              "cpu": 0.0,
+              "ram": 0.129,
+              "hash_entropy": 0.40294117647058825,
+              "time_wave": 0.9988463193078988
+            },
+            "qmetrics": {
+              "openness": 1.0,
+              "stability": 0.9594988857967108,
+              "reciprocity": 0.6379490031258491,
+              "verification": 0.3619361688478644,
+              "coherence": 0.7398460144426061
+            },
+            "tensions": 0.0,
+            "civilian_risk": 0.0,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 1.0,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 1.0,
+            "interventions": [
+              "Regional non-aggression forum",
+              "Phased prisoner exchange"
+            ]
+          },
+          {
+            "month": 11,
+            "snapshot": {
+              "cpu": 0.0,
+              "ram": 0.129,
+              "hash_entropy": 0.4215686274509804,
+              "time_wave": 0.9987614239444781
+            },
+            "qmetrics": {
+              "openness": 1.0,
+              "stability": 0.9594988857967108,
+              "reciprocity": 0.6120780826203301,
+              "verification": 0.3878309933912578,
+              "coherence": 0.7398519904520747
+            },
+            "tensions": 0.0,
+            "civilian_risk": 0.0,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 1.0,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 1.0,
+            "interventions": [
+              "Regional non-aggression forum",
+              "Sequenced sanctions relief"
+            ]
+          },
+          {
+            "month": 12,
+            "snapshot": {
+              "cpu": 0.048,
+              "ram": 0.129,
+              "hash_entropy": 0.5568627450980392,
+              "time_wave": 0.9986733977152962
+            },
+            "qmetrics": {
+              "openness": 0.9943258723689571,
+              "stability": 0.9542843751480455,
+              "reciprocity": 0.41927689616322283,
+              "verification": 0.5808158531860246,
+              "coherence": 0.7371757492165625
+            },
+            "tensions": 0.0,
+            "civilian_risk": 0.0,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 1.0,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 1.0,
+            "interventions": [
+              "Regional non-aggression forum",
+              "Sequenced sanctions relief",
+              "Inspection-first nuclear confidence step"
+            ]
+          }
+        ],
+        "summary": "Peace pathway score 1.000. De-escalation=1.000, civilian_safety=1.000, humanitarian_access=1.000, negotiation=1.000, verification=1.000, spillover_containment=1.000. Recent stabilizing measures: A standing forum creates repeated contact and lowers accidental escalation.; Reciprocal economic easing supports negotiation durability when matched to compliance.; High-verification steps can unlock broader diplomatic sequencing."
+      },
+      {
+        "scenario": "Regional de-escalation framework around Iran with humanitarian corridors and backchannel diplomacy",
+        "run_id": "run::c91037531aa7",
+        "score": 1.0,
+        "deescalation_score": 1.0,
+        "civilian_safety_score": 1.0,
+        "humanitarian_score": 1.0,
+        "negotiation_score": 1.0,
+        "verification_score": 1.0,
+        "spillover_containment_score": 1.0,
+        "applied_path": [
+          "Regional non-aggression forum",
+          "Sequenced sanctions relief",
+          "Regional non-aggression forum",
+          "Sequenced sanctions relief",
+          "Regional non-aggression forum",
+          "Phased prisoner exchange",
+          "Sequenced sanctions relief",
+          "Inspection-first nuclear confidence step",
+          "Regional non-aggression forum",
+          "Regional non-aggression forum",
+          "Sequenced sanctions relief",
+          "Regional non-aggression forum",
+          "Sequenced sanctions relief",
+          "Inspection-first nuclear confidence step",
+          "Regional non-aggression forum",
+          "Sequenced sanctions relief",
+          "Regional non-aggression forum",
+          "Sequenced sanctions relief",
+          "Regional non-aggression forum",
+          "Phased prisoner exchange",
+          "Sequenced sanctions relief",
+          "Inspection-first nuclear confidence step",
+          "Third-party monitoring mission",
+          "Regional non-aggression forum",
+          "Sequenced sanctions relief",
+          "Regional non-aggression forum",
+          "Sequenced sanctions relief",
+          "Phased prisoner exchange"
+        ],
+        "timeline": [
+          {
+            "month": 1,
+            "snapshot": {
+              "cpu": 0.0,
+              "ram": 0.129,
+              "hash_entropy": 0.49313725490196075,
+              "time_wave": 0.9985688956458663
+            },
+            "qmetrics": {
+              "openness": 1.0000000000000002,
+              "stability": 0.9594988857967108,
+              "reciprocity": 0.509906005332715,
+              "verification": 0.4900958858973303,
+              "coherence": 0.7398751942566891
+            },
+            "tensions": 0.5570838464248028,
+            "civilian_risk": 0.5736236494028957,
+            "humanitarian_access": 0.47800000000000004,
+            "negotiation_readiness": 0.41098208393322433,
+            "regional_spillover_risk": 0.46673396808141865,
+            "verification_strength": 0.31189297860574944,
+            "interventions": [
+              "Regional non-aggression forum",
+              "Sequenced sanctions relief"
+            ]
+          },
+          {
+            "month": 2,
+            "snapshot": {
+              "cpu": 0.105,
+              "ram": 0.129,
+              "hash_entropy": 0.42254901960784313,
+              "time_wave": 0.9984746276732516
+            },
+            "qmetrics": {
+              "openness": 0.9730426794137728,
+              "stability": 0.9347251682498383,
+              "reciprocity": 0.6047813551498089,
+              "verification": 0.3951223178956633,
+              "coherence": 0.7269178801772709
+            },
+            "tensions": 0.3770985523200249,
+            "civilian_risk": 0.4523562504965875,
+            "humanitarian_access": 0.6122798897591006,
+            "negotiation_readiness": 0.5592113815152686,
+            "regional_spillover_risk": 0.30642932774620485,
+            "verification_strength": 0.3859784132111863,
+            "interventions": [
+              "Regional non-aggression forum",
+              "Sequenced sanctions relief"
+            ]
+          },
+          {
+            "month": 3,
+            "snapshot": {
+              "cpu": 0.0,
+              "ram": 0.129,
+              "hash_entropy": 0.2774509803921569,
+              "time_wave": 0.9983769671051614
+            },
+            "qmetrics": {
+              "openness": 1.0,
+              "stability": 0.9594988857967107,
+              "reciprocity": 0.7957214170289321,
+              "verification": 0.20402793697600569,
+              "coherence": 0.7398120599504121
+            },
+            "tensions": 0.10562871578660481,
+            "civilian_risk": 0.23970286444046315,
+            "humanitarian_access": 0.8417798897591007,
+            "negotiation_readiness": 0.8422832332727793,
+            "regional_spillover_risk": 0.0702829743889361,
+            "verification_strength": 0.4358632438018197,
+            "interventions": [
+              "Regional non-aggression forum",
+              "Phased prisoner exchange",
+              "Sequenced sanctions relief"
+            ]
+          },
+          {
+            "month": 4,
+            "snapshot": {
+              "cpu": 0.05,
+              "ram": 0.129,
+              "hash_entropy": 0.5911764705882353,
+              "time_wave": 0.9982763719241361
+            },
+            "qmetrics": {
+              "openness": 0.993844170297569,
+              "stability": 0.953841692017868,
+              "reciprocity": 0.3717704669243864,
+              "verification": 0.628373956450978,
+              "coherence": 0.7369575714227004
+            },
+            "tensions": 0.0,
+            "civilian_risk": 0.10970970590878315,
+            "humanitarian_access": 0.965513488961148,
+            "negotiation_readiness": 0.944883168439701,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 0.5781899449379663,
+            "interventions": [
+              "Inspection-first nuclear confidence step",
+              "Regional non-aggression forum"
+            ]
+          },
+          {
+            "month": 5,
+            "snapshot": {
+              "cpu": 0.0,
+              "ram": 0.129,
+              "hash_entropy": 0.42254901960784313,
+              "time_wave": 0.9981729319424816
+            },
+            "qmetrics": {
+              "openness": 1.0,
+              "stability": 0.9594988857967108,
+              "reciprocity": 0.6107050449104163,
+              "verification": 0.3892106327388932,
+              "coherence": 0.7398536408615051
+            },
+            "tensions": 0.0,
+            "civilian_risk": 0.0,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 1.0,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 0.6511669385765088,
+            "interventions": [
+              "Regional non-aggression forum",
+              "Sequenced sanctions relief"
+            ]
+          },
+          {
+            "month": 6,
+            "snapshot": {
+              "cpu": 0.0,
+              "ram": 0.129,
+              "hash_entropy": 0.5470588235294118,
+              "time_wave": 0.9980662600399275
+            },
+            "qmetrics": {
+              "openness": 1.0,
+              "stability": 0.9594988857967107,
+              "reciprocity": 0.43231503386793046,
+              "verification": 0.5677592136721045,
+              "coherence": 0.7398932833341865
+            },
+            "tensions": 0.0,
+            "civilian_risk": 0.0,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 1.0,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 0.8402307567293196,
+            "interventions": [
+              "Regional non-aggression forum",
+              "Sequenced sanctions relief",
+              "Inspection-first nuclear confidence step"
+            ]
+          },
+          {
+            "month": 7,
+            "snapshot": {
+              "cpu": 0.0,
+              "ram": 0.129,
+              "hash_entropy": 0.47058823529411764,
+              "time_wave": 0.9979565110922911
+            },
+            "qmetrics": {
+              "openness": 1.0000000000000002,
+              "stability": 0.9594988857967108,
+              "reciprocity": 0.5423972083676777,
+              "verification": 0.4575807201656217,
+              "coherence": 0.7398692035825026
+            },
+            "tensions": 0.0,
+            "civilian_risk": 0.0,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 1.0,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 0.9260271417603736,
+            "interventions": [
+              "Regional non-aggression forum",
+              "Sequenced sanctions relief"
+            ]
+          },
+          {
+            "month": 8,
+            "snapshot": {
+              "cpu": 0.0,
+              "ram": 0.129,
+              "hash_entropy": 0.5392156862745098,
+              "time_wave": 0.9978439675997676
+            },
+            "qmetrics": {
+              "openness": 1.0000000000000002,
+              "stability": 0.9594988857967108,
+              "reciprocity": 0.4435329673621017,
+              "verification": 0.5565327708425795,
+              "coherence": 0.739891156000348
+            },
+            "tensions": 0.0,
+            "civilian_risk": 0.0,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 1.0,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 1.0,
+            "interventions": [
+              "Regional non-aggression forum",
+              "Sequenced sanctions relief"
+            ]
+          },
+          {
+            "month": 9,
+            "snapshot": {
+              "cpu": 0.0,
+              "ram": 0.129,
+              "hash_entropy": 0.3823529411764706,
+              "time_wave": 0.9977283772120817
+            },
+            "qmetrics": {
+              "openness": 1.0000000000000002,
+              "stability": 0.9594988857967108,
+              "reciprocity": 0.6659901431163442,
+              "verification": 0.33388139400783895,
+              "coherence": 0.7398426057302235
+            },
+            "tensions": 0.0,
+            "civilian_risk": 0.0,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 1.0,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 1.0,
+            "interventions": [
+              "Regional non-aggression forum",
+              "Phased prisoner exchange",
+              "Sequenced sanctions relief"
+            ]
+          },
+          {
+            "month": 10,
+            "snapshot": {
+              "cpu": 0.23800000000000002,
+              "ram": 0.129,
+              "hash_entropy": 0.8941176470588236,
+              "time_wave": 0.9976095155245711
+            },
+            "qmetrics": {
+              "openness": 0.8666276731112801,
+              "stability": 0.8369300145937477,
+              "reciprocity": 0.17756777664844603,
+              "verification": 0.8201004331480046,
+              "coherence": 0.6753064743753696
+            },
+            "tensions": 0.0,
+            "civilian_risk": 0.0,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 1.0,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 1.0,
+            "interventions": [
+              "Inspection-first nuclear confidence step",
+              "Third-party monitoring mission"
+            ]
+          },
+          {
+            "month": 11,
+            "snapshot": {
+              "cpu": 0.053,
+              "ram": 0.129,
+              "hash_entropy": 0.4284313725490196,
+              "time_wave": 0.9974879296032156
+            },
+            "qmetrics": {
+              "openness": 0.9930850681144943,
+              "stability": 0.9531440788032106,
+              "reciprocity": 0.6010318303960369,
+              "verification": 0.3988895685356281,
+              "coherence": 0.7365376364623425
+            },
+            "tensions": 0.0,
+            "civilian_risk": 0.0,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 1.0,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 1.0,
+            "interventions": [
+              "Regional non-aggression forum",
+              "Sequenced sanctions relief"
+            ]
+          },
+          {
+            "month": 12,
+            "snapshot": {
+              "cpu": 0.0,
+              "ram": 0.129,
+              "hash_entropy": 0.45,
+              "time_wave": 0.9973615844587024
+            },
+            "qmetrics": {
+              "openness": 1.0,
+              "stability": 0.9594988857967108,
+              "reciprocity": 0.5718814623861905,
+              "verification": 0.42807589107424693,
+              "coherence": 0.739864059814287
+            },
+            "tensions": 0.0,
+            "civilian_risk": 0.0,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 1.0,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 1.0,
+            "interventions": [
+              "Regional non-aggression forum",
+              "Sequenced sanctions relief",
+              "Phased prisoner exchange"
+            ]
+          }
+        ],
+        "summary": "Peace pathway score 1.000. De-escalation=1.000, civilian_safety=1.000, humanitarian_access=1.000, negotiation=1.000, verification=1.000, spillover_containment=1.000. Recent stabilizing measures: A standing forum creates repeated contact and lowers accidental escalation.; Reciprocal economic easing supports negotiation durability when matched to compliance.; Visible reciprocal steps raise trust without demanding immediate final settlement."
+      },
+      {
+        "scenario": "Regional de-escalation framework around Iran with humanitarian corridors and backchannel diplomacy",
+        "run_id": "run::0418ca58d431",
+        "score": 1.0,
+        "deescalation_score": 1.0,
+        "civilian_safety_score": 1.0,
+        "humanitarian_score": 1.0,
+        "negotiation_score": 1.0,
+        "verification_score": 1.0,
+        "spillover_containment_score": 1.0,
+        "applied_path": [
+          "Regional non-aggression forum",
+          "Sequenced sanctions relief",
+          "Regional non-aggression forum",
+          "Sequenced sanctions relief",
+          "Regional non-aggression forum",
+          "Sequenced sanctions relief",
+          "Phased prisoner exchange",
+          "Inspection-first nuclear confidence step",
+          "Sequenced sanctions relief",
+          "Inspection-first nuclear confidence step",
+          "Third-party monitoring mission",
+          "Regional non-aggression forum",
+          "Sequenced sanctions relief",
+          "Inspection-first nuclear confidence step",
+          "Inspection-first nuclear confidence step",
+          "Third-party monitoring mission",
+          "Regional non-aggression forum",
+          "Sequenced sanctions relief",
+          "Humanitarian corridor guarantee",
+          "Third-party monitoring mission",
+          "Phased prisoner exchange",
+          "Third-party monitoring mission",
+          "Sequenced sanctions relief",
+          "Third-party monitoring mission",
+          "Sequenced sanctions relief",
+          "Third-party monitoring mission",
+          "Sequenced sanctions relief",
+          "Regional non-aggression forum"
+        ],
+        "timeline": [
+          {
+            "month": 1,
+            "snapshot": {
+              "cpu": 0.0,
+              "ram": 0.129,
+              "hash_entropy": 0.4774509803921569,
+              "time_wave": 0.9972162559459113
+            },
+            "qmetrics": {
+              "openness": 1.0000000000000002,
+              "stability": 0.9594988857967108,
+              "reciprocity": 0.5325236069116092,
+              "verification": 0.4674690839340754,
+              "coherence": 0.7398728941605989
+            },
+            "tensions": 0.5568979048577211,
+            "civilian_risk": 0.5735697344931227,
+            "humanitarian_access": 0.47800000000000004,
+            "negotiation_readiness": 0.41633712729813227,
+            "regional_spillover_risk": 0.46729591929915837,
+            "verification_strength": 0.3076504532376392,
+            "interventions": [
+              "Regional non-aggression forum",
+              "Sequenced sanctions relief"
+            ]
+          },
+          {
+            "month": 2,
+            "snapshot": {
+              "cpu": 0.05,
+              "ram": 0.129,
+              "hash_entropy": 0.5686274509803921,
+              "time_wave": 0.9970853892806506
+            },
+            "qmetrics": {
+              "openness": 0.9938441702975689,
+              "stability": 0.9538416920178678,
+              "reciprocity": 0.40290747975172825,
+              "verification": 0.5972134729312385,
+              "coherence": 0.7369517037496008
+            },
+            "tensions": 0.3739992060130568,
+            "civilian_risk": 0.45033534522615215,
+            "humanitarian_access": 0.6151504955010646,
+            "negotiation_readiness": 0.51686505288713,
+            "regional_spillover_risk": 0.2986463206451188,
+            "verification_strength": 0.4196279794122464,
+            "interventions": [
+              "Regional non-aggression forum",
+              "Sequenced sanctions relief"
+            ]
+          },
+          {
+            "month": 3,
+            "snapshot": {
+              "cpu": 0.048,
+              "ram": 0.129,
+              "hash_entropy": 0.42254901960784313,
+              "time_wave": 0.996945845230927
+            },
+            "qmetrics": {
+              "openness": 0.9943258723689572,
+              "stability": 0.9542843751480456,
+              "reciprocity": 0.6094513737049374,
+              "verification": 0.3904693369317127,
+              "coherence": 0.7371327395384133
+            },
+            "tensions": 0.10689294312875836,
+            "civilian_risk": 0.2393938286696065,
+            "humanitarian_access": 0.8433482832097403,
+            "negotiation_readiness": 0.7365425513589747,
+            "regional_spillover_risk": 0.05913134292342608,
+            "verification_strength": 0.5150977322920501,
+            "interventions": [
+              "Regional non-aggression forum",
+              "Sequenced sanctions relief",
+              "Phased prisoner exchange"
+            ]
+          },
+          {
+            "month": 4,
+            "snapshot": {
+              "cpu": 0.105,
+              "ram": 0.129,
+              "hash_entropy": 0.634313725490196,
+              "time_wave": 0.9968033163668618
+            },
+            "qmetrics": {
+              "openness": 0.9730426794137726,
+              "stability": 0.9347251682498383,
+              "reciprocity": 0.3219008267938233,
+              "verification": 0.6783438891060204,
+              "coherence": 0.7270031408908637
+            },
+            "tensions": 0.0,
+            "civilian_risk": 0.11918560186890545,
+            "humanitarian_access": 0.955734712682031,
+            "negotiation_readiness": 0.8243283365607913,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 0.6860403923467672,
+            "interventions": [
+              "Inspection-first nuclear confidence step",
+              "Sequenced sanctions relief"
+            ]
+          },
+          {
+            "month": 5,
+            "snapshot": {
+              "cpu": 0.0,
+              "ram": 0.129,
+              "hash_entropy": 0.6872549019607843,
+              "time_wave": 0.9966628999323173
+            },
+            "qmetrics": {
+              "openness": 1.0,
+              "stability": 0.9594988857967108,
+              "reciprocity": 0.24501035761475498,
+              "verification": 0.7552303961603427,
+              "coherence": 0.7399349098929522
+            },
+            "tensions": 0.0,
+            "civilian_risk": 0.0,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 0.8882013231513013,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 0.9035467464409459,
+            "interventions": [
+              "Inspection-first nuclear confidence step",
+              "Third-party monitoring mission"
+            ]
+          },
+          {
+            "month": 6,
+            "snapshot": {
+              "cpu": 0.0,
+              "ram": 0.129,
+              "hash_entropy": 0.5637254901960784,
+              "time_wave": 0.996519523426587
+            },
+            "qmetrics": {
+              "openness": 1.0000000000000004,
+              "stability": 0.9594988857967109,
+              "reciprocity": 0.4086218086034666,
+              "verification": 0.591481033786883,
+              "coherence": 0.7399004320467653
+            },
+            "tensions": 0.0,
+            "civilian_risk": 0.0,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 1.0,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 1.0,
+            "interventions": [
+              "Regional non-aggression forum",
+              "Sequenced sanctions relief",
+              "Inspection-first nuclear confidence step"
+            ]
+          },
+          {
+            "month": 7,
+            "snapshot": {
+              "cpu": 0.0,
+              "ram": 0.129,
+              "hash_entropy": 0.6882352941176471,
+              "time_wave": 0.9963730552182952
+            },
+            "qmetrics": {
+              "openness": 1.0000000000000002,
+              "stability": 0.9594988857967108,
+              "reciprocity": 0.243834223778511,
+              "verification": 0.7564071068736941,
+              "coherence": 0.739935054112229
+            },
+            "tensions": 0.0,
+            "civilian_risk": 0.0,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 1.0,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 1.0,
+            "interventions": [
+              "Inspection-first nuclear confidence step",
+              "Third-party monitoring mission"
+            ]
+          },
+          {
+            "month": 8,
+            "snapshot": {
+              "cpu": 0.23800000000000002,
+              "ram": 0.129,
+              "hash_entropy": 0.44019607843137254,
+              "time_wave": 0.9962237770231039
+            },
+            "qmetrics": {
+              "openness": 0.8666276731112801,
+              "stability": 0.8369300145937477,
+              "reciprocity": 0.5638459818476156,
+              "verification": 0.4368754723642128,
+              "coherence": 0.676069785479214
+            },
+            "tensions": 0.0,
+            "civilian_risk": 0.0,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 1.0,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 1.0,
+            "interventions": [
+              "Regional non-aggression forum",
+              "Sequenced sanctions relief"
+            ]
+          },
+          {
+            "month": 9,
+            "snapshot": {
+              "cpu": 0.7140000000000001,
+              "ram": 0.129,
+              "hash_entropy": 0.6598039215686274,
+              "time_wave": 0.996065542225431
+            },
+            "qmetrics": {
+              "openness": 0.18860610975594355,
+              "stability": 0.2138297087779057,
+              "reciprocity": 0.5383110646639891,
+              "verification": 0.366739144954756,
+              "coherence": 0.3268715070381486
+            },
+            "tensions": 0.0013796502186295663,
+            "civilian_risk": 0.0,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 1.0,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 1.0,
+            "interventions": [
+              "Humanitarian corridor guarantee",
+              "Third-party monitoring mission",
+              "Phased prisoner exchange"
+            ]
+          },
+          {
+            "month": 10,
+            "snapshot": {
+              "cpu": 0.579,
+              "ram": 0.129,
+              "hash_entropy": 0.4,
+              "time_wave": 0.9959055435888045
+            },
+            "qmetrics": {
+              "openness": 0.37717711440378676,
+              "stability": 0.3871260418364063,
+              "reciprocity": 0.5004792315036667,
+              "verification": 0.5334002772419698,
+              "coherence": 0.4495456662464574
+            },
+            "tensions": 0.0,
+            "civilian_risk": 0.0,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 1.0,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 1.0,
+            "interventions": [
+              "Third-party monitoring mission",
+              "Sequenced sanctions relief"
+            ]
+          },
+          {
+            "month": 11,
+            "snapshot": {
+              "cpu": 0.526,
+              "ram": 0.129,
+              "hash_entropy": 0.7254901960784313,
+              "time_wave": 0.9957428686932157
+            },
+            "qmetrics": {
+              "openness": 0.45920469421592125,
+              "stability": 0.46250920489295944,
+              "reciprocity": 0.473352047604757,
+              "verification": 0.47960674242374113,
+              "coherence": 0.4686681722843447
+            },
+            "tensions": 0.0,
+            "civilian_risk": 0.0,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 1.0,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 1.0,
+            "interventions": [
+              "Third-party monitoring mission",
+              "Sequenced sanctions relief"
+            ]
+          },
+          {
+            "month": 12,
+            "snapshot": {
+              "cpu": 0.474,
+              "ram": 0.129,
+              "hash_entropy": 0.5931372549019608,
+              "time_wave": 0.9955787948097923
+            },
+            "qmetrics": {
+              "openness": 0.5407953057840789,
+              "stability": 0.5374907951070407,
+              "reciprocity": 0.4741449300868132,
+              "verification": 0.512552332977513,
+              "coherence": 0.5162458409888614
+            },
+            "tensions": 0.0,
+            "civilian_risk": 0.0,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 1.0,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 1.0,
+            "interventions": [
+              "Third-party monitoring mission",
+              "Sequenced sanctions relief",
+              "Regional non-aggression forum"
+            ]
+          }
+        ],
+        "summary": "Peace pathway score 1.000. De-escalation=1.000, civilian_safety=1.000, humanitarian_access=1.000, negotiation=1.000, verification=1.000, spillover_containment=1.000. Recent stabilizing measures: External monitoring increases verification and lowers fear of deception.; Reciprocal economic easing supports negotiation durability when matched to compliance.; A standing forum creates repeated contact and lowers accidental escalation."
+      },
+      {
+        "scenario": "Regional de-escalation framework around Iran with humanitarian corridors and backchannel diplomacy",
+        "run_id": "run::c22dfbc19696",
+        "score": 1.0,
+        "deescalation_score": 1.0,
+        "civilian_safety_score": 1.0,
+        "humanitarian_score": 1.0,
+        "negotiation_score": 1.0,
+        "verification_score": 1.0,
+        "spillover_containment_score": 1.0,
+        "applied_path": [
+          "Phased prisoner exchange",
+          "Regional non-aggression forum",
+          "Regional non-aggression forum",
+          "Sequenced sanctions relief",
+          "Regional non-aggression forum",
+          "Sequenced sanctions relief",
+          "Phased prisoner exchange",
+          "Regional non-aggression forum",
+          "Sequenced sanctions relief",
+          "Regional non-aggression forum",
+          "Sequenced sanctions relief",
+          "Inspection-first nuclear confidence step",
+          "Regional non-aggression forum",
+          "Sequenced sanctions relief",
+          "Regional non-aggression forum",
+          "Sequenced sanctions relief",
+          "Regional non-aggression forum",
+          "Sequenced sanctions relief",
+          "Phased prisoner exchange",
+          "Regional non-aggression forum",
+          "Sequenced sanctions relief",
+          "Regional non-aggression forum",
+          "Inspection-first nuclear confidence step",
+          "Regional non-aggression forum",
+          "Phased prisoner exchange",
+          "Regional non-aggression forum",
+          "Sequenced sanctions relief",
+          "Inspection-first nuclear confidence step"
+        ],
+        "timeline": [
+          {
+            "month": 1,
+            "snapshot": {
+              "cpu": 0.158,
+              "ram": 0.129,
+              "hash_entropy": 0.18333333333333332,
+              "time_wave": 0.9953891961820617
+            },
+            "qmetrics": {
+              "openness": 0.9396581550952783,
+              "stability": 0.9040448647954357,
+              "reciprocity": 0.8395852589159634,
+              "verification": 0.16043290302251267,
+              "coherence": 0.7109302954572975
+            },
+            "tensions": 0.5737759460417308,
+            "civilian_risk": 0.5579324620540325,
+            "humanitarian_access": 0.4950435955907209,
+            "negotiation_readiness": 0.4804224178013059,
+            "regional_spillover_risk": 0.4910094282484112,
+            "verification_strength": 0.24213974061710675,
+            "interventions": [
+              "Phased prisoner exchange",
+              "Regional non-aggression forum"
+            ]
+          },
+          {
+            "month": 2,
+            "snapshot": {
+              "cpu": 0.0,
+              "ram": 0.129,
+              "hash_entropy": 0.44509803921568625,
+              "time_wave": 0.9952208956434141
+            },
+            "qmetrics": {
+              "openness": 1.0,
+              "stability": 0.9594988857967107,
+              "reciprocity": 0.5788618083510462,
+              "verification": 0.42111142134090473,
+              "coherence": 0.7398680288721654
+            },
+            "tensions": 0.3871035262352113,
+            "civilian_risk": 0.4333514716952187,
+            "humanitarian_access": 0.6330435955907209,
+            "negotiation_readiness": 0.6223190511324592,
+            "regional_spillover_risk": 0.3260684015399487,
+            "verification_strength": 0.3210981321185264,
+            "interventions": [
+              "Regional non-aggression forum",
+              "Sequenced sanctions relief"
+            ]
+          },
+          {
+            "month": 3,
+            "snapshot": {
+              "cpu": 0.0,
+              "ram": 0.129,
+              "hash_entropy": 0.45294117647058824,
+              "time_wave": 0.9950490725368774
+            },
+            "qmetrics": {
+              "openness": 1.0,
+              "stability": 0.9594988857967108,
+              "reciprocity": 0.5676849661320695,
+              "verification": 0.4322988942159237,
+              "coherence": 0.739870686536176
+            },
+            "tensions": 0.11690975932236766,
+            "civilian_risk": 0.22114314827603754,
+            "humanitarian_access": 0.8625435955907209,
+            "negotiation_readiness": 0.827587281424142,
+            "regional_spillover_risk": 0.08444089512239719,
+            "verification_strength": 0.4267952117543198,
+            "interventions": [
+              "Regional non-aggression forum",
+              "Sequenced sanctions relief",
+              "Phased prisoner exchange"
+            ]
+          },
+          {
+            "month": 4,
+            "snapshot": {
+              "cpu": 0.0,
+              "ram": 0.129,
+              "hash_entropy": 0.4588235294117647,
+              "time_wave": 0.9948751029374997
+            },
+            "qmetrics": {
+              "openness": 1.0000000000000004,
+              "stability": 0.959498885796711,
+              "reciprocity": 0.5592749962642771,
+              "verification": 0.4407172111333857,
+              "coherence": 0.7398727732985936
+            },
+            "tensions": 0.0,
+            "civilian_risk": 0.07785531682886854,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 0.97559174554027,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 0.5094296888418296,
+            "interventions": [
+              "Regional non-aggression forum",
+              "Sequenced sanctions relief"
+            ]
+          },
+          {
+            "month": 5,
+            "snapshot": {
+              "cpu": 0.0,
+              "ram": 0.129,
+              "hash_entropy": 0.4813725490196078,
+              "time_wave": 0.9946976176998493
+            },
+            "qmetrics": {
+              "openness": 1.0000000000000002,
+              "stability": 0.9594988857967108,
+              "reciprocity": 0.5268744668509859,
+              "verification": 0.4731442912291751,
+              "coherence": 0.739879410969218
+            },
+            "tensions": 0.0,
+            "civilian_risk": 0.0,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 1.0,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 0.5981442434473,
+            "interventions": [
+              "Regional non-aggression forum",
+              "Sequenced sanctions relief"
+            ]
+          },
+          {
+            "month": 6,
+            "snapshot": {
+              "cpu": 0.0,
+              "ram": 0.129,
+              "hash_entropy": 0.6166666666666667,
+              "time_wave": 0.9945169658997568
+            },
+            "qmetrics": {
+              "openness": 1.0000000000000002,
+              "stability": 0.9594988857967109,
+              "reciprocity": 0.33533032647868266,
+              "verification": 0.6648342754072829,
+              "coherence": 0.7399158719206692
+            },
+            "tensions": 0.0,
+            "civilian_risk": 0.0,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 1.0,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 0.819534057157925,
+            "interventions": [
+              "Inspection-first nuclear confidence step",
+              "Regional non-aggression forum",
+              "Sequenced sanctions relief"
+            ]
+          },
+          {
+            "month": 7,
+            "snapshot": {
+              "cpu": 0.105,
+              "ram": 0.129,
+              "hash_entropy": 0.5009803921568627,
+              "time_wave": 0.9943310971442549
+            },
+            "qmetrics": {
+              "openness": 0.9730426794137728,
+              "stability": 0.9347251682498383,
+              "reciprocity": 0.4986791955510671,
+              "verification": 0.5014083606091846,
+              "coherence": 0.7269638509559657
+            },
+            "tensions": 0.0,
+            "civilian_risk": 0.0,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 1.0,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 0.9135481247721472,
+            "interventions": [
+              "Regional non-aggression forum",
+              "Sequenced sanctions relief"
+            ]
+          },
+          {
+            "month": 8,
+            "snapshot": {
+              "cpu": 0.048,
+              "ram": 0.129,
+              "hash_entropy": 0.5274509803921569,
+              "time_wave": 0.9941449706259352
+            },
+            "qmetrics": {
+              "openness": 0.9943258723689569,
+              "stability": 0.9542843751480454,
+              "reciprocity": 0.46087241817285074,
+              "verification": 0.539211351211984,
+              "coherence": 0.7371735042254592
+            },
+            "tensions": 0.0,
+            "civilian_risk": 0.0,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 1.0,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 1.0,
+            "interventions": [
+              "Regional non-aggression forum",
+              "Sequenced sanctions relief"
+            ]
+          },
+          {
+            "month": 9,
+            "snapshot": {
+              "cpu": 0.0,
+              "ram": 0.129,
+              "hash_entropy": 0.17549019607843136,
+              "time_wave": 0.9939555023408607
+            },
+            "qmetrics": {
+              "openness": 1.0,
+              "stability": 0.9594988857967108,
+              "reciprocity": 0.8914170071751588,
+              "verification": 0.10834534014819241,
+              "coherence": 0.7398153082800155
+            },
+            "tensions": 0.0,
+            "civilian_risk": 0.0,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 1.0,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 1.0,
+            "interventions": [
+              "Phased prisoner exchange",
+              "Regional non-aggression forum",
+              "Sequenced sanctions relief"
+            ]
+          },
+          {
+            "month": 10,
+            "snapshot": {
+              "cpu": 0.0,
+              "ram": 0.129,
+              "hash_entropy": 0.5774509803921569,
+              "time_wave": 0.993763290993864
+            },
+            "qmetrics": {
+              "openness": 1.0,
+              "stability": 0.9594988857967107,
+              "reciprocity": 0.38929495508958356,
+              "verification": 0.61082963952291,
+              "coherence": 0.7399058701023011
+            },
+            "tensions": 0.0,
+            "civilian_risk": 0.0,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 1.0,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 1.0,
+            "interventions": [
+              "Regional non-aggression forum",
+              "Inspection-first nuclear confidence step"
+            ]
+          },
+          {
+            "month": 11,
+            "snapshot": {
+              "cpu": 0.0,
+              "ram": 0.129,
+              "hash_entropy": 0.3784313725490196,
+              "time_wave": 0.9935680929810621
+            },
+            "qmetrics": {
+              "openness": 1.0,
+              "stability": 0.9594988857967108,
+              "reciprocity": 0.6712561500540396,
+              "verification": 0.32867187634481093,
+              "coherence": 0.7398567280488904
+            },
+            "tensions": 0.0,
+            "civilian_risk": 0.0,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 1.0,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 1.0,
+            "interventions": [
+              "Regional non-aggression forum",
+              "Phased prisoner exchange"
+            ]
+          },
+          {
+            "month": 12,
+            "snapshot": {
+              "cpu": 0.0,
+              "ram": 0.129,
+              "hash_entropy": 0.5176470588235293,
+              "time_wave": 0.9933698944615214
+            },
+            "qmetrics": {
+              "openness": 1.0,
+              "stability": 0.9594988857967108,
+              "reciprocity": 0.47453848901575946,
+              "verification": 0.5255278264030276,
+              "coherence": 0.7398913003038745
+            },
+            "tensions": 0.0,
+            "civilian_risk": 0.0,
+            "humanitarian_access": 1.0,
+            "negotiation_readiness": 1.0,
+            "regional_spillover_risk": 0.0,
+            "verification_strength": 1.0,
+            "interventions": [
+              "Regional non-aggression forum",
+              "Sequenced sanctions relief",
+              "Inspection-first nuclear confidence step"
+            ]
+          }
+        ],
+        "summary": "Peace pathway score 1.000. De-escalation=1.000, civilian_safety=1.000, humanitarian_access=1.000, negotiation=1.000, verification=1.000, spillover_containment=1.000. Recent stabilizing measures: A standing forum creates repeated contact and lowers accidental escalation.; Reciprocal economic easing supports negotiation durability when matched to compliance.; High-verification steps can unlock broader diplomatic sequencing."
+      }
+    ],
+    "avg_score": 0.9863613294682804,
+    "keyword_surface": [
+      "reciprocal",
+      "verification",
+      "peace",
+      "escalation",
+      "negotiation",
+      "diplomatic",
+      "measures",
+      "visible"
+    ],
+    "sentence_surface": [
+      "Recent stabilizing measures: A standing forum creates repeated contact and lowers accidental escalation.; Visible reciprocal steps raise trust without demanding immediate final settlement.; Reciprocal economic easing supports negotiation durability when matched to compliance.",
+      "Recent stabilizing measures: Visible reciprocal steps raise trust without demanding immediate final settlement.; A standing forum creates repeated contact and lowers accidental escalation.; Reciprocal economic easing supports negotiation durability when matched to compliance.",
+      "Recent stabilizing measures: A standing forum creates repeated contact and lowers accidental escalation.; Reciprocal economic easing supports negotiation durability when matched to compliance.; Visible reciprocal steps raise trust without demanding immediate final settlement.",
+      "Recent stabilizing measures: External monitoring increases verification and lowers fear of deception.; Reciprocal economic easing supports negotiation durability when matched to compliance.; A standing forum creates repeated contact and lowers accidental escalation."
+    ],
+    "intervention_frequency": {
+      "Humanitarian corridor guarantee": 10,
+      "Third-party monitoring mission": 30,
+      "Inspection-first nuclear confidence step": 26,
+      "Regional non-aggression forum": 66,
+      "Sequenced sanctions relief": 66,
+      "Phased prisoner exchange": 26
+    },
+    "memory_hits": [
+      {
+        "scenario": "Regional de-escalation framework around Iran with humanitarian corridors and backchannel diplomacy",
+        "kind": "summary",
+        "text_fragment": "Peace pathway score 0.998. De-escalation=1.000, civilian_safety=1.000, humanitarian_access=0.990, negotiation=1.000, verification=1.000, spillover_containment=1.000. Recent stabilizing measures: External monitoring increases verification and lowers fear of deception.; Protected aid routes reduce civilian harm and increase diplomatic legitimacy.; Shared economic safeguards reduce incentives for disruption in transit corridors.",
+        "score": 0.4295812985688746
+      },
+      {
+        "scenario": "Regional de-escalation framework around Iran with humanitarian corridors and backchannel diplomacy",
+        "kind": "summary",
+        "text_fragment": "Peace pathway score 1.000. De-escalation=1.000, civilian_safety=1.000, humanitarian_access=1.000, negotiation=1.000, verification=1.000, spillover_containment=1.000. Recent stabilizing measures: High-verification steps can unlock broader diplomatic sequencing.; External monitoring increases verification and lowers fear of deception.; Shared economic safeguards reduce incentives for disruption in transit corridors.",
+        "score": 0.4213953269701456
+      },
+      {
+        "scenario": "Regional de-escalation framework around Iran with humanitarian corridors and backchannel diplomacy",
+        "kind": "summary",
+        "text_fragment": "Peace pathway score 1.000. De-escalation=1.000, civilian_safety=1.000, humanitarian_access=1.000, negotiation=1.000, verification=1.000, spillover_containment=1.000. Recent stabilizing measures: External monitoring increases verification and lowers fear of deception.; Protected aid routes reduce civilian harm and increase diplomatic legitimacy.; Reciprocal economic easing supports negotiation durability when matched to compliance.",
+        "score": 0.40815810107635675
+      },
+      {
+        "scenario": "Regional de-escalation framework around Iran with humanitarian corridors and backchannel diplomacy",
+        "kind": "summary",
+        "text_fragment": "Peace pathway score 1.000. De-escalation=1.000, civilian_safety=1.000, humanitarian_access=1.000, negotiation=1.000, verification=1.000, spillover_containment=1.000. Recent stabilizing measures: External monitoring increases verification and lowers fear of deception.; Protected aid routes reduce civilian harm and increase diplomatic legitimacy.; Reciprocal economic easing supports negotiation durability when matched to compliance.",
+        "score": 0.40815810107635675
+      },
+      {
+        "scenario": "Regional de-escalation framework around Iran with humanitarian corridors and backchannel diplomacy",
+        "kind": "summary",
+        "text_fragment": "Peace pathway score 1.000. De-escalation=1.000, civilian_safety=1.000, humanitarian_access=1.000, negotiation=1.000, verification=1.000, spillover_containment=1.000. Recent stabilizing measures: External monitoring increases verification and lowers fear of deception.; Protected aid routes reduce civilian harm and increase diplomatic legitimacy.; Reciprocal economic easing supports negotiation durability when matched to compliance.",
+        "score": 0.40815810107635675
+      }
+    ]
+  },
+  "brief": "1. Most promising peaceful pathways:\n   - High-verification steps can unlock broader diplomatic sequencing.\n   - External monitoring increases verification and lowers fear of deception.\n   - Shared economic safeguards reduce incentives for disruption in transit corridors.\n\n2. Why they appear resilient:\n   - Peace pathway score 1.000. De-escalation=1.000, civilian_safety=1.000, humanitarian_access=1.000, negotiation=1.000, verification=1.000, spillover_containment=1.000.\n   - External monitoring increases verification and lowers fear of deception.\n   - Protected aid routes reduce civilian harm and increase diplomatic legitimacy.\n   - Reciprocal economic easing supports negotiation durability when matched to compliance.\n\n3. Main fragilities:\n   - High-verification steps can be perceived as intrusive or coercive.\n   - External monitoring may be seen as a pretext for escalation rather than de-escalation.\n   - Shared economic safeguards might be perceived as a zero-sum game, with potential to exacerbate existing tensions.\n\n4. Low-risk next diplomatic steps:\n   - Establish a regional non-aggression forum to create repeated contact and lower accidental escalation.\n   - Implement a phased prisoner exchange to build trust and signal commitment to peaceful resolution.\n   - Sequence sanctions relief in tandem with compliance measures to reinforce diplomatic momentum and ensure mutual benefits.\n\nIn conclusion, the most promising peaceful pathways for regional de-escalation around Iran involve high-verification steps, external monitoring, shared economic safeguards, and protected aid routes. These measures appear resilient due to their comprehensive approach to de-escalation, civilian safety, humanitarian access, negotiation, verification, and spillover containment. However, main fragilities include potential perceptions of intrusion, escalation, or zero-sum dynamics. Low-risk next diplomatic steps include establishing a regional non-aggression forum, implementing a phased prisoner exchange, and sequencing sanctions relief with compliance measures.\n\n---\n\nThis document was generated by an AI. It is not intended to provide legal, investment, or any other professional advice, and no responsibility or liability is accepted for any loss or damage arising in any way from its use. The accuracy of the information provided may change over time, and it is the reader's responsibility to check the accuracy and completeness of this information. This document is not a substitute for professional advice tailored to your specific circumstances.\n\n---\n\nThis document was generated by an AI. It is not intended to provide legal, investment, or any other professional advice, and no responsibility or liability is accepted for any loss or damage arising in any way from its use. The accuracy of the information provided may change over time, and it is the reader's responsibility to check the accuracy and completeness of this information. This document is not a substitute for professional advice tailored to your specific circumstances.",
+  "generated_at": 1773357934.8959174
+}
