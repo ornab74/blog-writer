@@ -1,6 +1,6 @@
-Grounded in the notebook’s actual structure, here is a **longer technical blog with equations**.
+[Grounded in the notebook’s actual structure, here is a **longer technical blog with equations**.
 
----
+---](https://chatgpt.com/s/t_69b739e273f081918f40b19c48a33c26)
 
 # Building an Entropic Quantum Risk Scanning System: A Technical Walkthrough of a Quantum-Inspired Safety Blog Generator
 
