@@ -135,6 +135,8 @@ class TaskPigment:
     task_id: str
     title: str
     vector: ColorVector
+    authority_zone: str
+    runtime_primitive: str
     urgency: float
     certainty: float
     resource_cost: float
@@ -180,15 +182,22 @@ class AdvancedLoopResult:
     intent_palette: str
     selected_task: str
     selected_band: str
+    chosen_color: str
     mood_label: str
     confidence_depth: str
     load_temperature: float
+    color_state: Dict[str, Any]
     bloom_focus: Dict[str, float]
     reward_channels: Dict[str, float]
     reflection_echo: Dict[str, float]
     reset_signal: Dict[str, Any]
     memory_echo: Dict[str, Any]
     concept_alignment: List[str]
+    active_primitives: Dict[str, Any]
+    domain_signature: Dict[str, float]
+    temporal_pattern: Dict[str, Any]
+    color_audit: Dict[str, Any]
+    penalty_metrics: Dict[str, float]
     state_deltas: Dict[str, float]
     processor_metrics: Dict[str, float]
     task_ranking: List[Dict[str, Any]]
@@ -239,6 +248,136 @@ ENCODING_NOTES: Tuple[QuantumEncodingNote, ...] = (
     QuantumEncodingNote("Entanglement", "Represent task dependencies and memory binding through chained CNOT and controlled rotations."),
     QuantumEncodingNote("Loop outputs", "Measure priority, route selection, reset pressure, reward balance, and confidence depth."),
 )
+
+
+ACTIVE_RUNTIME_PRIMITIVES: Dict[str, Tuple[str, ...]] = {
+    "Perception": (
+        "Surface Ripple Error Detector",
+        "Colorized Attention Bloom Map",
+        "Surface Depth Coloring",
+    ),
+    "Planning": (
+        "Quantum Task Pigment Meter",
+        "Mixed-Palette Planning Canvas",
+        "Loop Surface Spectrum Scheduler",
+    ),
+    "Memory/feedback": (
+        "Color-Mixing Memory Fusion Engine",
+        "Reflective Color Echo Loop",
+        "Color-Circuit Ritual Loop",
+    ),
+    "Coordination": (
+        "Chromatic Reward Interference Model",
+        "Quantum Pigment Negotiation",
+        "Quantum Color Thermostat",
+    ),
+    "Oversight": ("Recursive Sentinel Layer",),
+}
+
+
+STATE_TRANSITION_RULES: Dict[str, Dict[str, Any]] = {
+    "Cyan": {
+        "description": "bounded exploration",
+        "allowed_next": ("Gold", "Amber", "Teal"),
+        "entry": "enter when novelty is high and hazard remains low",
+    },
+    "Amber": {
+        "description": "caution with reversible action only",
+        "allowed_next": ("Crimson", "Teal", "Violet", "Gold"),
+        "entry": "enter when uncertainty is moderate or load begins to rise",
+    },
+    "Violet": {
+        "description": "unresolved ambiguity",
+        "allowed_next": ("Opal", "Cerulean", "Obsidian"),
+        "entry": "enter when evidence conflict exceeds threshold",
+    },
+    "Obsidian": {
+        "description": "suppressed unknowns and high backpressure",
+        "allowed_next": ("Gold", "Obsidian"),
+        "entry": "enter when debt and unresolved contradiction accumulate",
+    },
+    "Gold": {
+        "description": "reset and recovery privilege state",
+        "allowed_next": ("Jade", "Teal", "Amber"),
+        "entry": "enter when coherence restoration should dominate forward action",
+    },
+    "Jade": {
+        "description": "recovery in progress",
+        "allowed_next": ("Teal", "Amber"),
+        "entry": "enter after a successful reset or controlled recovery",
+    },
+    "Teal": {
+        "description": "stable operating flow",
+        "allowed_next": ("Amber", "Cyan", "Gold"),
+        "entry": "enter when the loop is balanced and evidence is steady",
+    },
+    "Crimson": {
+        "description": "acute hazard escalation",
+        "allowed_next": ("Gold", "Amber", "Obsidian"),
+        "entry": "enter when hazard slope steepens sharply",
+    },
+    "Opal": {
+        "description": "reconciliation and clarification",
+        "allowed_next": ("Cerulean", "Amber", "Gold"),
+        "entry": "enter when ambiguity begins to resolve but remains fragile",
+    },
+    "Cerulean": {
+        "description": "clear confidence with bounded calm",
+        "allowed_next": ("Teal", "Amber"),
+        "entry": "enter when evidence depth is high and contradiction is low",
+    },
+}
+
+
+DOMAIN_PRIORS: Dict[str, Dict[str, float]] = {
+    "road": {
+        "reaction_time": 0.34,
+        "lane_volatility": 0.30,
+        "traffic_disorder": 0.22,
+        "sensor_conflict": 0.14,
+    },
+    "maritime": {
+        "route_drift": 0.36,
+        "weather_disagreement": 0.28,
+        "sea_chaos": 0.24,
+        "mechanical_stress": 0.12,
+    },
+    "aviation": {
+        "instrument_trust": 0.36,
+        "workload_coupling": 0.28,
+        "corridor_integrity": 0.20,
+        "structure_stress": 0.16,
+    },
+}
+
+
+CONCEPT_COMPETITION_GROUPS: Dict[str, Tuple[str, ...]] = {
+    "anomaly_authority": (
+        "Surface Ripple Error Detector",
+        "Failure Echo Mapping",
+        "Prismatic Fault Basin",
+        "Iridescent Failure Lasso",
+        "Runway Ember Oracle",
+    ),
+    "plan_commitment": (
+        "Mixed-Palette Planning Canvas",
+        "Prism Verdict Reactor",
+        "Polychrome Route Weave",
+    ),
+    "post_action_control": (
+        "Reflective Color Echo Loop",
+        "Color-Circuit Ritual Loop",
+        "Quartz Reflection Lattice",
+    ),
+}
+
+
+TEMPORAL_PATTERN_LIBRARY: Dict[Tuple[str, str, str], Dict[str, Any]] = {
+    ("Teal", "Amber", "Crimson"): {"label": "escalating strain", "penalty": 0.10, "bonus": 0.0},
+    ("Violet", "Opal", "Cerulean"): {"label": "ambiguity resolved cleanly", "penalty": 0.0, "bonus": 0.06},
+    ("Gold", "Jade", "Teal"): {"label": "successful recovery", "penalty": 0.0, "bonus": 0.08},
+    ("Saffron", "Cyan", "Amber"): {"label": "exploration becoming unsafe", "penalty": 0.06, "bonus": 0.0},
+}
 
 
 PRIMARY_ADVANCED_CONCEPTS: Tuple[AgenticConcept, ...] = (
@@ -791,6 +930,8 @@ class AdvancedColorAgenticLoopSystem:
         self.expansion_concepts = list(EXPANSION_CONCEPTS)
         self.foundational_concepts = list(FOUNDATIONAL_CONCEPTS)
         self.memory_bank: Dict[str, List[MemoryTrace]] = {}
+        self.color_history: Dict[str, List[str]] = {}
+        self.contradiction_debt: Dict[str, float] = {}
         self.reset_phases = [
             ResetPhase("black", "Charcoal", "clear_state", "clear stale state"),
             ResetPhase("blue", "Azure", "recollect_context", "recollect context"),
@@ -851,11 +992,18 @@ class AdvancedColorAgenticLoopSystem:
             "- Confidence depth circuit for belief layering",
             "- Reset ritual circuit for structured recovery",
         ]
+        runtime_lines = [
+            f"- **{family}:** {', '.join(names)}"
+            for family, names in ACTIVE_RUNTIME_PRIMITIVES.items()
+        ]
         return (
             "### Advanced color-agentic loop processing system\n\n"
-            "This notebook now uses a real processing subsystem rather than a static concept list. "
+            "This notebook now uses a constrained runtime core rather than treating every concept as equally active. "
             "The subsystem combines structured concept objects, palette engines, quantum surface circuits, "
-            "task pigment scoring, loop-state memory, reflection echoes, and reset rituals.\n\n"
+            "task pigment scoring, loop-state memory, reflection echoes, reset rituals, transition rules, and domain priors.\n\n"
+            "The active runtime primitives are:\n\n"
+            + "\n".join(runtime_lines)
+            + "\n\n"
             "The major processors are:\n\n"
             + "\n".join(processor_lines)
         )
@@ -881,6 +1029,59 @@ class AdvancedColorAgenticLoopSystem:
     def _scenario_key(self, scenario: str, domain: str) -> str:
         return stable_hash(f"{scenario}|{domain}")[:16]
 
+    def _domain_signature(
+        self,
+        domain: str,
+        snapshot: Dict[str, float],
+        qmetrics: Dict[str, float],
+        state: Dict[str, float],
+    ) -> Dict[str, float]:
+        if domain == "road":
+            signature = {
+                "reaction_time_uncertainty": clamp(state.get("human_operator_load", 0.5) * DOMAIN_PRIORS["road"]["reaction_time"]),
+                "lane_volatility": clamp((1.0 - state.get("route_coherence", 0.5)) * DOMAIN_PRIORS["road"]["lane_volatility"]),
+                "traffic_disorder": clamp(state.get("environmental_chaos", 0.5) * DOMAIN_PRIORS["road"]["traffic_disorder"]),
+                "sensor_conflict": clamp(state.get("sensor_conflict", 0.5) * DOMAIN_PRIORS["road"]["sensor_conflict"]),
+            }
+        elif domain == "maritime":
+            signature = {
+                "route_drift": clamp((1.0 - state.get("route_coherence", 0.5)) * DOMAIN_PRIORS["maritime"]["route_drift"]),
+                "weather_disagreement": clamp(snapshot.get("weather_noise", 0.5) * DOMAIN_PRIORS["maritime"]["weather_disagreement"]),
+                "sea_chaos": clamp(state.get("environmental_chaos", 0.5) * DOMAIN_PRIORS["maritime"]["sea_chaos"]),
+                "mechanical_stress": clamp(state.get("mechanical_stress", 0.5) * DOMAIN_PRIORS["maritime"]["mechanical_stress"]),
+            }
+        else:
+            signature = {
+                "instrument_trust_degradation": clamp(state.get("sensor_conflict", 0.5) * DOMAIN_PRIORS["aviation"]["instrument_trust"]),
+                "workload_coupling": clamp(state.get("human_operator_load", 0.5) * DOMAIN_PRIORS["aviation"]["workload_coupling"]),
+                "corridor_integrity_loss": clamp((1.0 - qmetrics.get("route_integrity", 0.5)) * DOMAIN_PRIORS["aviation"]["corridor_integrity"]),
+                "structure_stress": clamp(state.get("mechanical_stress", 0.5) * DOMAIN_PRIORS["aviation"]["structure_stress"]),
+            }
+        signature["composite"] = clamp(sum(signature.values()))
+        return signature
+
+    def _allowed_next_colors(self, color: str) -> Tuple[str, ...]:
+        return tuple(STATE_TRANSITION_RULES.get(color, {}).get("allowed_next", ("Amber", "Teal", "Gold")))
+
+    def _current_history(self, scenario_key: str) -> List[str]:
+        return self.color_history.setdefault(scenario_key, [])
+
+    def _score_temporal_pattern(self, scenario_key: str, current_color: str) -> Dict[str, Any]:
+        history = self._current_history(scenario_key)
+        probe = (history + [current_color])[-3:]
+        history.append(current_color)
+        if len(history) > 12:
+            del history[:-12]
+        if len(probe) == 3 and tuple(probe) in TEMPORAL_PATTERN_LIBRARY:
+            pattern = TEMPORAL_PATTERN_LIBRARY[tuple(probe)]
+            return {
+                "path": probe,
+                "label": pattern["label"],
+                "penalty": pattern["penalty"],
+                "bonus": pattern["bonus"],
+            }
+        return {"path": probe, "label": "none", "penalty": 0.0, "bonus": 0.0}
+
     def _make_task_pigments(
         self,
         scenario: str,
@@ -902,6 +1103,8 @@ class AdvancedColorAgenticLoopSystem:
                 task_id=f"{domain}-stabilize",
                 title="Stabilize the safety surface",
                 vector=self.palette_engine.mix((("Deep Red", risk + 0.1), ("Emerald", stability + 0.2), ("Gold", value)), name="stabilize"),
+                authority_zone="stability_control",
+                runtime_primitive="Quantum Color Thermostat",
                 urgency=risk,
                 certainty=clarity,
                 resource_cost=0.42,
@@ -916,6 +1119,8 @@ class AdvancedColorAgenticLoopSystem:
                 task_id=f"{domain}-inspect",
                 title="Inspect anomaly bands",
                 vector=self.palette_engine.mix((("Ultraviolet", sensor_conflict + 0.3), ("Azure", clarity + 0.2), ("Amber", chaos + 0.1)), name="inspect"),
+                authority_zone="anomaly_authority",
+                runtime_primitive="Surface Ripple Error Detector",
                 urgency=sensor_conflict,
                 certainty=clarity,
                 resource_cost=0.36,
@@ -930,6 +1135,8 @@ class AdvancedColorAgenticLoopSystem:
                 task_id=f"{domain}-reroute",
                 title="Paint and compare safer route palettes",
                 vector=self.palette_engine.mix((("Gold", route + 0.2), ("Magenta", 0.45), ("Cyan", 0.32)), name="reroute"),
+                authority_zone="plan_commitment",
+                runtime_primitive="Mixed-Palette Planning Canvas",
                 urgency=chaos,
                 certainty=qmetrics.get("route_integrity", 0.5),
                 resource_cost=0.58,
@@ -944,6 +1151,8 @@ class AdvancedColorAgenticLoopSystem:
                 task_id=f"{domain}-reflect",
                 title="Run reflective echo pass",
                 vector=self.palette_engine.mix((("Rose", 0.62), ("White", 0.48), ("Violet", 0.32)), name="reflect"),
+                authority_zone="post_action_control",
+                runtime_primitive="Reflective Color Echo Loop",
                 urgency=0.34 + overload * 0.3,
                 certainty=0.44 + clarity * 0.2,
                 resource_cost=0.24,
@@ -958,6 +1167,8 @@ class AdvancedColorAgenticLoopSystem:
                 task_id=f"{domain}-reset",
                 title="Prepare ritual reset",
                 vector=self.palette_engine.mix((("Charcoal", overload + 0.2), ("Azure", clarity), ("Emerald", stability)), name="reset"),
+                authority_zone="post_action_control",
+                runtime_primitive="Color-Circuit Ritual Loop",
                 urgency=overload,
                 certainty=0.26 + stability * 0.3,
                 resource_cost=0.22,
@@ -972,6 +1183,8 @@ class AdvancedColorAgenticLoopSystem:
                 task_id=f"{domain}-opportunity",
                 title="Harvest high-value opportunity safely",
                 vector=self.palette_engine.mix((("Lime", value + 0.2), ("Gold", value), ("Cyan", 0.36)), name="opportunity"),
+                authority_zone="exploration",
+                runtime_primitive="Quantum Task Pigment Meter",
                 urgency=0.28,
                 certainty=0.54,
                 resource_cost=0.52,
@@ -1049,6 +1262,150 @@ class AdvancedColorAgenticLoopSystem:
                 uniq.append(name)
         return uniq[:6]
 
+    def _apply_competition_penalties(self, ranking: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+        zone_best: Dict[str, float] = {}
+        for item in ranking:
+            zone = item["task"].authority_zone
+            zone_best[zone] = max(zone_best.get(zone, 0.0), float(item["composite"]))
+        updated = []
+        for item in ranking:
+            zone = item["task"].authority_zone
+            best = zone_best[zone]
+            overlap_gap = max(0.0, best - float(item["composite"]))
+            penalty = 0.0
+            if zone in {"anomaly_authority", "plan_commitment", "post_action_control"} and overlap_gap < 0.08:
+                penalty = 0.06 - overlap_gap * 0.4
+            revised = max(0.0, float(item["composite"]) - penalty)
+            enriched = dict(item)
+            enriched["competition_penalty"] = penalty
+            enriched["composite"] = revised
+            updated.append(enriched)
+        updated.sort(key=lambda item: item["composite"], reverse=True)
+        return updated
+
+    def _choose_color_state(
+        self,
+        scenario_key: str,
+        domain: str,
+        selected_task: TaskPigment,
+        qmetrics: Dict[str, float],
+        attention: Dict[str, float],
+        confidence: Dict[str, float],
+        reset: Dict[str, float],
+        domain_signature: Dict[str, float],
+        load_temperature: float,
+    ) -> Tuple[str, Dict[str, Any]]:
+        contradiction = clamp(attention["conflict"] + domain_signature["composite"] * 0.35)
+        evidence_depth = clamp(confidence["evidence"] * 0.6 + confidence["depth"] * 0.4)
+        hazard_slope = clamp(
+            domain_signature["composite"] * 0.55
+            + (1.0 - qmetrics.get("stability", 0.5)) * 0.30
+            + load_temperature * 0.15
+        )
+        hidden_debt = clamp(self.contradiction_debt.get(scenario_key, 0.0) + attention["suppression"] * 0.45)
+        novelty_gate = clamp(selected_task.novelty * 0.6 + selected_task.value_gain * 0.2)
+        if hidden_debt > 0.76:
+            candidate = "Obsidian"
+        elif contradiction > 0.68:
+            candidate = "Violet"
+        elif hazard_slope > 0.78:
+            candidate = "Crimson"
+        elif reset["trigger"] > 0.66 and load_temperature > 0.56:
+            candidate = "Gold"
+        elif novelty_gate > 0.62 and hazard_slope < 0.42:
+            candidate = "Cyan"
+        elif evidence_depth > 0.72 and contradiction < 0.30:
+            candidate = "Cerulean"
+        elif contradiction < 0.42 and attention["monitor"] > 0.55:
+            candidate = "Opal"
+        elif load_temperature < 0.42 and qmetrics.get("coherence", 0.5) > 0.64:
+            candidate = "Teal"
+        else:
+            candidate = "Amber"
+
+        history = self._current_history(scenario_key)
+        previous = history[-1] if history else None
+        allowed = self._allowed_next_colors(previous) if previous else ()
+        if previous == "Obsidian" and reset["trigger"] < 0.58:
+            chosen = "Obsidian"
+        elif previous and candidate != previous and candidate not in allowed:
+            fallback = "Gold" if "Gold" in allowed and reset["trigger"] > 0.58 else allowed[0]
+            chosen = fallback
+        elif candidate == "Gold" and load_temperature < 0.34 and contradiction < 0.28:
+            chosen = "Jade"
+        elif previous == "Gold" and candidate == "Teal":
+            chosen = "Jade"
+        else:
+            chosen = candidate
+
+        state = {
+            "hue": chosen,
+            "saturation": clamp(max(selected_task.urgency, contradiction, load_temperature)),
+            "brightness": clamp(evidence_depth * 0.6 + (1.0 - contradiction) * 0.4),
+            "depth": clamp(confidence["depth"]),
+            "band": "ultraviolet" if chosen in {"Violet", "Obsidian", "Crimson"} else "visible",
+            "previous_color": previous,
+            "candidate_color": candidate,
+            "allowed_from_previous": list(allowed),
+        }
+        return chosen, state
+
+    def _build_color_audit(
+        self,
+        chosen_color: str,
+        color_state: Dict[str, Any],
+        domain_signature: Dict[str, float],
+        selected_task: TaskPigment,
+        ranking: List[Dict[str, Any]],
+    ) -> Dict[str, Any]:
+        blocked = []
+        for item in ranking[1:4]:
+            blocked.append(
+                f"{item['task'].runtime_primitive} rejected after competition_penalty={item.get('competition_penalty', 0.0):.3f}"
+            )
+        return {
+            "chosen_color": chosen_color,
+            "reason": (
+                f"{selected_task.runtime_primitive} + domain_composite={domain_signature['composite']:.3f} "
+                f"+ saturation={color_state['saturation']:.3f} + depth={color_state['depth']:.3f}"
+            ),
+            "blocked_alternatives": blocked,
+            "next_allowed_transitions": list(self._allowed_next_colors(chosen_color)),
+        }
+
+    def _penalty_metrics(
+        self,
+        scenario_key: str,
+        chosen_color: str,
+        color_state: Dict[str, Any],
+        attention: Dict[str, float],
+        reset: Dict[str, float],
+        temporal_pattern: Dict[str, Any],
+        domain_signature: Dict[str, float],
+    ) -> Dict[str, float]:
+        previous = color_state.get("previous_color")
+        contradiction_level = clamp(attention["conflict"] + domain_signature["composite"] * 0.2)
+        ambiguity_persistence = 0.08 if previous == "Violet" and chosen_color == "Violet" else 0.0
+        contradiction_debt = clamp(
+            self.contradiction_debt.get(scenario_key, 0.0) * 0.64
+            + contradiction_level * 0.42
+            + (0.12 if chosen_color == "Obsidian" else 0.0)
+        )
+        delayed_recovery_cost = 0.07 if color_state["saturation"] > 0.72 and chosen_color not in {"Gold", "Jade"} else 0.0
+        false_calm_penalty = 0.09 if chosen_color in {"Teal", "Cerulean"} and domain_signature["composite"] > 0.62 else 0.0
+        reset_misuse_penalty = 0.06 if chosen_color == "Gold" and reset["trigger"] < 0.50 else 0.0
+        metrics = {
+            "ambiguity_persistence": ambiguity_persistence,
+            "contradiction_debt": contradiction_debt,
+            "delayed_recovery_cost": delayed_recovery_cost,
+            "false_calm_penalty": false_calm_penalty,
+            "reset_misuse_penalty": reset_misuse_penalty,
+            "temporal_penalty": float(temporal_pattern["penalty"]),
+            "temporal_bonus": float(temporal_pattern["bonus"]),
+        }
+        self.contradiction_debt[scenario_key] = contradiction_debt
+        return metrics
+
     def process_cycle(
         self,
         scenario: str,
@@ -1087,15 +1444,18 @@ class AdvancedColorAgenticLoopSystem:
                     "composite": composite,
                 }
             )
-        ranking.sort(key=lambda item: item["composite"], reverse=True)
+        ranking = self._apply_competition_penalties(ranking)
         selected = ranking[0]
         selected_task: TaskPigment = selected["task"]
+        domain_signature = self._domain_signature(domain, snapshot, qmetrics, state)
 
         schedule = self.circuits.measure_schedule(
             maintenance=clamp(1.0 - qmetrics.get("mechanical_resilience", 0.5) + state.get("mechanical_stress", 0.5)),
             reasoning=intent_metrics["coherence"],
             anomaly=clamp(snapshot.get("signal_noise", 0.5) + state.get("sensor_conflict", 0.5) * 0.5),
         )
+        if domain_signature["composite"] > 0.62:
+            schedule["ultraviolet"] = clamp(schedule["ultraviolet"] + 0.12)
         selected_band = max(("infrared", "visible", "ultraviolet"), key=lambda name: schedule[name])
         memory = self.circuits.measure_memory(self._memory_vectors(scenario_key))
         rewards = self.circuits.measure_rewards(
@@ -1126,6 +1486,17 @@ class AdvancedColorAgenticLoopSystem:
                 )
             )
         )
+        chosen_color, color_state = self._choose_color_state(
+            scenario_key=scenario_key,
+            domain=domain,
+            selected_task=selected_task,
+            qmetrics=qmetrics,
+            attention=attention,
+            confidence=confidence,
+            reset=reset,
+            domain_signature=domain_signature,
+            load_temperature=load_temperature,
+        )
         mood_label = self.palette_engine.classify_mood(
             overload=load_temperature,
             certainty=intent_metrics["certainty"],
@@ -1153,17 +1524,55 @@ class AdvancedColorAgenticLoopSystem:
         else:
             phase = self.reset_phases[3]
 
-        aligned = self._select_aligned_concepts(domain, selected_band, selected_task, load_temperature)
+        if chosen_color in {"Crimson", "Violet", "Obsidian"}:
+            selected_band = "ultraviolet"
+        elif chosen_color in {"Gold", "Jade"}:
+            selected_band = "infrared"
+
+        aligned = list(dict.fromkeys([
+            *ACTIVE_RUNTIME_PRIMITIVES["Perception"],
+            *ACTIVE_RUNTIME_PRIMITIVES["Planning"],
+            *ACTIVE_RUNTIME_PRIMITIVES["Memory/feedback"],
+            *ACTIVE_RUNTIME_PRIMITIVES["Coordination"],
+            *ACTIVE_RUNTIME_PRIMITIVES["Oversight"],
+            *self._select_aligned_concepts(domain, selected_band, selected_task, load_temperature),
+        ]))
         memory_echo = self._update_memory_bank(scenario_key, selected_task, mood_label, aligned)
+        temporal_pattern = self._score_temporal_pattern(scenario_key, chosen_color)
+        penalties = self._penalty_metrics(
+            scenario_key=scenario_key,
+            chosen_color=chosen_color,
+            color_state=color_state,
+            attention=attention,
+            reset=reset,
+            temporal_pattern=temporal_pattern,
+            domain_signature=domain_signature,
+        )
+        color_audit = self._build_color_audit(
+            chosen_color=chosen_color,
+            color_state=color_state,
+            domain_signature=domain_signature,
+            selected_task=selected_task,
+            ranking=ranking,
+        )
+        total_penalty = (
+            penalties["ambiguity_persistence"]
+            + penalties["contradiction_debt"] * 0.15
+            + penalties["delayed_recovery_cost"]
+            + penalties["false_calm_penalty"]
+            + penalties["reset_misuse_penalty"]
+            + penalties["temporal_penalty"]
+            - penalties["temporal_bonus"]
+        )
         state_deltas = {
-            "risk_pressure": -0.035 * selected["metrics"]["safety"] + 0.012 * attention["conflict"],
-            "system_stability": 0.028 * confidence["stability"] + 0.016 * rewards["safety"],
-            "human_operator_load": -0.024 * rewards["safety"] + 0.022 * load_temperature,
-            "environmental_chaos": -0.018 * memory["clarity"] + 0.010 * attention["monitor"],
-            "sensor_conflict": -0.026 * confidence["evidence"] + 0.015 * attention["conflict"],
-            "route_coherence": 0.024 * schedule["visible"] + 0.018 * selected["metrics"]["balance"],
-            "mechanical_stress": -0.021 * rewards["safety"] + 0.013 * schedule["infrared"],
-            "intervention_readiness": 0.032 * safe_mean((memory["fusion"], confidence["depth"], rewards["safety"])),
+            "risk_pressure": -0.030 * selected["metrics"]["safety"] + 0.016 * attention["conflict"] + total_penalty * 0.18,
+            "system_stability": 0.022 * confidence["stability"] + 0.014 * rewards["safety"] - total_penalty * 0.14,
+            "human_operator_load": -0.018 * rewards["safety"] + 0.030 * load_temperature + penalties["delayed_recovery_cost"] * 0.4,
+            "environmental_chaos": -0.015 * memory["clarity"] + 0.010 * attention["monitor"] + penalties["false_calm_penalty"] * 0.25,
+            "sensor_conflict": -0.020 * confidence["evidence"] + 0.020 * attention["conflict"] + penalties["ambiguity_persistence"] * 0.35,
+            "route_coherence": 0.018 * schedule["visible"] + 0.014 * selected["metrics"]["balance"] - penalties["contradiction_debt"] * 0.06,
+            "mechanical_stress": -0.016 * rewards["safety"] + 0.016 * schedule["infrared"] + penalties["reset_misuse_penalty"] * 0.20,
+            "intervention_readiness": 0.024 * safe_mean((memory["fusion"], confidence["depth"], rewards["safety"])) - total_penalty * 0.08,
         }
         processor_metrics = {
             "intent_coherence": intent_metrics["coherence"],
@@ -1174,6 +1583,8 @@ class AdvancedColorAgenticLoopSystem:
             "attention_focus": attention["focus"],
             "confidence_depth": confidence["depth"],
             "reset_trigger": reset["trigger"],
+            "domain_pressure": domain_signature["composite"],
+            "total_penalty": total_penalty,
         }
         return AdvancedLoopResult(
             scenario_key=scenario_key,
@@ -1181,9 +1592,11 @@ class AdvancedColorAgenticLoopSystem:
             intent_palette=self.palette_engine.classify_temperature(intent_metrics["urgency"]),
             selected_task=selected_task.title,
             selected_band=selected_band,
+            chosen_color=chosen_color,
             mood_label=mood_label,
             confidence_depth=self.palette_engine.depth_label(confidence["depth"]),
             load_temperature=load_temperature,
+            color_state=color_state,
             bloom_focus=attention,
             reward_channels=rewards,
             reflection_echo={
@@ -1200,12 +1613,20 @@ class AdvancedColorAgenticLoopSystem:
             },
             memory_echo=memory_echo,
             concept_alignment=aligned,
+            active_primitives={family: list(names) for family, names in ACTIVE_RUNTIME_PRIMITIVES.items()},
+            domain_signature=domain_signature,
+            temporal_pattern=temporal_pattern,
+            color_audit=color_audit,
+            penalty_metrics=penalties,
             state_deltas=state_deltas,
             processor_metrics=processor_metrics,
             task_ranking=[
                 {
                     "task": item["task"].title,
+                    "runtime_primitive": item["task"].runtime_primitive,
+                    "authority_zone": item["task"].authority_zone,
                     "composite": item["composite"],
+                    "competition_penalty": item.get("competition_penalty", 0.0),
                     "priority": item["metrics"]["priority"],
                     "safety": item["metrics"]["safety"],
                     "novelty": item["metrics"]["novelty"],
@@ -1217,4 +1638,3 @@ class AdvancedColorAgenticLoopSystem:
 
 def build_advanced_color_agentic_loop_system() -> AdvancedColorAgenticLoopSystem:
     return AdvancedColorAgenticLoopSystem()
-
