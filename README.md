@@ -1,6 +1,6 @@
 
 # Building an Entropic Quantum Risk Scanning System: A Technical Walkthrough of a Quantum-Inspired Safety Blog Generator
-
+```
 flowchart TD
     U[User / Product Spec] --> P[LLM-Assisted Planner]
     P --> D[Task Graph + Repo Decomposition]
@@ -67,6 +67,7 @@ flowchart TD
     G -->|acceptable confidence| C
 
     O --> DEPLOY[Ready for Review / Commit / Deployment]
+```
     
 ![Blog Writer Architecture](https://github.com/ornab74/blog-writer/blob/main/mermaid-diagram.png)
 ## Introduction
