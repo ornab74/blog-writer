@@ -1,6 +1,6 @@
 
 # Building an Entropic Quantum Risk Scanning System: A Technical Walkthrough of a Quantum-Inspired Safety Blog Generator
-
+![Blog Writer Architecture](https://github.com/ornab74/blog-writer/blob/main/mermaid-diagram.png?raw=true)
 ## Introduction
 
 Most safety systems are built to recognize danger **after it becomes legible**. A dashboard warns when engine temperature is already high. A driver assistance system reacts when braking distance is already tight. A maritime system raises alarms when deviation or weather risk has already crossed an operational threshold. An aviation alert appears when a tolerance band has already been violated.
