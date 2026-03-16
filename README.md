@@ -1,5 +1,73 @@
 
 # Building an Entropic Quantum Risk Scanning System: A Technical Walkthrough of a Quantum-Inspired Safety Blog Generator
+
+flowchart TD
+    U[User / Product Spec] --> P[LLM-Assisted Planner]
+    P --> D[Task Graph + Repo Decomposition]
+    P --> P1[Agentic Prism Decomposer]
+    P --> P2[Mixed-Palette Planning Canvas]
+    P --> P3[Quantum Task Pigment Meter]
+
+    D --> A[Architecture Plan]
+    D --> I[Interfaces / Contracts]
+    D --> M[Milestones / Dependency Graph]
+
+    A --> S[MAPF-Aware Scheduler]
+    I --> S
+    M --> S
+
+    S --> R[Reservation Table / Conflict Avoidance]
+    S --> H[Handoffs / Wait Actions / Dependency Locks]
+    S --> C[Coordinated Multi-Agent Execution]
+
+    C --> BE[Backend Agent]
+    C --> FE[Frontend Agent]
+    C --> TE[Test Agent]
+    C --> IE[Infra / CI Agent]
+    C --> RE[Refactor / Repair Agent]
+
+    subgraph Shared_Intelligence_Layer
+        MEM[Color-Mixing Memory Fusion Engine]
+        ATTN[Colorized Attention Bloom Map]
+        SENT[Recursive Sentinel Layer]
+        THERM[Quantum Color Thermostat]
+        ECHO[Reflective Color Echo Loop]
+    end
+
+    P --> MEM
+    S --> THERM
+    C --> ATTN
+    C --> SENT
+    C --> ECHO
+
+    BE --> W[Workspace / Local Project Folder]
+    FE --> W
+    TE --> W
+    IE --> W
+    RE --> W
+
+    W --> V[Verification Layer]
+    V --> V1[Syntax / Types]
+    V --> V2[Tests / Build / Lint]
+    V --> V3[Schema / Contract Checks]
+    V --> V4[Architecture Drift Audit]
+
+    V -->|pass| O[Coherent Codebase Output]
+    V -->|fail| X[Repair Loop]
+
+    X --> X1[Reject Invalid Action]
+    X --> X2[Diagnose Failure]
+    X --> X3[Re-plan / Re-route / Patch]
+    X3 --> P
+    X3 --> S
+    X3 --> RE
+
+    SENT --> G[Confidence / Uncertainty Oversight]
+    G -->|high uncertainty| ESC[Escalate to Human Review]
+    G -->|acceptable confidence| C
+
+    O --> DEPLOY[Ready for Review / Commit / Deployment]
+    
 ![Blog Writer Architecture](https://github.com/ornab74/blog-writer/blob/main/mermaid-diagram.png)
 ## Introduction
 
