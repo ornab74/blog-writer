@@ -69,7 +69,6 @@ flowchart TD
     O --> DEPLOY[Ready for Review / Commit / Deployment]
 ```
     
-![Blog Writer Architecture](https://github.com/ornab74/blog-writer/blob/main/mermaid-diagram.png)
 ## Introduction
 
 Most safety systems are built to recognize danger **after it becomes legible**. A dashboard warns when engine temperature is already high. A driver assistance system reacts when braking distance is already tight. A maritime system raises alarms when deviation or weather risk has already crossed an operational threshold. An aviation alert appears when a tolerance band has already been violated.
