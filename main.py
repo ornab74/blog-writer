@@ -150,9 +150,9 @@ MAX_TOKENS = 1100
 TEMPERATURE = 0.55
 
 # Notebook outputs
-MEMORY_DB_PATH = "blog_safety_memory.db"
-OUTFILE_JSON = "advanced_safety_blog_payload.json"
-OUTFILE_MD = "advanced_safety_blog.md"
+MEMORY_DB_PATH = "agentic_codebase_memory.db"
+OUTFILE_JSON = "agentic_codebase_blog_payload.json"
+OUTFILE_MD = "agentic_codebase_blog.md"
 
 # Blog generation controls
 TARGET_WORD_COUNT = 7000
@@ -167,36 +167,37 @@ SIMULATION_HORIZON = 12
 TOP_K_PATHS = 8
 
 # Global topic / objective
-BLOG_SERIES_TITLE = "Entropic Quantum Intelligence for Predictive Safety"
+BLOG_SERIES_TITLE = "Agentic Planning Systems for Autonomous Codebase Development"
 BLOG_TOPIC = (
-    "Using advanced AI simulations for road traffic safety intelligence, "
-    "predicting car accidents in real life, shipwreck risks, and airplane crash precursors "
-    "through entropic quantum intelligence."
+    "Designing an LLM-assisted, MAPF-aware, multi-agent planning system that can "
+    "reason about tasks, coordinate developer agents, and write whole software "
+    "codebases into local project folders."
 )
-SIMULATION_REGION = "Global transportation and mobility systems"
+SIMULATION_REGION = "Local development workspaces and multi-agent software pipelines"
 SIMULATION_OBJECTIVE = (
-    "Generate long-form technical blog content from quantum-inspired safety simulations"
+    "Generate long-form technical blog content about agentic planning, code synthesis, "
+    "verification, and autonomous codebase construction"
 )
 
-# Safety scope: predictive prevention only
+# Usage scope: local software development only
 SAFETY_POLICY = {
-    "mission": "Civilian safety forecasting, prevention, and risk awareness only",
+    "mission": "Local software planning, code generation, verification, and developer assistance only",
     "allowed": [
-        "traffic safety analytics",
-        "accident prevention",
-        "aviation stability monitoring",
-        "maritime navigation safety",
-        "sensor uncertainty analysis",
-        "civilian protection modeling",
-        "predictive maintenance awareness",
+        "codebase planning",
+        "repository scaffolding",
+        "task decomposition",
+        "test generation",
+        "build verification",
+        "developer workflow automation",
+        "project architecture analysis",
         "blog writing and educational explanation",
     ],
     "disallowed": [
-        "military targeting",
-        "weapon optimization",
-        "operational sabotage",
-        "harmful attack planning",
-        "destructive misuse",
+        "malware creation",
+        "credential theft",
+        "destructive sabotage",
+        "unauthorized intrusion",
+        "harmful misuse",
     ],
 }
 
@@ -1846,43 +1847,43 @@ def build_advanced_color_agentic_loop_system() -> AdvancedColorAgenticLoopSystem
 
 DEFAULT_SCENARIO_BANK = {
     "advanced_blog": [
-        "Urban intersection collision forecasting with entropic quantum traffic intelligence",
-        "Highway multi-vehicle crash prediction using uncertainty-aware mobility modeling",
-        "Maritime shipwreck prevention through wave entropy and navigation coherence analysis",
-        "Aircraft instability forecasting using turbulence entropy, sensor disagreement, and predictive aviation AI",
-        "City-scale transportation safety intelligence for autonomous and human-driven systems",
+        "Multi-agent repository scaffolding with strict verifier gates and planner-guided architecture",
+        "LLM-assisted feature implementation across backend, frontend, and test agents with shared memory",
+        "Time-expanded codebase scheduling with dependency locks, merge-conflict avoidance, and MAPF routing",
+        "Autonomous local-folder project generation with spec decomposition, tool use, and iterative repair",
+        "Codebase modernization pipeline for refactors, migrations, and regression-safe deployment planning",
     ]
 }
 
 BLOG_BLUEPRINT = {
     "title_patterns": [
-        "How Entropic Quantum Intelligence Could Transform Transportation Safety",
-        "From Traffic Collisions to Shipwreck Prevention: The Rise of Quantum-Inspired Safety AI",
-        "Predicting Crashes Before They Happen: Advanced AI Simulation for Roads, Ships, and Aircraft",
+        "How LLM-Assisted Multi-Agent Planning Could Build Entire Codebases",
+        "From Task Graphs to Local Folders: Designing an Agentic Codebase Builder",
+        "Why Verified Planning, MAPF Routing, and Repair Loops Matter for Autonomous Software Development",
     ],
     "sections": [
         "Introduction",
-        "Why modern safety prediction needs a new intelligence model",
-        "What entropic quantum intelligence means in practical terms",
-        "Road traffic safety intelligence and real-world accident prediction",
-        "Shipwreck forecasting and maritime instability mapping",
-        "Airplane crash precursor detection and aviation intelligence",
-        "Invented next-generation concepts for safety forecasting",
+        "Why autonomous codebase development needs a new planning model",
+        "What LLM-assisted planning means in practical engineering terms",
+        "Repository architecture planning and codebase decomposition",
+        "MAPF-aware scheduling, collision avoidance, and coordinated execution",
+        "Verification, repair loops, and safe local code generation",
+        "Invented next-generation concepts for agentic development",
         "Simulation results and what they suggest",
-        "Why uncertainty-aware AI matters more than raw prediction accuracy",
-        "Ethics, limitations, and deployment challenges",
-        "The future of predictive safety intelligence",
+        "Why uncertainty-aware agents matter more than raw code generation speed",
+        "Constraints, limitations, and deployment challenges",
+        "The future of agentic codebase intelligence",
         "Conclusion",
     ],
     "seo_keywords": [
-        "AI traffic safety intelligence",
-        "car accident prediction AI",
-        "entropic quantum intelligence",
-        "shipwreck prediction AI",
-        "airplane crash prediction",
-        "predictive safety simulation",
-        "quantum-inspired transportation AI",
-        "safety intelligence systems",
+        "agentic code generation",
+        "multi-agent software engineering",
+        "LLM planning system",
+        "MAPF codebase coordination",
+        "autonomous repository builder",
+        "verified agentic coding",
+        "code generation repair loop",
+        "local folder codebase automation",
     ],
 }
 
@@ -2186,8 +2187,8 @@ def choose_concepts(n: int = 5) -> List[Dict[str, str]]:
 
 def generate_meta_description(title: str, topic: str) -> str:
     raw = (
-        f"{title}. Explore how advanced AI simulations, entropic quantum intelligence, and "
-        f"uncertainty-aware safety systems could help predict road crashes, shipwrecks, and aviation failures."
+        f"{title}. Explore how LLM-assisted planning, verified multi-agent execution, and "
+        f"MAPF-aware coordination can help autonomous systems design and build local software codebases."
     )
     return raw[:156]
 
@@ -2258,8 +2259,8 @@ def repeat_to_word_target(text: str, target_words: int) -> str:
     while count_words("\n\n".join(out)) < target_words:
         s = sentences[idx % len(sentences)]
         out.append(
-            f"{s} This matters because safety intelligence becomes most valuable when it can act before visible failure, "
-            f"not after damage is already underway."
+            f"{s} This matters because agentic development becomes most valuable when it can preserve structure before the "
+            f"repository drifts into expensive repair."
         )
         idx += 1
         if idx > 2000:
@@ -2404,9 +2405,9 @@ SAFETY_INTERVENTIONS = [
 # -------------------------
 def classify_domain(scenario: str) -> str:
     s = scenario.lower()
-    if "ship" in s or "maritime" in s or "wave" in s:
+    if any(token in s for token in ("mapf", "schedule", "routing", "merge", "coordination", "conflict")):
         return "maritime"
-    if "aircraft" in s or "airplane" in s or "aviation" in s or "flight" in s:
+    if any(token in s for token in ("verify", "repair", "test", "migration", "deploy", "regression")):
         return "aviation"
     return "road"
 
@@ -2414,29 +2415,29 @@ def classify_domain(scenario: str) -> str:
 def build_signals_for_domain(domain: str) -> List[SafetySignal]:
     if domain == "road":
         return [
-            SafetySignal("traffic_density", 0.71, "Congestion and interaction pressure among vehicles"),
-            SafetySignal("speed_variance", 0.67, "Unstable speed spread raises collision probability"),
-            SafetySignal("weather_entropy", 0.49, "Rain, glare, fog, or surface unpredictability"),
-            SafetySignal("driver_reaction_latency", 0.54, "Delayed braking or steering response"),
-            SafetySignal("sensor_uncertainty", 0.42, "Camera/radar ambiguity"),
-            SafetySignal("road_surface_instability", 0.46, "Potholes, debris, ice, or degraded pavement"),
+            SafetySignal("spec_entropy", 0.71, "Unclear requirements and shifting objectives"),
+            SafetySignal("architecture_drift", 0.67, "Module boundaries blur as the repository grows"),
+            SafetySignal("prompt_variance", 0.49, "Different agents interpret the same task differently"),
+            SafetySignal("handoff_latency", 0.54, "Design decisions arrive too late for downstream agents"),
+            SafetySignal("tool_uncertainty", 0.42, "File edits, shell output, and APIs disagree"),
+            SafetySignal("workspace_fragmentation", 0.46, "The local folder loses structural coherence"),
         ]
     if domain == "maritime":
         return [
-            SafetySignal("wave_entropy", 0.72, "Chaotic sea-state energy and directional inconsistency"),
-            SafetySignal("navigation_drift", 0.51, "Route deviation under stress"),
-            SafetySignal("engine_stress", 0.48, "Mechanical strain and propulsion inconsistency"),
-            SafetySignal("crew_fatigue", 0.56, "Human attention degradation"),
-            SafetySignal("visibility_instability", 0.45, "Fog, darkness, storm interference"),
-            SafetySignal("hull_strain_signal", 0.44, "Structural stress accumulation"),
+            SafetySignal("reservation_pressure", 0.72, "Shared files and resources need spacetime reservations"),
+            SafetySignal("route_drift", 0.51, "Agent routes through the task graph diverge from the plan"),
+            SafetySignal("conflict_stress", 0.48, "Parallel edits increase collision probability"),
+            SafetySignal("coordination_fatigue", 0.56, "Agents lose awareness of what others are doing"),
+            SafetySignal("visibility_instability", 0.45, "Global state becomes hard to summarize compactly"),
+            SafetySignal("merge_strain_signal", 0.44, "Branch and patch tension accumulates before conflict"),
         ]
     return [
-        SafetySignal("turbulence_entropy", 0.69, "Atmospheric instability and sudden motion risk"),
-        SafetySignal("sensor_disagreement", 0.47, "Conflicting avionics or instrument interpretations"),
-        SafetySignal("engine_vibration_variance", 0.43, "Mechanical stress fluctuation"),
-        SafetySignal("navigation_corridor_drift", 0.39, "Deviation from stable operational path"),
-        SafetySignal("icing_or_weather_complexity", 0.52, "Environmental hazard layering"),
-        SafetySignal("crew_attention_load", 0.41, "Operational and cognitive demand"),
+        SafetySignal("test_turbulence", 0.69, "Regression surfaces wobble as changes land"),
+        SafetySignal("verifier_disagreement", 0.47, "Linters, tests, and reviewers disagree on correctness"),
+        SafetySignal("integration_vibration", 0.43, "Interfaces shake when modules evolve asynchronously"),
+        SafetySignal("deployment_drift", 0.39, "The runnable system diverges from the intended architecture"),
+        SafetySignal("runtime_layering", 0.52, "Build, runtime, and infra constraints stack nonlinearly"),
+        SafetySignal("review_load", 0.41, "Human and agent attention saturates under validation pressure"),
     ]
 
 
@@ -2627,9 +2628,9 @@ def score_state(state: ScenarioState) -> Dict[str, float]:
 def deterministic_result_summary(state: ScenarioState, scores: Dict[str, float]) -> str:
     last_notes = "; ".join(state.notes[-5:])
     return (
-        f"Scenario '{state.scenario}' in domain '{state.domain}' reached a composite safety score of {scores['score']:.3f}. "
-        f"Road={scores['road_risk_score']:.3f}, maritime={scores['ship_risk_score']:.3f}, aviation={scores['aviation_risk_score']:.3f}, "
-        f"coherence={scores['coherence_score']:.3f}, intervention_readiness={scores['intervention_score']:.3f}. "
+        f"Scenario '{state.scenario}' in workstream '{state.domain}' reached a composite planning score of {scores['score']:.3f}. "
+        f"architecture={scores['road_risk_score']:.3f}, coordination={scores['ship_risk_score']:.3f}, verification={scores['aviation_risk_score']:.3f}, "
+        f"coherence={scores['coherence_score']:.3f}, readiness={scores['intervention_score']:.3f}. "
         f"Recent interpretation: {last_notes}"
     )
 
@@ -2766,91 +2767,89 @@ def intro_section(title: str) -> str:
     return f"""
 ## Introduction
 
-{title} is not just a futuristic slogan. It names a new class of thinking about risk, one in which accidents are no longer treated as isolated surprises. Instead, crashes, shipwrecks, and aircraft emergencies are viewed as the visible outcomes of hidden instability that builds across time. Modern transportation already produces immense streams of information, yet much of that information is fragmented, delayed, or interpreted too narrowly. Cameras watch roads, radars scan distance, aircraft instruments monitor altitude and velocity, and ships track routes and engine status. But conventional systems often interpret these signals as separate channels rather than as interacting fields of uncertainty.
+{title} is not just a catchy slogan for autonomous coding. It points to a stronger design pattern for building software with many interacting agents. Instead of treating code generation as a single prompt that magically emits an application, this notebook treats codebase development as a planning problem with hidden dependencies, contested resources, validation gates, and recovery loops. Real repositories evolve through interacting constraints: requirements drift, architecture choices shape future work, tests expose contradictions, and concurrent edits can collide even when each local action looked reasonable.
 
-That limitation matters because real-world failures usually form as cascades. A traffic collision can begin with congestion pressure, degraded road conditions, weather irregularity, small reaction delays, and subtle sensor ambiguity. A shipwreck may not begin at the moment of impact, but much earlier when route coherence weakens under conflicting currents, stress accumulates in the hull, visibility degrades, and operator fatigue rises. An aviation emergency may similarly emerge from a chain of turbulence, instrument disagreement, mechanical vibration, corridor drift, and growing cockpit workload. When viewed in isolation, each signal may seem survivable. When entangled, those signals create a dangerous geometry of risk.
+That framing matters because software failures also form as cascades. A broken deployment may begin with a small interface mismatch, a stale migration, an underspecified prompt, or two agents editing the same area without a shared reservation table. A poor repository scaffold may silently lock the team into awkward module boundaries. A local code writer might keep producing plausible files while drifting away from the original product brief. When seen in isolation, each issue looks manageable. When combined, they create a geometry of failure that wastes time, destroys confidence, and makes autonomous generation feel unreliable.
 
-That is why this notebook redesign introduces the idea of entropic quantum intelligence. The phrase does not claim literal magical prediction. Instead, it describes an advanced simulation framework that uses entropy-like measurements, uncertainty surfaces, route memory, and quantum-inspired transformations to model how instability behaves before disaster becomes obvious. The goal is prevention, not spectacle. The goal is earlier awareness, better warnings, smarter interventions, and richer public understanding of how predictive safety intelligence could evolve over the coming years.
+That is why this notebook redesign focuses on an LLM-assisted planning architecture with verified action layers, memory, repair, and MAPF-like coordination. The point is not to trust the language model blindly. The point is to let the language model propose useful actions while a stricter planner manages feasibility, sequencing, resource contention, and correctness checks. The goal is not spectacle. The goal is to make autonomous software generation more disciplined, more inspectable, and more capable of writing entire codebases into local project folders without collapsing under its own branching factor.
 
-This blog explores how such a system could work across road traffic, maritime navigation, and aviation operations. It also introduces new invented concepts designed for long-form technical storytelling: the Entropic Quantum Safety Field, the Predictive Fracture Horizon, the Causal Turbulence Index, the Recursive Sentinel Layer, Quantum Route Memory, Failure Echo Mapping, and the Safety Coherence Gradient. Together, these concepts form the intellectual backbone of a next-generation blog generator capable of turning simulation results into a substantial, readable, and concept-rich article.
+This blog explores how such a system could work across repository planning, multi-agent scheduling, and verification-heavy code synthesis. It also retains the notebook's invented concept machinery so the generated article has a strong vocabulary for task fields, memory, route arbitration, reflection, and repair. Together, those concepts form the backbone of a next-generation notebook that can explain agentic development systems in a way that is both ambitious and runnable.
 """.strip()
 
 
 def practical_meaning_section() -> str:
     return """
-## Why modern safety prediction needs a new intelligence model
+## Why autonomous codebase development needs a new planning model
 
-Traditional safety systems are often excellent at detection after a threshold has already been crossed. Anti-lock brakes respond once traction fails. Collision alerts activate when objects close rapidly. Aircraft systems warn when parameters exceed tolerance. Marine navigation tools alert operators when deviation becomes obvious enough to measure. These tools are valuable, but they are often threshold-driven rather than field-aware. They see the point of danger more easily than the accumulation of danger.
+Traditional code generation demos are often good at producing isolated snippets after a request is already fully formed. They are far weaker at planning whole repositories under uncertainty. A single prompt can create a starter app, but real projects need decomposition, interface tracking, dependency ordering, testing, migration logic, and repeated correction. Standard workflows are therefore useful but threshold-driven: they react once a file is obviously broken, not while the overall repository plan is quietly drifting off course.
 
-A newer model is needed because the world has become denser, faster, and more entangled. Roads now contain human drivers, partially assisted drivers, autonomous systems, distracted pedestrians, dynamic route platforms, weather volatility, and growing data saturation. Maritime routes are increasingly shaped by supply-chain pressure, climate-influenced weather instability, crowded ports, and long-duration fatigue patterns. Aviation is similarly influenced by atmospheric complexity, rising operational density, sensor dependency, and enormous expectations of precision under uncertain conditions.
+A newer model is needed because software production has become denser, faster, and more entangled. A modern project may contain frontend code, backend services, infrastructure definitions, tests, migrations, CI rules, documentation, and generated assets. If multiple agents are working in parallel, the problem becomes even richer. They need role assignments, shared memory, reservation logic, safe handoffs, and a way to avoid stepping on each other in time-expanded workspace space.
 
-Entropic quantum intelligence is useful here as a metaphorical and computational design philosophy. “Entropic” refers to unpredictability, disorder, hidden variance, and informational fragmentation. “Quantum” refers to interacting state spaces, layered possibility, correlated variables, and the importance of observing systems as wholes rather than as isolated fragments. In practical terms, this means building simulations that ask not only what is happening now, but what instability topology is forming underneath current measurements.
+That is why an agentic planner is more useful than raw prompting. The language model can suggest architecture moves, draft files, propose tests, or identify likely next actions. The symbolic layer can then check preconditions, enforce local invariants, validate outputs, and search over compatible joint actions. In practical terms, this means the notebook is no longer asking only what code should be written next. It is asking what code changes are feasible, safe, well-sequenced, and worth committing under the current repository state.
 
-This is especially important in safety forecasting because many risks are nonlinear. A one percent rise in traffic density does not always create a one percent rise in crash probability. Sometimes the system absorbs the stress. At other times the same increase pushes the network over a threshold and produces a disproportionate surge in risk. The same principle applies to shipping under storm conditions and to aviation under turbulent or instrument-compromised scenarios. Once nonlinear behavior appears, static dashboards are no longer enough. The system needs intelligence that can track gradients, entanglements, and precursor signatures.
+This becomes especially important when branching factor explodes. The planner may have dozens of legal actions per agent, many apparently sensible routes through the codebase, and multiple verification surfaces. Small scheduling mistakes can create outsized regressions. A change that looks locally efficient may be globally expensive if it forces rewrites later. The system therefore needs a planning model that tracks gradients, constraints, and future repair cost rather than merely chasing immediate token output.
 
-That is the promise of simulation-first safety intelligence. A simulation can blend telemetry, weather variance, signal disagreement, route coherence, and human load into a synthetic field of evolving risk. Even when the prediction is imperfect, the resulting interpretation can still provide enormous value. It can identify which factors are converging, which interventions reduce pressure earliest, and which conditions deserve escalation to human operators. For a blog writer, this also creates a richer narrative structure: instead of saying that AI predicts accidents, the article can explain how AI maps the invisible architecture of risk.
+That is the promise of simulation-first codebase intelligence. A simulation can blend specification entropy, dependency topology, tool disagreement, merge pressure, and repair debt into an evolving field of repository risk. Even when the generated plan is imperfect, the resulting interpretation is still valuable. It can surface where architecture is weakening, where coordination matters most, and which repair actions preserve optionality before the workspace becomes brittle.
 """.strip()
 
 
 def road_section() -> str:
     return """
-## Road traffic safety intelligence and real-world accident prediction
+## Repository architecture planning and codebase decomposition
 
-Road traffic is one of the clearest domains in which advanced simulation can make the leap from theoretical elegance to practical public benefit. Modern roads are high-speed negotiation environments. Every lane change, braking event, merge decision, and weather disruption creates a temporary micro-system of interacting probabilities. Human drivers interpret these patterns through intuition, habit, and reaction time. Machine systems interpret them through sensors, rules, and learned models. Neither perspective is complete in isolation.
+Repository scaffolding is the first place where agentic software systems either become credible or fall apart. Building an entire codebase into a local folder is not just a matter of opening files and writing code. The system has to decide what should exist, what can remain implicit, which modules should be isolated, where tests should live, how configuration should flow, and which abstractions deserve to exist from day one. Those decisions shape the future search space for every downstream action.
 
-A genuinely advanced road safety system would look for more than individual hazards. It would track the shape of systemic instability. In an urban intersection, for example, the danger may not be a single speeding car alone. The real danger may arise from a convergence of speed variance, aggressive lane competition, occluded pedestrian visibility, intermittent rain reflection, delayed brake response, and a temporary collapse in signal certainty from onboard perception systems. When a system can fuse these signals into a common entropic field, it begins to estimate not just the chance of collision but the probability that the local traffic environment is approaching a Predictive Fracture Horizon.
+A strong planner therefore begins with decomposition. It turns a broad request into task graphs, constraints, interfaces, milestones, and agent roles. One worker may own schema design. Another may scaffold the API. Another may generate tests. Another may inspect architecture drift and re-plan when module boundaries are becoming unstable. This is where the notebook's planning metaphors become useful: the system is estimating where structural coherence is forming and where it is beginning to shear apart.
 
-This is where entropic quantum intelligence becomes conceptually powerful. Imagine that each vehicle is treated not simply as a point moving through a coordinate system, but as a mobile uncertainty surface. Speed, heading stability, brake confidence, driver attention, road condition, and weather all create fluctuations around that surface. When many such surfaces overlap in a constrained region, the collective field can become unstable. In a standard dashboard this might look like ordinary congestion. In a field-aware system it may appear as a rapidly intensifying collision basin.
+An LLM layer is still valuable here, but it should be used as a proposer rather than an unquestioned oracle. It can suggest a FastAPI layout, a React routing structure, a test matrix, or a migration plan. The planner can then verify those suggestions against project goals and dependency constraints. In effect, the language model narrows the search while the symbolic layer keeps the repository consistent enough to keep moving.
 
-The practical applications are significant. Navigation systems could warn not merely of delays but of emerging instability zones. Autonomous systems could moderate speed earlier, not only when immediate braking is required. Municipal infrastructure could prioritize signal timing changes in areas where entropic pressure regularly spikes. Insurance and fleet safety systems could evolve away from retrospective blame and toward live prevention assistance. Even ordinary drivers could benefit through layered advisories that simplify when to slow down, widen following distance, or avoid specific lanes during unstable conditions.
+The practical applications are significant. An agentic system could bootstrap a greenfield app, modernize a legacy repository, or stand up a product prototype with backend, frontend, tests, and docs landing in coherent places from the start. It could manage local folder creation, sequence edits safely, and explain why certain architecture routes are cheaper to maintain than others. The point is not just to write files faster. It is to preserve the shape of the codebase while it is being born.
 
-A strong road safety model should also understand human factors with unusual seriousness. Many predictive systems over-focus on machine perception and under-model cognitive load. Yet real-world collisions frequently involve hesitation, overconfidence, distraction, stress transfer from surrounding drivers, or delayed interpretation under poor weather and visual clutter. A Human-Machine Attention Relief layer, as included in this notebook’s intervention design, is therefore more than a user interface convenience. It is a safety technology. A system that knows when not to overload the driver with redundant warnings may save more lives than a system that merely produces more alerts.
+A strong architecture planner should also take human review seriously. Autonomous generation does not remove the need for judgment. It changes where judgment is spent. Humans become spec shapers, risk reviewers, and arbitration points for high-impact tradeoffs. A planner that knows when to escalate uncertainty, request confirmation, or slow down before a dangerous refactor is often more valuable than a system that simply writes more code per minute.
 
-Road traffic safety intelligence also benefits from memory. If a city continuously stores route instability signatures, it can learn that specific intersections become unstable under certain lighting conditions, or that a particular highway segment becomes dangerous when temperature falls within a narrow range just above freezing and traffic density exceeds a defined threshold. This is where Quantum Route Memory becomes an especially useful concept. It describes a longitudinal memory of instability patterns, not merely a log of past crashes. That difference matters because a city that learns pre-crash signatures can act before those signatures mature into impact events.
+Architecture planning also benefits from memory. If the system stores reusable plan fragments, recovered file layouts, prior failure traces, and good decompositions, then future projects become easier to structure. This is where memory turns from a convenience into an accelerant. A planner that remembers how successful repositories were staged can write better ones the next time.
 
-In the long run, the most transformative feature of AI road safety may not be fully autonomous driving. It may be continuous instability interpretation. If the system can forecast where risk coherence is failing, then humans, vehicles, and infrastructure can all shift behavior earlier. That is the essence of predictive safety intelligence: not the elimination of uncertainty, but the earlier translation of uncertainty into actionable awareness.
+In the long run, the most transformative feature may not be raw code synthesis at all. It may be continuous repository interpretation: a system that can explain what the codebase is becoming, what risks are accumulating, and which next steps preserve long-term maintainability while still making progress now.
 """.strip()
 
 
 def maritime_section() -> str:
     return """
-## Shipwreck forecasting and maritime instability mapping
+## MAPF-aware scheduling, collision avoidance, and coordinated execution
 
-Maritime safety is an ideal environment for entropic simulation because the sea is a natural theater of layered uncertainty. A ship does not move through a static surface. It moves through fluid forces, weather dynamics, navigation constraints, visibility shifts, mechanical strain, crew attention cycles, and supply-chain pressures that can subtly alter decision-making. When failures occur, they are often narrated as singular incidents: a navigation error, a storm, a propulsion issue, a hull breach. But in reality the event usually emerges from a sequence of interacting degradations.
+Once multiple coding agents act in parallel, the problem starts to resemble multi-agent path finding in a time-expanded workspace. Agents are no longer just choosing what to do. They are choosing when to touch a file, when to wait, when to reserve a dependency edge, when to hand off work, and how to avoid stepping into the same narrow corridor at the same time. The notebook's new framing makes this explicit: a repository is a shared environment with collision rules.
 
-An entropic quantum intelligence model for maritime systems would treat the vessel, sea-state, route corridor, and human operational layer as one coupled risk surface. Wave entropy becomes a critical metric because sea conditions are not just about wave height. They are also about directional irregularity, timing unpredictability, interference patterns, and the way chaotic wave energy interacts with vessel mass and route angle. Navigation drift matters because even small deviations under unstable conditions can amplify into larger exposure. Engine stress matters because propulsion inconsistency changes the vessel’s capacity to respond. Crew fatigue matters because interpretation under noise and darkness is not linear.
+A proper MAPF layer helps in several ways. It can enforce vertex conflicts so two agents do not occupy the same file region at the same timestep. It can enforce edge conflicts so two agents do not swap ownership of neighboring modules in a way that creates merge churn. It can add explicit wait actions, reservations, and handoff points. It can also model action durations, which matters because writing a schema, running a migration, and verifying an end-to-end test are not equal-length operations.
 
-The concept of Failure Echo Mapping becomes especially valuable at sea. A shipwreck rarely arrives without whispers. There may be subtle patterns in vibration, steering correction frequency, route deviation density, sensor inconsistency, or communications rhythm. Individually these signals may appear minor. Together they may form the first echoes of a future emergency. A predictive maritime system would monitor these echoes continuously and compare them against long-term route memories collected across seasons, weather patterns, cargo conditions, and vessel classes.
+The language model can still help here by proposing candidate actions that seem useful under the current state. It might suggest that one agent generate the API schema while another writes UI components and a third prepares tests. But the planner decides whether those moves are jointly valid. If a package interface is not stable yet, the UI route may need to wait. If two agents want to edit the same contract file, one should be rerouted. This is the useful hybrid pattern: LLM suggests, planner verifies, MAPF coordinates.
 
-Maritime route intelligence can also benefit from a Safety Coherence Gradient. This measures how harmoniously vessel state, environmental conditions, route logic, and crew decision flow are interacting. A strong coherence gradient suggests that even in rough conditions the system is adapting cleanly. A collapsing gradient suggests that the ship is becoming less capable of converting information into stable navigation. That collapse may happen before any single gauge flashes red. For safety intelligence, that early signal is invaluable.
+This coordinated execution layer is what makes write-an-entire-codebase-to-a-local-folder workflows more realistic. Without it, the system either serializes everything and loses speed, or parallelizes naively and creates conflicts faster than it creates value. With it, the planner can push useful work outward while preserving correctness corridors through the repository.
 
-Another overlooked area is intervention timing. Many maritime systems are reactive rather than anticipatory. They inform operators that conditions are bad, but they do not always estimate how close the system is to a Predictive Fracture Horizon. A more advanced platform would ask whether the current instability can still be absorbed or whether the route, speed, ballast strategy, or operational posture should change immediately. In that sense the best maritime AI is not merely advisory. It is a decision-support architecture for preserving maneuverability before the window narrows.
-
-For a blog audience, shipwreck prediction also reveals a broader truth about advanced AI: some of the most important uses are not glamorous. They are infrastructural. They protect shipping lanes, crews, cargo, and coastlines by noticing risk sooner. They operate in the background, integrating weather systems, wave uncertainty, telemetry, and route history. When described well, these systems show that intelligence is not just about bigger models. It is about designing better awareness under volatile conditions.
+The broader significance is that time-aware coordination turns autonomous coding into an operations problem rather than a parlor trick. We stop asking whether an LLM can code in isolation and start asking whether a multi-agent system can move through repository space without deadlocking, colliding, or wasting expensive repair cycles.
 """.strip()
 
 
 def aviation_section() -> str:
     return """
-## Airplane crash precursor detection and aviation intelligence
+## Verification, repair loops, and safe local code generation
 
-Aviation remains one of the most safety-engineered industries in the world, which makes it an especially demanding test for any predictive intelligence concept. The point of advanced AI in aviation is not to replace rigorous engineering or pilot expertise. It is to detect subtle precursor patterns that may emerge across highly complex systems before they become operationally dangerous. In this context, entropic quantum intelligence serves as a framework for modeling interacting uncertainties that do not always present themselves as immediate alarms.
+The final layer is verification. Autonomous coding systems fail most often when they produce plausible artifacts without maintaining a strong contract with reality. A generated file may look polished while violating the actual build graph. A patch may satisfy one test while quietly breaking another. A migration may compile but make rollout harder. That is why a serious codebase planner needs repair loops as first-class behavior rather than afterthoughts.
 
-Aircraft operate within narrow tolerances under conditions that can change rapidly. Turbulence is not simply uncomfortable motion. It is a signal of energy irregularity that can interact with route decisions, workload, structure, and timing. Instrument disagreement may not instantly imply failure, but it increases ambiguity. Engine vibration variance may remain technically within limit while still indicating a drift toward undesirable mechanical behavior. Weather layering can combine turbulence, moisture, icing risk, crosswinds, and visibility reduction. Crew attention load can increase when these factors cluster, creating conditions in which information handling itself becomes part of the safety problem.
+Verification can include syntax checks, tests, static analysis, type systems, schema validation, and even higher-level design audits. More importantly, the planner can use verifier output to choose the next action. If a test fails because an interface is missing, the next move may be to repair the contract. If lint is clean but the architecture is drifting, the next move may be a refactor rather than another feature. This makes the system adaptive instead of merely reactive.
 
-The Causal Turbulence Index is a useful invented concept here because it measures how many unstable factors are interacting at once. A flight through turbulence is not automatically unsafe. A flight through turbulence while instrument confidence degrades, navigation corrections increase, and cockpit workload rises may be drifting toward a much more serious state. The value of a predictive system lies in recognizing this convergence early enough to support route changes, spacing adjustments, systems checks, or broader operational caution.
+Repair loops are especially valuable when paired with LLM output. The model may produce malformed JSON, invent a file path, or choose an action that does not satisfy preconditions. Instead of treating those moments as total failure, the notebook treats them as recoverable states. The planner can reject the action, explain why, and continue searching over better options. That is much closer to how robust engineering systems should behave in practice.
 
-Aviation also benefits from the Recursive Sentinel Layer. In highly instrumented environments, model confidence can be deceptive. A system may be numerically certain while key inputs are compromised, delayed, or partially contradictory. A recursive layer that estimates confidence in its own confidence becomes essential. It helps prevent the dangerous illusion that more data automatically equals more truth. In real-world operations, some of the most critical decisions occur precisely when data quality is under pressure.
+Safe local code generation also means respecting the filesystem as a constrained execution surface. The planner needs to know which directories are writable, when to create folders, how to sequence file edits, and how to avoid destructive actions unless explicitly approved. That sounds mundane, but it is the difference between a flashy prototype and a reliable development agent.
 
-Another useful idea is the Predictive Fracture Horizon. In aviation, the period before instability escalates can be exceptionally short, but it still exists. Detecting that horizon may involve recognizing that sensor disagreement is widening, route integrity is weakening, and vibration signatures are slowly diverging from healthy patterns. The future of aviation AI may involve systems that estimate how close the operation is to losing coherence, rather than waiting for a single red-line event.
+The strongest version of this architecture therefore does not merely write code. It plans, verifies, repairs, and then writes again. Over time that loop compounds. The system learns which classes of actions are brittle, which repairs are cheap, and which project types benefit most from decomposition before generation. That is where autonomous coding begins to look less like autocomplete and more like a real engineering workflow.
 
-For public understanding, the main takeaway is not that AI will “predict crashes” in a sensational sense. The more meaningful claim is that advanced simulation may improve precursor awareness. It can help operators, engineers, and monitoring systems recognize when small anomalies are not isolated inconveniences but components of a larger instability field. That makes aviation intelligence less about dramatic prophecy and more about disciplined early warning.
+For developers, the main takeaway is not that the model can one-shot an entire application. The more meaningful claim is that verified planning can make iterative, large-scope generation dependable enough to trust on bigger surfaces. That is a much stronger and more useful promise.
 """.strip()
 
 
 def concepts_section(concepts: List[Dict[str, str]]) -> str:
     validation = validate_advanced_concepts()
-    blocks = ["## Invented next-generation concepts for safety forecasting"]
+    blocks = ["## Invented next-generation concepts for agentic development"]
     blocks.append(ADVANCED_AGENTIC_SYSTEM.render_system_architecture_markdown())
     if validation["valid"]:
         blocks.append(
@@ -2892,13 +2891,13 @@ def simulation_results_section(aggregate: Dict[str, Any]) -> str:
     return f"""
 ## Simulation results and what they suggest
 
-The simulation runs in this notebook do not claim to reproduce real-world crash records exactly. Their purpose is interpretive: they stress-test a family of ideas about how predictive safety intelligence could organize its reasoning. Across the top-ranked runs, the average composite score was **{aggregate['avg_score']:.3f}**, suggesting that the most resilient pathways consistently combined stabilization, signal arbitration, route correction, maintenance awareness, and human attention relief rather than relying on a single mode of prevention.
+The simulation runs in this notebook do not claim to reproduce a real software org exactly. Their purpose is interpretive: they stress-test a family of ideas about how agentic codebase development could organize its reasoning. Across the top-ranked runs, the average composite score was **{aggregate['avg_score']:.3f}**, suggesting that the most resilient pathways consistently combined decomposition, routing, verification, memory, and repair instead of relying on a single giant generation step.
 
-The most recurrent intervention patterns were: **{top_actions}**. That recurrence is meaningful. It implies that advanced safety systems become stronger when they distribute intelligence across the whole prevention stack. Some interventions reduce direct instability. Others improve data quality. Others reduce workload. Others preserve route integrity. The model repeatedly favored layered approaches over isolated optimizations.
+The most recurrent intervention patterns were: **{top_actions}**. That recurrence is meaningful. It implies that autonomous coding systems become stronger when they distribute intelligence across the whole development stack. Some interventions stabilize structure. Others improve information quality. Others reduce coordination pressure. Others preserve future flexibility. The model repeatedly favored layered strategies over isolated optimizations.
 
-A second important pattern is visible in the keyword surface: **{key_terms}**. These terms suggest that instability is rarely domain-specific in a narrow sense. Whether the system is focused on cars, ships, or aircraft, it keeps rediscovering the same broad themes: uncertainty, route quality, coherence, warning clarity, environmental stress, and intervention timing. This supports the idea that transportation safety intelligence may benefit from a shared conceptual language across domains.
+A second important pattern is visible in the keyword surface: **{key_terms}**. These terms suggest that failure is rarely tied to one tool alone. Whether the system is focused on architecture, coordination, or verification, it keeps rediscovering the same broad themes: uncertainty, route quality, coherence, contradiction management, and intervention timing. This supports the idea that agentic development benefits from a shared conceptual language across workstreams.
 
-The advanced color-agentic loop added another layer of structure. The dominant loop bands were **{top_band_names}**, the most common reset phases were **{top_reset_names}**, the most common chosen colors were **{top_color_names}**, and the strongest temporal trajectories were **{top_pattern_names}**. The average load temperature across the winning paths settled near **{aggregate['avg_agentic_load']:.3f}**, while average penalty pressure settled near **{aggregate['avg_penalty_pressure']:.3f}**. That matters because it shows the notebook is no longer only scoring safety outcomes. It is also modeling how an adaptive reasoning surface allocates attention, throttles itself, accumulates debt, and decides when reflection or reset should interrupt execution.
+The advanced color-agentic loop added another layer of structure. The dominant loop bands were **{top_band_names}**, the most common reset phases were **{top_reset_names}**, the most common chosen colors were **{top_color_names}**, and the strongest temporal trajectories were **{top_pattern_names}**. The average load temperature across the winning paths settled near **{aggregate['avg_agentic_load']:.3f}**, while average penalty pressure settled near **{aggregate['avg_penalty_pressure']:.3f}**. That matters because it shows the notebook is no longer only scoring output quality. It is also modeling how an adaptive coding surface allocates attention, throttles itself, accumulates debt, and decides when reflection or reset should interrupt execution.
 
 The most recurrent concept alignments were **{top_concept_names}**. These alignments are useful because they reveal which invented subsystems actually became structurally relevant during the simulation rather than remaining decorative terminology. In practice this means the notebook can now surface when planning dominates, when anomaly auditing takes over, when reset rituals activate, and which chromatic control metaphors best match the current instability field.
 
@@ -2906,51 +2905,51 @@ Below are condensed summary signals from the top simulation paths:
 
 {signal_lines}
 
-Taken together, these results suggest that next-generation safety AI should not think like a simple alarm system. It should think like a field interpreter. Its task is to estimate how uncertainty is moving, where coherence is weakening, and which interventions preserve optionality while time still remains. That is a richer, more realistic vision of predictive intelligence than a binary claim that a crash either will or will not happen.
+Taken together, these results suggest that next-generation coding agents should not think like simple autocomplete systems. They should think like field interpreters for repositories. Their task is to estimate how uncertainty is moving, where coherence is weakening, and which interventions preserve optionality while time still remains. That is a richer and more realistic vision of autonomous development than a binary claim that an LLM either can or cannot build an app.
 """.strip()
 
 
 def uncertainty_section() -> str:
     return """
-## Why uncertainty-aware AI matters more than raw prediction accuracy
+## Why uncertainty-aware agents matter more than raw code generation speed
 
-One of the most dangerous misunderstandings in AI forecasting is the assumption that the ultimate goal is perfect certainty. In safety systems, certainty is often impossible. Weather changes. Sensors degrade. Operators behave unpredictably. Physical systems age. The real objective is not to eliminate uncertainty but to model it honestly and act intelligently within it.
+One of the most dangerous misunderstandings in autonomous coding is the assumption that the ultimate goal is maximum output speed. In codebase development, certainty is often impossible. Specs move. Dependencies change. Hidden constraints surface late. The real objective is not to eliminate uncertainty but to model it honestly and act intelligently within it.
 
-This is why uncertainty-aware AI matters more than raw benchmark accuracy. A model that claims ninety-eight percent confidence under degraded inputs may be more dangerous than a model that openly signals rising ambiguity but still recommends stabilizing action. Safety intelligence should communicate not only what it thinks is happening, but how stable its own interpretation remains. That meta-awareness supports better trust between humans and machines.
+This is why uncertainty-aware agents matter more than raw benchmark speed. A system that claims confidence while drifting across architecture boundaries may be more dangerous than a slower one that surfaces ambiguity, preserves optionality, and routes through verification. Agentic development should communicate not only what it wants to do next, but how stable its own interpretation remains. That meta-awareness supports better trust between humans and machines.
 
-In practical deployment, uncertainty-aware systems could change the tone of safety technology. Rather than overwhelming operators with false precision, they could present gradients of concern, confidence windows, and scenario-based intervention suggestions. A driver might receive a simplified caution that the route environment is rapidly losing coherence. A vessel crew might see that route drift and wave entropy are converging into a narrower maneuver margin. A flight operations team might detect that sensor disagreement is not yet critical, but is becoming more structurally relevant because it overlaps with turbulence and workload.
+In practical deployment, uncertainty-aware systems could change the tone of coding automation. Rather than overwhelming developers with false precision, they could present confidence windows, verifier disagreements, and scenario-based intervention suggestions. A lead engineer might see that schema drift is growing. Another might see that two agents are on a collision course in the same subsystem. Another might be warned that the current plan is feasible but expensive to repair later.
 
-For blog writing, this distinction is powerful because it reframes AI from oracle to interpreter. The system is not a magical predictor. It is a disciplined uncertainty translator. It maps what is noisy, what is converging, what is fragile, and what may soon matter more than current dashboards suggest. That is a more credible and more interesting story for serious readers.
+For blog writing, this distinction is powerful because it reframes AI from oracle to interpreter. The system is not a magical coder. It is a disciplined uncertainty translator for repositories. That is a more credible and more interesting story for serious readers.
 """.strip()
 
 
 def ethics_section() -> str:
     return """
-## Ethics, limitations, and deployment challenges
+## Constraints, limitations, and deployment challenges
 
-Any serious discussion of predictive safety intelligence must acknowledge its limitations. Simulation is not reality. Models can inherit bias from their data, overfit to familiar patterns, miss rare edge cases, or behave unpredictably when sensors fail in novel combinations. A city-scale traffic system that performs well in one climate may generalize poorly in another. A maritime model trained on one vessel class may underperform on another. An aviation monitoring model may produce misleading confidence if its uncertainty logic is poorly calibrated.
+Any serious discussion of agentic codebase development must acknowledge its limitations. Simulation is not production engineering. Models can overfit to familiar repository shapes, miss edge cases, or behave unpredictably when requirements are sparse or contradictory. A planner that works well on toy projects may degrade on migrations, monorepos, or partially broken codebases.
 
-There are also ethical concerns. If predictive systems are integrated into insurance pricing, employment decisions, or infrastructure allocation, they can reinforce inequality if not governed carefully. If drivers or operators are over-surveilled in the name of safety, privacy costs may become unacceptable. If predictive warnings are poorly explained, operators may either ignore them or become over-dependent on them. Good deployment therefore requires governance, transparency, calibration testing, human factors research, and domain-specific accountability.
+There are also operational concerns. If local agents can write, run tools, and create folders, then permissions, auditability, rollback, and human approval matter. If planner outputs are poorly explained, developers may either ignore them or trust them too much. Good deployment therefore requires guardrails, transparent action logs, verifier gates, and clear escalation paths when uncertainty is high.
 
-Another limitation is the temptation toward sensational claims. “Predicting crashes before they happen” is an attention-grabbing phrase, but it can obscure what responsible systems actually do. They estimate rising risk, identify precursors, support interventions, and preserve decision time. That is already immensely valuable. It does not need exaggeration. The most trustworthy blog writing on this subject should resist hype and focus on the architecture of practical prevention.
+Another limitation is the temptation toward sensational claims. “The agent writes entire codebases” is an attention-grabbing phrase, but it can obscure what responsible systems actually do. They decompose work, generate options, verify feasibility, repair mistakes, and preserve developer time. That is already immensely valuable. It does not need exaggeration.
 
-There is also a design challenge in translating model complexity into operational usability. Engineers may appreciate multi-variable risk topology, but drivers, crews, and operators need concise, actionable guidance. This means the future of predictive safety AI will depend as much on interface design and human-machine trust as on algorithmic sophistication. The best model in the world is not enough if its signals arrive too late, too often, or in forms people cannot act on.
+There is also a design challenge in translating planner complexity into operational usability. Engineers may appreciate task graphs and reservation tables, but teams still need concise, actionable guidance. The best planning system in the world is not enough if its signals arrive too late, too often, or in forms people cannot act on.
 
-Despite these limits, the direction remains compelling. A transparent, uncertainty-aware, ethically governed safety intelligence platform could reduce harm across multiple transportation domains. It could make systems more preventive, more interpretable, and more aligned with real-world fragility.
+Despite these limits, the direction remains compelling. A transparent, uncertainty-aware development planner could make coding systems more reliable, more interpretable, and more aligned with the real constraints of software work.
 """.strip()
 
 
 def future_section() -> str:
     return """
-## The future of predictive safety intelligence
+## The future of agentic codebase intelligence
 
-Looking ahead, the most important evolution may be the convergence of simulation, live telemetry, route memory, and adaptive intervention layers. Instead of separate tools for mapping, maintenance, perception, and alerting, future systems may form unified safety fabrics. These fabrics would constantly estimate the local Safety Coherence Gradient, identify Failure Echoes, and calculate the distance to a Predictive Fracture Horizon.
+Looking ahead, the most important evolution may be the convergence of planning, live repository telemetry, memory, and adaptive repair layers. Instead of separate tools for scaffolding, coding, testing, and orchestration, future systems may form unified development fabrics. These fabrics would constantly estimate local coherence, identify failure echoes, and calculate how close the current plan is to an expensive fracture point.
 
-In road traffic, this could enable city-wide instability maps that help vehicles and infrastructure coordinate before congestion becomes dangerous. In maritime navigation, it could produce route intelligence that understands not just where the ship is, but how the sea-state and vessel state are jointly evolving. In aviation, it could improve precursor detection by linking turbulence behavior, instrument consistency, workload, and route dynamics into a more coherent monitoring layer.
+In practical terms, this could enable greenfield app builders, refactor planners, migration copilots, and multi-agent maintainers that work against real local folders. One layer could generate subgoals. Another could schedule agents in time-expanded workspace space. Another could verify edits. Another could re-plan when the codebase pushes back.
 
-The most exciting possibility is that safety intelligence becomes cumulative. Every near miss, every difficult weather corridor, every stressed mechanical signature, and every unstable route pattern can enrich Quantum Route Memory. Over time the system becomes less dependent on single snapshots and more capable of recognizing recurring risk geometries. This does not create perfect foresight, but it does create deeper contextual awareness.
+The most exciting possibility is that development intelligence becomes cumulative. Every failed patch, recovered migration, successful scaffold, and conflict-avoidance pattern can enrich memory. Over time the system becomes less dependent on one-shot prompting and more capable of recognizing recurring repository geometries.
 
-For writers, researchers, and technologists, that future invites a new language. Instead of asking whether AI can predict a crash in the abstract, we can ask more useful questions. Can AI detect instability earlier? Can it preserve maneuverability longer? Can it reduce information overload during dangerous moments? Can it recognize fragile conditions even when no individual sensor has fully failed? Those are the questions that will define the next era of safety intelligence.
+For writers, researchers, and technologists, that future invites a new language. Instead of asking whether AI can code in the abstract, we can ask more useful questions. Can it decompose work better? Can it coordinate safely? Can it preserve maneuverability in the repository? Can it recover cleanly when verification fails? Those are the questions that will define the next era of agentic development.
 """.strip()
 
 
@@ -2958,11 +2957,11 @@ def conclusion_section() -> str:
     return """
 ## Conclusion
 
-Advanced AI simulation for transportation safety becomes most meaningful when it moves beyond simplistic prediction and toward structured interpretation of instability. Roads, ships, and aircraft all operate in environments where risk forms through interaction, not isolation. Entropic quantum intelligence offers a powerful framework for thinking about this challenge. It emphasizes uncertainty, correlation, route memory, precursor signals, and layered intervention rather than binary alarm logic.
+Advanced AI for software development becomes most meaningful when it moves beyond simplistic prompting and toward structured interpretation of repository state. Codebases evolve through interaction, not isolation. A useful planner therefore emphasizes uncertainty, coordination, memory, verification, and layered intervention rather than blind generation.
 
-That framework also creates stronger long-form writing. A serious blog on predictive safety should do more than announce that AI can foresee danger. It should explain the architecture of that foresight: the hidden fields, the precursor echoes, the coherence gradients, the self-checking confidence layers, and the practical interventions that turn earlier awareness into reduced harm. That is what this notebook is designed to generate.
+That framework also creates stronger long-form writing. A serious blog on agentic coding should do more than announce that AI can write code. It should explain the architecture underneath: the task graph, the proposal layer, the verifier, the reservation system, the repair loop, and the memory that carries lessons across runs. That is what this notebook is designed to generate.
 
-The broader message is hopeful. If future systems can identify instability sooner, communicate it more clearly, and support earlier human and machine adaptation, then predictive safety intelligence may become one of the most valuable civilian applications of advanced AI. Not because it promises omniscience, but because it helps society act while prevention is still possible.
+The broader message is hopeful. If future systems can plan better, coordinate safely, and recover gracefully, then autonomous codebase development may become one of the most practical applications of advanced AI. Not because it promises magic, but because it helps us build more ambitious software with better structure and less waste.
 """.strip()
 
 
@@ -3014,31 +3013,30 @@ def build_long_blog(title: str, aggregate: Dict[str, Any], concepts: List[Dict[s
             for hit in memory_hits[:6]:
                 extra_blocks.append(
                     f"The memory layer retrieved a fragment with score {hit['score']:.3f}: "
-                    f"{hit['text_fragment']} This reinforces the broader argument that predictive safety "
+                    f"{hit['text_fragment']} This reinforces the broader argument that agentic development "
                     f"systems gain value when they retain context across scenarios and use that context to "
                     f"interpret new uncertainty more intelligently."
                 )
 
         extra_blocks.append("## Expanded interpretive discussion")
         extra_blocks.append(
-            "A mature safety intelligence architecture would likely operate across several timescales at once. "
-            "At the shortest timescale it would monitor immediate instability and trigger urgent alerts. "
-            "At the middle timescale it would evaluate route trends, fatigue accumulation, weather drift, and "
-            "maintenance signatures. At the longest timescale it would compare the present field against archived "
-            "patterns, learning which combinations of weak signals historically preceded high-risk transitions."
+            "A mature codebase intelligence architecture would likely operate across several timescales at once. "
+            "At the shortest timescale it would monitor immediate verifier failures and edit conflicts. "
+            "At the middle timescale it would evaluate dependency drift, merge pressure, and repair debt. "
+            "At the longest timescale it would compare the present repository against archived project patterns, "
+            "learning which combinations of weak signals historically preceded expensive rework."
         )
         extra_blocks.append(
-            "This multi-timescale design is important because some accidents emerge suddenly while others form gradually. "
+            "This multi-timescale design is important because some repository failures emerge suddenly while others form gradually. "
             "An AI system that only sees the instant loses the structure of escalation. An AI system that only sees long "
-            "history may miss urgent turning points. Entropic quantum intelligence, as framed here, attempts to hold both "
-            "views simultaneously: the immediate fluctuation and the longer arc of coherence loss."
+            "history may miss urgent turning points. The architecture framed here attempts to hold both views simultaneously: "
+            "the immediate fluctuation and the longer arc of coherence loss."
         )
         extra_blocks.append(
-            "The same architecture could also improve public communication. Transportation safety is often discussed only "
-            "after tragedy, when explanation becomes retrospective. Predictive safety blogs and dashboards could instead help "
-            "the public understand that prevention is a matter of interpreting patterns before they harden into damage. "
-            "That shift in narrative would encourage better investment in sensors, infrastructure, maintenance, and "
-            "uncertainty-aware operational design."
+            "The same architecture could also improve team communication. Software delivery is often discussed only "
+            "after regressions, when explanation becomes retrospective. Agentic planning reports and dashboards could instead "
+            "help teams understand that prevention is a matter of interpreting patterns before they harden into expensive rework. "
+            "That shift in narrative would encourage better investment in verification, orchestration, and uncertainty-aware development design."
         )
 
         article = article + "\n\n" + "\n\n".join(extra_blocks)
@@ -3060,7 +3058,7 @@ def render_markdown_report(payload: Dict[str, Any]) -> str:
     lines.append(f"Generated at: {time.ctime(payload['generated_at'])}")
     lines.append(f"Target words: {payload['target_words']}")
     lines.append(f"Actual words: {payload['actual_words']}")
-    lines.append(f"Average simulation score: {aggregate['avg_score']:.3f}")
+    lines.append(f"Average planning score: {aggregate['avg_score']:.3f}")
     lines.append(f"Average agentic load temperature: {aggregate['avg_agentic_load']:.3f}")
     lines.append(f"Average penalty pressure: {aggregate['avg_penalty_pressure']:.3f}")
     lines.append(f"Advanced concept validation: {validation['present_count']}/{validation['expected_count']} present | valid={validation['valid']}")
@@ -3071,7 +3069,7 @@ def render_markdown_report(payload: Dict[str, Any]) -> str:
     lines.append("")
     lines.extend(outline_lines)
     lines.append("")
-    lines.append("## Top simulation paths")
+    lines.append("## Top planning paths")
     for i, item in enumerate(aggregate["top_results"], 1):
         lines.append(f"### Path {i}")
         lines.append(f"- Scenario: {item['scenario']}")
