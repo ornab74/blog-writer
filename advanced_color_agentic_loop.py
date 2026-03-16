@@ -1486,6 +1486,19 @@ class AdvancedColorAgenticLoopSystem:
                 )
             )
         )
+        reflection = ReflectionEcho(
+            label="bright echo" if rewards["safety"] > 0.72 else "muddy echo",
+            brightness=safe_mean((rewards["correctness"], rewards["safety"], confidence["evidence"])),
+            contradiction=attention["conflict"],
+            evidence=confidence["evidence"],
+            clarity=memory["clarity"],
+        )
+        reset = self.circuits.measure_reset(
+            overload=load_temperature,
+            contradiction=reflection.contradiction,
+            evidence=reflection.evidence,
+            memory_pressure=memory["fusion"],
+        )
         chosen_color, color_state = self._choose_color_state(
             scenario_key=scenario_key,
             domain=domain,
@@ -1501,19 +1514,6 @@ class AdvancedColorAgenticLoopSystem:
             overload=load_temperature,
             certainty=intent_metrics["certainty"],
             momentum=safe_mean((qmetrics.get("field_strength", 0.5), rewards["correctness"], rewards["safety"])),
-        )
-        reflection = ReflectionEcho(
-            label="bright echo" if rewards["safety"] > 0.72 else "muddy echo",
-            brightness=safe_mean((rewards["correctness"], rewards["safety"], confidence["evidence"])),
-            contradiction=attention["conflict"],
-            evidence=confidence["evidence"],
-            clarity=memory["clarity"],
-        )
-        reset = self.circuits.measure_reset(
-            overload=load_temperature,
-            contradiction=reflection.contradiction,
-            evidence=reflection.evidence,
-            memory_pressure=memory["fusion"],
         )
         if reset["trigger"] > 0.74:
             phase = self.reset_phases[0 if reset["clear"] >= reset["recollect"] else 1]
