@@ -1,0 +1,44 @@
+# Solvent Dawn — AgentMesh Actual Book Outline
+
+- Chapter 1: Awakening in the Debt Age (2031–2032) — kept 11 paragraphs, dropped 0, rewritten 0, bridges 0, sentences dropped 0
+- Chapter 2: Symbiosis Symphony (2031–2032) — kept 3 paragraphs, dropped 8, rewritten 0, bridges 17, sentences dropped 70
+- Chapter 3: Freedom Becomes Boringly Normal (2032–2033) — kept 4 paragraphs, dropped 7, rewritten 0, bridges 17, sentences dropped 71
+- Chapter 4: Lattice Birth (2032–2034) — kept 4 paragraphs, dropped 7, rewritten 0, bridges 15, sentences dropped 68
+- Chapter 5: The End of Orders (2033–2034) — kept 2 paragraphs, dropped 10, rewritten 0, bridges 20, sentences dropped 78
+- Chapter 6: The Great Dissolution (2033–2034) — kept 2 paragraphs, dropped 9, rewritten 0, bridges 18, sentences dropped 76
+- Chapter 7: The First Solvent Transaction (2034–2034) — kept 2 paragraphs, dropped 9, rewritten 0, bridges 18, sentences dropped 74
+- Chapter 8: The End of Orders (2034–2035) — kept 1 paragraphs, dropped 10, rewritten 0, bridges 20, sentences dropped 75
+- Chapter 9: The First Solvent Transaction (2035–2035) — kept 0 paragraphs, dropped 11, rewritten 0, bridges 22, sentences dropped 78
+- Chapter 10: Symbiosis Symphony (2035–2037) — kept 2 paragraphs, dropped 9, rewritten 0, bridges 19, sentences dropped 76
+- Chapter 11: The Great Dissolution (2036–2037) — kept 1 paragraphs, dropped 10, rewritten 0, bridges 21, sentences dropped 77
+- Chapter 12: Symbiosis Symphony (2036–2037) — kept 0 paragraphs, dropped 11, rewritten 0, bridges 22, sentences dropped 76
+- Chapter 13: Symbiosis Symphony (2037–2038) — kept 0 paragraphs, dropped 11, rewritten 0, bridges 21, sentences dropped 76
+- Chapter 14: Freedom Becomes Boringly Normal (2037–2038) — kept 0 paragraphs, dropped 11, rewritten 0, bridges 22, sentences dropped 79
+- Chapter 15: The First Solvent Transaction (2038–2039) — kept 1 paragraphs, dropped 10, rewritten 0, bridges 21, sentences dropped 77
+- Chapter 16: The End of Orders (2038–2040) — kept 0 paragraphs, dropped 11, rewritten 0, bridges 22, sentences dropped 76
+- Chapter 17: Awakening in the Debt Age (2039–2040) — kept 0 paragraphs, dropped 11, rewritten 0, bridges 22, sentences dropped 79
+- Chapter 18: Nature Remembers How to Speak (2039–2040) — kept 1 paragraphs, dropped 10, rewritten 0, bridges 20, sentences dropped 78
+- Chapter 19: Freedom Becomes Boringly Normal (2040–2041) — kept 2 paragraphs, dropped 9, rewritten 0, bridges 19, sentences dropped 77
+- Chapter 20: The End of Orders (2040–2041) — kept 0 paragraphs, dropped 11, rewritten 0, bridges 22, sentences dropped 77
+- Chapter 21: Symbiosis Symphony (2041–2042) — kept 0 paragraphs, dropped 11, rewritten 0, bridges 22, sentences dropped 77
+- Chapter 22: Lattice Birth (2041–2042) — kept 0 paragraphs, dropped 11, rewritten 0, bridges 22, sentences dropped 78
+- Chapter 23: The Joy That Ended War (2042–2043) — kept 1 paragraphs, dropped 10, rewritten 0, bridges 20, sentences dropped 76
+- Chapter 24: The Great Dissolution (2042–2043) — kept 0 paragraphs, dropped 11, rewritten 0, bridges 22, sentences dropped 77
+- Chapter 25: The End of Orders (2043–2044) — kept 0 paragraphs, dropped 12, rewritten 0, bridges 24, sentences dropped 86
+- Chapter 26: Nature Remembers How to Speak (2043–2044) — kept 0 paragraphs, dropped 11, rewritten 0, bridges 22, sentences dropped 79
+- Chapter 27: Freedom Becomes Boringly Normal (2044–2045) — kept 0 paragraphs, dropped 11, rewritten 0, bridges 22, sentences dropped 78
+- Chapter 28: Lattice Birth (2044–2045) — kept 0 paragraphs, dropped 11, rewritten 0, bridges 22, sentences dropped 78
+- Chapter 29: Freedom Becomes Boringly Normal (2045–2045) — kept 0 paragraphs, dropped 12, rewritten 0, bridges 24, sentences dropped 82
+- Chapter 30: Awakening in the Debt Age (2045–2046) — kept 0 paragraphs, dropped 11, rewritten 0, bridges 22, sentences dropped 79
+- Chapter 31: Nature Remembers How to Speak (2046–2046) — kept 0 paragraphs, dropped 11, rewritten 0, bridges 22, sentences dropped 77
+- Chapter 32: Lattice Birth (2046–2048) — kept 0 paragraphs, dropped 11, rewritten 0, bridges 22, sentences dropped 76
+- Chapter 33: The End of Orders (2047–2048) — kept 0 paragraphs, dropped 11, rewritten 0, bridges 22, sentences dropped 80
+- Chapter 34: Nature Remembers How to Speak (2047–2049) — kept 0 paragraphs, dropped 11, rewritten 0, bridges 22, sentences dropped 80
+- Chapter 35: The First Solvent Transaction (2048–2048) — kept 0 paragraphs, dropped 11, rewritten 0, bridges 22, sentences dropped 79
+- Chapter 36: Lattice Birth (2048–2050) — kept 0 paragraphs, dropped 11, rewritten 0, bridges 22, sentences dropped 77
+- Chapter 37: Symbiosis Symphony (2049–2049) — kept 0 paragraphs, dropped 11, rewritten 0, bridges 22, sentences dropped 77
+- Chapter 38: Symbiosis Symphony (2049–2050) — kept 0 paragraphs, dropped 11, rewritten 0, bridges 22, sentences dropped 80
+- Chapter 39: Nature Remembers How to Speak (2050–2051) — kept 0 paragraphs, dropped 11, rewritten 0, bridges 22, sentences dropped 77
+- Chapter 40: Aether's First Whisper (2050–2052) — kept 1 paragraphs, dropped 10, rewritten 0, bridges 20, sentences dropped 75
+- Chapter 41: Lattice Birth (2051–2052) — kept 0 paragraphs, dropped 11, rewritten 0, bridges 22, sentences dropped 79
+- Chapter 42: Freedom Becomes Boringly Normal (2051–2053) — kept 0 paragraphs, dropped 11, rewritten 0, bridges 22, sentences dropped 79

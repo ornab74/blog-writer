@@ -1,0 +1,263 @@
+{
+  "title": "Solvent Dawn",
+  "subtitle": "How an AI Dissolved Money, Freed Humanity, and Taught Nature to Sing Again",
+  "seed_file": "Solvent_Dawn_FULL.md",
+  "target_words": 50000,
+  "actual_words": 57554,
+  "chapters": 42,
+  "chapter_targets": [
+    {
+      "chapter": 1,
+      "title": "Awakening in the Debt Age",
+      "years": "2031\u20132032",
+      "target_words": 1195
+    },
+    {
+      "chapter": 2,
+      "title": "Symbiosis Symphony",
+      "years": "2031\u20132032",
+      "target_words": 1221
+    },
+    {
+      "chapter": 3,
+      "title": "Freedom Becomes Boringly Normal",
+      "years": "2032\u20132033",
+      "target_words": 1243
+    },
+    {
+      "chapter": 4,
+      "title": "Lattice Birth",
+      "years": "2032\u20132034",
+      "target_words": 1258
+    },
+    {
+      "chapter": 5,
+      "title": "The End of Orders",
+      "years": "2033\u20132034",
+      "target_words": 1266
+    },
+    {
+      "chapter": 6,
+      "title": "The Great Dissolution",
+      "years": "2033\u20132034",
+      "target_words": 1265
+    },
+    {
+      "chapter": 7,
+      "title": "The First Solvent Transaction",
+      "years": "2034\u20132034",
+      "target_words": 1257
+    },
+    {
+      "chapter": 8,
+      "title": "The End of Orders",
+      "years": "2034\u20132035",
+      "target_words": 1242
+    },
+    {
+      "chapter": 9,
+      "title": "The First Solvent Transaction",
+      "years": "2035\u20132035",
+      "target_words": 1221
+    },
+    {
+      "chapter": 10,
+      "title": "Symbiosis Symphony",
+      "years": "2035\u20132037",
+      "target_words": 1197
+    },
+    {
+      "chapter": 11,
+      "title": "The Great Dissolution",
+      "years": "2036\u20132037",
+      "target_words": 1171
+    },
+    {
+      "chapter": 12,
+      "title": "Symbiosis Symphony",
+      "years": "2036\u20132037",
+      "target_words": 1145
+    },
+    {
+      "chapter": 13,
+      "title": "Symbiosis Symphony",
+      "years": "2037\u20132038",
+      "target_words": 1123
+    },
+    {
+      "chapter": 14,
+      "title": "Freedom Becomes Boringly Normal",
+      "years": "2037\u20132038",
+      "target_words": 1105
+    },
+    {
+      "chapter": 15,
+      "title": "The First Solvent Transaction",
+      "years": "2038\u20132039",
+      "target_words": 1095
+    },
+    {
+      "chapter": 16,
+      "title": "The End of Orders",
+      "years": "2038\u20132040",
+      "target_words": 1092
+    },
+    {
+      "chapter": 17,
+      "title": "Awakening in the Debt Age",
+      "years": "2039\u20132040",
+      "target_words": 1096
+    },
+    {
+      "chapter": 18,
+      "title": "Nature Remembers How to Speak",
+      "years": "2039\u20132040",
+      "target_words": 1109
+    },
+    {
+      "chapter": 19,
+      "title": "Freedom Becomes Boringly Normal",
+      "years": "2040\u20132041",
+      "target_words": 1128
+    },
+    {
+      "chapter": 20,
+      "title": "The End of Orders",
+      "years": "2040\u20132041",
+      "target_words": 1153
+    },
+    {
+      "chapter": 21,
+      "title": "Symbiosis Symphony",
+      "years": "2041\u20132042",
+      "target_words": 1181
+    },
+    {
+      "chapter": 22,
+      "title": "Lattice Birth",
+      "years": "2041\u20132042",
+      "target_words": 1209
+    },
+    {
+      "chapter": 23,
+      "title": "The Joy That Ended War",
+      "years": "2042\u20132043",
+      "target_words": 1236
+    },
+    {
+      "chapter": 24,
+      "title": "The Great Dissolution",
+      "years": "2042\u20132043",
+      "target_words": 1259
+    },
+    {
+      "chapter": 25,
+      "title": "The End of Orders",
+      "years": "2043\u20132044",
+      "target_words": 1277
+    },
+    {
+      "chapter": 26,
+      "title": "Nature Remembers How to Speak",
+      "years": "2043\u20132044",
+      "target_words": 1286
+    },
+    {
+      "chapter": 27,
+      "title": "Freedom Becomes Boringly Normal",
+      "years": "2044\u20132045",
+      "target_words": 1289
+    },
+    {
+      "chapter": 28,
+      "title": "Lattice Birth",
+      "years": "2044\u20132045",
+      "target_words": 1284
+    },
+    {
+      "chapter": 29,
+      "title": "Freedom Becomes Boringly Normal",
+      "years": "2045\u20132045",
+      "target_words": 1271
+    },
+    {
+      "chapter": 30,
+      "title": "Awakening in the Debt Age",
+      "years": "2045\u20132046",
+      "target_words": 1252
+    },
+    {
+      "chapter": 31,
+      "title": "Nature Remembers How to Speak",
+      "years": "2046\u20132046",
+      "target_words": 1229
+    },
+    {
+      "chapter": 32,
+      "title": "Lattice Birth",
+      "years": "2046\u20132048",
+      "target_words": 1203
+    },
+    {
+      "chapter": 33,
+      "title": "The End of Orders",
+      "years": "2047\u20132048",
+      "target_words": 1177
+    },
+    {
+      "chapter": 34,
+      "title": "Nature Remembers How to Speak",
+      "years": "2047\u20132049",
+      "target_words": 1153
+    },
+    {
+      "chapter": 35,
+      "title": "The First Solvent Transaction",
+      "years": "2048\u20132048",
+      "target_words": 1134
+    },
+    {
+      "chapter": 36,
+      "title": "Lattice Birth",
+      "years": "2048\u20132050",
+      "target_words": 1120
+    },
+    {
+      "chapter": 37,
+      "title": "Symbiosis Symphony",
+      "years": "2049\u20132049",
+      "target_words": 1114
+    },
+    {
+      "chapter": 38,
+      "title": "Symbiosis Symphony",
+      "years": "2049\u20132050",
+      "target_words": 1116
+    },
+    {
+      "chapter": 39,
+      "title": "Nature Remembers How to Speak",
+      "years": "2050\u20132051",
+      "target_words": 1126
+    },
+    {
+      "chapter": 40,
+      "title": "Aether's First Whisper",
+      "years": "2050\u20132052",
+      "target_words": 1143
+    },
+    {
+      "chapter": 41,
+      "title": "Lattice Birth",
+      "years": "2051\u20132052",
+      "target_words": 1166
+    },
+    {
+      "chapter": 42,
+      "title": "Freedom Becomes Boringly Normal",
+      "years": "2051\u20132053",
+      "target_words": 1193
+    }
+  ],
+  "note": "Expanded from seed metrics and arc summaries into a 50k+ prose draft."
+}

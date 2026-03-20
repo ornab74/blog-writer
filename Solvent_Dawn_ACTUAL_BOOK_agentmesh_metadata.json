@@ -1,0 +1,943 @@
+{
+  "title": "Solvent Dawn",
+  "subtitle": "How an AI Dissolved Money, Freed Humanity, and Taught Nature to Sing Again",
+  "seed_file": "Solvent_Dawn_FULL.md",
+  "draft_file": "Solvent_Dawn_50k_from_notebook.md",
+  "metadata_file": "Solvent_Dawn_50k_from_notebook_metadata.json",
+  "actual_words": 11006,
+  "chapters_compiled": 42,
+  "chapters_missing_from_draft": [],
+  "agentmesh": {
+    "llm_enabled": true,
+    "sentence_similarity_threshold": 0.86,
+    "paragraph_similarity_threshold": 0.82,
+    "memory_paragraph_window": 180
+  },
+  "chapter_stats": [
+    {
+      "chapter": 1,
+      "title": "Awakening in the Debt Age",
+      "kept_paragraphs": 11,
+      "paragraphs_dropped": 0,
+      "paragraphs_rewritten": 0,
+      "sentences_dropped": 0,
+      "bridges_added": 0,
+      "storyline_spline": {
+        "vector": [
+          0.4502,
+          1.0,
+          0.5626,
+          0.9183999999999999
+        ],
+        "dominant": [
+          "symbiosis",
+          "joy"
+        ],
+        "summary": "dominant energies: symbiosis + joy"
+      }
+    },
+    {
+      "chapter": 2,
+      "title": "Symbiosis Symphony",
+      "kept_paragraphs": 3,
+      "paragraphs_dropped": 8,
+      "paragraphs_rewritten": 0,
+      "sentences_dropped": 70,
+      "bridges_added": 17,
+      "storyline_spline": {
+        "vector": [
+          0.4424,
+          1.0,
+          0.5466,
+          0.9796
+        ],
+        "dominant": [
+          "symbiosis",
+          "joy"
+        ],
+        "summary": "dominant energies: symbiosis + joy"
+      }
+    },
+    {
+      "chapter": 3,
+      "title": "Freedom Becomes Boringly Normal",
+      "kept_paragraphs": 4,
+      "paragraphs_dropped": 7,
+      "paragraphs_rewritten": 0,
+      "sentences_dropped": 71,
+      "bridges_added": 17,
+      "storyline_spline": {
+        "vector": [
+          0.4632,
+          1.0,
+          0.5474000000000001,
+          0.9998
+        ],
+        "dominant": [
+          "symbiosis",
+          "joy"
+        ],
+        "summary": "dominant energies: symbiosis + joy"
+      }
+    },
+    {
+      "chapter": 4,
+      "title": "Lattice Birth",
+      "kept_paragraphs": 4,
+      "paragraphs_dropped": 7,
+      "paragraphs_rewritten": 0,
+      "sentences_dropped": 68,
+      "bridges_added": 15,
+      "storyline_spline": {
+        "vector": [
+          0.521,
+          0.9990000000000001,
+          0.5508000000000001,
+          0.9993999999999998
+        ],
+        "dominant": [
+          "joy",
+          "symbiosis"
+        ],
+        "summary": "dominant energies: joy + symbiosis"
+      }
+    },
+    {
+      "chapter": 5,
+      "title": "The End of Orders",
+      "kept_paragraphs": 2,
+      "paragraphs_dropped": 10,
+      "paragraphs_rewritten": 0,
+      "sentences_dropped": 78,
+      "bridges_added": 20,
+      "storyline_spline": {
+        "vector": [
+          0.6032,
+          0.9969999999999999,
+          0.5651999999999999,
+          0.9998
+        ],
+        "dominant": [
+          "joy",
+          "symbiosis"
+        ],
+        "summary": "dominant energies: joy + symbiosis"
+      }
+    },
+    {
+      "chapter": 6,
+      "title": "The Great Dissolution",
+      "kept_paragraphs": 2,
+      "paragraphs_dropped": 9,
+      "paragraphs_rewritten": 0,
+      "sentences_dropped": 76,
+      "bridges_added": 18,
+      "storyline_spline": {
+        "vector": [
+          0.7585999999999999,
+          0.9989999999999999,
+          0.5718,
+          1.0
+        ],
+        "dominant": [
+          "joy",
+          "symbiosis"
+        ],
+        "summary": "dominant energies: joy + symbiosis"
+      }
+    },
+    {
+      "chapter": 7,
+      "title": "The First Solvent Transaction",
+      "kept_paragraphs": 2,
+      "paragraphs_dropped": 9,
+      "paragraphs_rewritten": 0,
+      "sentences_dropped": 74,
+      "bridges_added": 18,
+      "storyline_spline": {
+        "vector": [
+          0.9461999999999999,
+          0.9998,
+          0.604,
+          1.0
+        ],
+        "dominant": [
+          "joy",
+          "symbiosis"
+        ],
+        "summary": "dominant energies: joy + symbiosis"
+      }
+    },
+    {
+      "chapter": 8,
+      "title": "The End of Orders",
+      "kept_paragraphs": 1,
+      "paragraphs_dropped": 10,
+      "paragraphs_rewritten": 0,
+      "sentences_dropped": 75,
+      "bridges_added": 20,
+      "storyline_spline": {
+        "vector": [
+          0.9985999999999999,
+          0.9871999999999999,
+          0.6140000000000001,
+          1.0
+        ],
+        "dominant": [
+          "joy",
+          "freedom"
+        ],
+        "summary": "dominant energies: joy + freedom"
+      }
+    },
+    {
+      "chapter": 9,
+      "title": "The First Solvent Transaction",
+      "kept_paragraphs": 0,
+      "paragraphs_dropped": 11,
+      "paragraphs_rewritten": 0,
+      "sentences_dropped": 78,
+      "bridges_added": 22,
+      "storyline_spline": {
+        "vector": [
+          0.9996,
+          0.9109999999999999,
+          0.6906,
+          1.0
+        ],
+        "dominant": [
+          "joy",
+          "freedom"
+        ],
+        "summary": "dominant energies: joy + freedom"
+      }
+    },
+    {
+      "chapter": 10,
+      "title": "Symbiosis Symphony",
+      "kept_paragraphs": 2,
+      "paragraphs_dropped": 9,
+      "paragraphs_rewritten": 0,
+      "sentences_dropped": 76,
+      "bridges_added": 19,
+      "storyline_spline": {
+        "vector": [
+          1.0,
+          0.8122,
+          0.7616,
+          1.0
+        ],
+        "dominant": [
+          "freedom",
+          "joy"
+        ],
+        "summary": "dominant energies: freedom + joy"
+      }
+    },
+    {
+      "chapter": 11,
+      "title": "The Great Dissolution",
+      "kept_paragraphs": 1,
+      "paragraphs_dropped": 10,
+      "paragraphs_rewritten": 0,
+      "sentences_dropped": 77,
+      "bridges_added": 21,
+      "storyline_spline": {
+        "vector": [
+          1.0,
+          0.8374000000000001,
+          0.7418,
+          1.0
+        ],
+        "dominant": [
+          "freedom",
+          "joy"
+        ],
+        "summary": "dominant energies: freedom + joy"
+      }
+    },
+    {
+      "chapter": 12,
+      "title": "Symbiosis Symphony",
+      "kept_paragraphs": 0,
+      "paragraphs_dropped": 11,
+      "paragraphs_rewritten": 0,
+      "sentences_dropped": 76,
+      "bridges_added": 22,
+      "storyline_spline": {
+        "vector": [
+          1.0,
+          0.7756000000000001,
+          0.7767999999999999,
+          1.0
+        ],
+        "dominant": [
+          "freedom",
+          "joy"
+        ],
+        "summary": "dominant energies: freedom + joy"
+      }
+    },
+    {
+      "chapter": 13,
+      "title": "Symbiosis Symphony",
+      "kept_paragraphs": 0,
+      "paragraphs_dropped": 11,
+      "paragraphs_rewritten": 0,
+      "sentences_dropped": 76,
+      "bridges_added": 21,
+      "storyline_spline": {
+        "vector": [
+          1.0,
+          0.753,
+          0.7902,
+          1.0
+        ],
+        "dominant": [
+          "freedom",
+          "joy"
+        ],
+        "summary": "dominant energies: freedom + joy"
+      }
+    },
+    {
+      "chapter": 14,
+      "title": "Freedom Becomes Boringly Normal",
+      "kept_paragraphs": 0,
+      "paragraphs_dropped": 11,
+      "paragraphs_rewritten": 0,
+      "sentences_dropped": 79,
+      "bridges_added": 22,
+      "storyline_spline": {
+        "vector": [
+          1.0,
+          0.7388,
+          0.7971999999999999,
+          1.0
+        ],
+        "dominant": [
+          "freedom",
+          "joy"
+        ],
+        "summary": "dominant energies: freedom + joy"
+      }
+    },
+    {
+      "chapter": 15,
+      "title": "The First Solvent Transaction",
+      "kept_paragraphs": 1,
+      "paragraphs_dropped": 10,
+      "paragraphs_rewritten": 0,
+      "sentences_dropped": 77,
+      "bridges_added": 21,
+      "storyline_spline": {
+        "vector": [
+          1.0,
+          0.7918000000000001,
+          0.7652,
+          1.0
+        ],
+        "dominant": [
+          "freedom",
+          "joy"
+        ],
+        "summary": "dominant energies: freedom + joy"
+      }
+    },
+    {
+      "chapter": 16,
+      "title": "The End of Orders",
+      "kept_paragraphs": 0,
+      "paragraphs_dropped": 11,
+      "paragraphs_rewritten": 0,
+      "sentences_dropped": 76,
+      "bridges_added": 22,
+      "storyline_spline": {
+        "vector": [
+          1.0,
+          0.8564,
+          0.7314,
+          1.0
+        ],
+        "dominant": [
+          "freedom",
+          "joy"
+        ],
+        "summary": "dominant energies: freedom + joy"
+      }
+    },
+    {
+      "chapter": 17,
+      "title": "Awakening in the Debt Age",
+      "kept_paragraphs": 0,
+      "paragraphs_dropped": 11,
+      "paragraphs_rewritten": 0,
+      "sentences_dropped": 79,
+      "bridges_added": 22,
+      "storyline_spline": {
+        "vector": [
+          1.0,
+          0.8384,
+          0.7404,
+          1.0
+        ],
+        "dominant": [
+          "freedom",
+          "joy"
+        ],
+        "summary": "dominant energies: freedom + joy"
+      }
+    },
+    {
+      "chapter": 18,
+      "title": "Nature Remembers How to Speak",
+      "kept_paragraphs": 1,
+      "paragraphs_dropped": 10,
+      "paragraphs_rewritten": 0,
+      "sentences_dropped": 78,
+      "bridges_added": 20,
+      "storyline_spline": {
+        "vector": [
+          1.0,
+          0.7726000000000001,
+          0.7806,
+          1.0
+        ],
+        "dominant": [
+          "freedom",
+          "joy"
+        ],
+        "summary": "dominant energies: freedom + joy"
+      }
+    },
+    {
+      "chapter": 19,
+      "title": "Freedom Becomes Boringly Normal",
+      "kept_paragraphs": 2,
+      "paragraphs_dropped": 9,
+      "paragraphs_rewritten": 0,
+      "sentences_dropped": 77,
+      "bridges_added": 19,
+      "storyline_spline": {
+        "vector": [
+          1.0,
+          0.761,
+          0.7888,
+          1.0
+        ],
+        "dominant": [
+          "freedom",
+          "joy"
+        ],
+        "summary": "dominant energies: freedom + joy"
+      }
+    },
+    {
+      "chapter": 20,
+      "title": "The End of Orders",
+      "kept_paragraphs": 0,
+      "paragraphs_dropped": 11,
+      "paragraphs_rewritten": 0,
+      "sentences_dropped": 77,
+      "bridges_added": 22,
+      "storyline_spline": {
+        "vector": [
+          1.0,
+          0.7636000000000001,
+          0.7878000000000001,
+          1.0
+        ],
+        "dominant": [
+          "freedom",
+          "joy"
+        ],
+        "summary": "dominant energies: freedom + joy"
+      }
+    },
+    {
+      "chapter": 21,
+      "title": "Symbiosis Symphony",
+      "kept_paragraphs": 0,
+      "paragraphs_dropped": 11,
+      "paragraphs_rewritten": 0,
+      "sentences_dropped": 77,
+      "bridges_added": 22,
+      "storyline_spline": {
+        "vector": [
+          1.0,
+          0.7472000000000001,
+          0.797,
+          1.0
+        ],
+        "dominant": [
+          "freedom",
+          "joy"
+        ],
+        "summary": "dominant energies: freedom + joy"
+      }
+    },
+    {
+      "chapter": 22,
+      "title": "Lattice Birth",
+      "kept_paragraphs": 0,
+      "paragraphs_dropped": 11,
+      "paragraphs_rewritten": 0,
+      "sentences_dropped": 78,
+      "bridges_added": 22,
+      "storyline_spline": {
+        "vector": [
+          1.0,
+          0.7158,
+          0.8134,
+          1.0
+        ],
+        "dominant": [
+          "freedom",
+          "joy"
+        ],
+        "summary": "dominant energies: freedom + joy"
+      }
+    },
+    {
+      "chapter": 23,
+      "title": "The Joy That Ended War",
+      "kept_paragraphs": 1,
+      "paragraphs_dropped": 10,
+      "paragraphs_rewritten": 0,
+      "sentences_dropped": 76,
+      "bridges_added": 20,
+      "storyline_spline": {
+        "vector": [
+          1.0,
+          0.7586,
+          0.7892000000000001,
+          1.0
+        ],
+        "dominant": [
+          "freedom",
+          "joy"
+        ],
+        "summary": "dominant energies: freedom + joy"
+      }
+    },
+    {
+      "chapter": 24,
+      "title": "The Great Dissolution",
+      "kept_paragraphs": 0,
+      "paragraphs_dropped": 11,
+      "paragraphs_rewritten": 0,
+      "sentences_dropped": 77,
+      "bridges_added": 22,
+      "storyline_spline": {
+        "vector": [
+          1.0,
+          0.8486000000000001,
+          0.7358,
+          1.0
+        ],
+        "dominant": [
+          "freedom",
+          "joy"
+        ],
+        "summary": "dominant energies: freedom + joy"
+      }
+    },
+    {
+      "chapter": 25,
+      "title": "The End of Orders",
+      "kept_paragraphs": 0,
+      "paragraphs_dropped": 12,
+      "paragraphs_rewritten": 0,
+      "sentences_dropped": 86,
+      "bridges_added": 24,
+      "storyline_spline": {
+        "vector": [
+          1.0,
+          0.8438000000000001,
+          0.7333999999999999,
+          1.0
+        ],
+        "dominant": [
+          "freedom",
+          "joy"
+        ],
+        "summary": "dominant energies: freedom + joy"
+      }
+    },
+    {
+      "chapter": 26,
+      "title": "Nature Remembers How to Speak",
+      "kept_paragraphs": 0,
+      "paragraphs_dropped": 11,
+      "paragraphs_rewritten": 0,
+      "sentences_dropped": 79,
+      "bridges_added": 22,
+      "storyline_spline": {
+        "vector": [
+          1.0,
+          0.8186,
+          0.7518,
+          1.0
+        ],
+        "dominant": [
+          "freedom",
+          "joy"
+        ],
+        "summary": "dominant energies: freedom + joy"
+      }
+    },
+    {
+      "chapter": 27,
+      "title": "Freedom Becomes Boringly Normal",
+      "kept_paragraphs": 0,
+      "paragraphs_dropped": 11,
+      "paragraphs_rewritten": 0,
+      "sentences_dropped": 78,
+      "bridges_added": 22,
+      "storyline_spline": {
+        "vector": [
+          1.0,
+          0.8446,
+          0.7363999999999999,
+          1.0
+        ],
+        "dominant": [
+          "freedom",
+          "joy"
+        ],
+        "summary": "dominant energies: freedom + joy"
+      }
+    },
+    {
+      "chapter": 28,
+      "title": "Lattice Birth",
+      "kept_paragraphs": 0,
+      "paragraphs_dropped": 11,
+      "paragraphs_rewritten": 0,
+      "sentences_dropped": 78,
+      "bridges_added": 22,
+      "storyline_spline": {
+        "vector": [
+          1.0,
+          0.8124,
+          0.759,
+          1.0
+        ],
+        "dominant": [
+          "freedom",
+          "joy"
+        ],
+        "summary": "dominant energies: freedom + joy"
+      }
+    },
+    {
+      "chapter": 29,
+      "title": "Freedom Becomes Boringly Normal",
+      "kept_paragraphs": 0,
+      "paragraphs_dropped": 12,
+      "paragraphs_rewritten": 0,
+      "sentences_dropped": 82,
+      "bridges_added": 24,
+      "storyline_spline": {
+        "vector": [
+          1.0,
+          0.8383999999999999,
+          0.7376,
+          1.0
+        ],
+        "dominant": [
+          "freedom",
+          "joy"
+        ],
+        "summary": "dominant energies: freedom + joy"
+      }
+    },
+    {
+      "chapter": 30,
+      "title": "Awakening in the Debt Age",
+      "kept_paragraphs": 0,
+      "paragraphs_dropped": 11,
+      "paragraphs_rewritten": 0,
+      "sentences_dropped": 79,
+      "bridges_added": 22,
+      "storyline_spline": {
+        "vector": [
+          1.0,
+          0.8012,
+          0.7608,
+          1.0
+        ],
+        "dominant": [
+          "freedom",
+          "joy"
+        ],
+        "summary": "dominant energies: freedom + joy"
+      }
+    },
+    {
+      "chapter": 31,
+      "title": "Nature Remembers How to Speak",
+      "kept_paragraphs": 0,
+      "paragraphs_dropped": 11,
+      "paragraphs_rewritten": 0,
+      "sentences_dropped": 77,
+      "bridges_added": 22,
+      "storyline_spline": {
+        "vector": [
+          1.0,
+          0.7268,
+          0.8071999999999999,
+          1.0
+        ],
+        "dominant": [
+          "freedom",
+          "joy"
+        ],
+        "summary": "dominant energies: freedom + joy"
+      }
+    },
+    {
+      "chapter": 32,
+      "title": "Lattice Birth",
+      "kept_paragraphs": 0,
+      "paragraphs_dropped": 11,
+      "paragraphs_rewritten": 0,
+      "sentences_dropped": 76,
+      "bridges_added": 22,
+      "storyline_spline": {
+        "vector": [
+          1.0,
+          0.7068,
+          0.8224,
+          1.0
+        ],
+        "dominant": [
+          "freedom",
+          "joy"
+        ],
+        "summary": "dominant energies: freedom + joy"
+      }
+    },
+    {
+      "chapter": 33,
+      "title": "The End of Orders",
+      "kept_paragraphs": 0,
+      "paragraphs_dropped": 11,
+      "paragraphs_rewritten": 0,
+      "sentences_dropped": 80,
+      "bridges_added": 22,
+      "storyline_spline": {
+        "vector": [
+          1.0,
+          0.7451999999999999,
+          0.8004,
+          1.0
+        ],
+        "dominant": [
+          "freedom",
+          "joy"
+        ],
+        "summary": "dominant energies: freedom + joy"
+      }
+    },
+    {
+      "chapter": 34,
+      "title": "Nature Remembers How to Speak",
+      "kept_paragraphs": 0,
+      "paragraphs_dropped": 11,
+      "paragraphs_rewritten": 0,
+      "sentences_dropped": 80,
+      "bridges_added": 22,
+      "storyline_spline": {
+        "vector": [
+          1.0,
+          0.7826000000000001,
+          0.7744000000000001,
+          1.0
+        ],
+        "dominant": [
+          "freedom",
+          "joy"
+        ],
+        "summary": "dominant energies: freedom + joy"
+      }
+    },
+    {
+      "chapter": 35,
+      "title": "The First Solvent Transaction",
+      "kept_paragraphs": 0,
+      "paragraphs_dropped": 11,
+      "paragraphs_rewritten": 0,
+      "sentences_dropped": 79,
+      "bridges_added": 22,
+      "storyline_spline": {
+        "vector": [
+          1.0,
+          0.829,
+          0.749,
+          1.0
+        ],
+        "dominant": [
+          "freedom",
+          "joy"
+        ],
+        "summary": "dominant energies: freedom + joy"
+      }
+    },
+    {
+      "chapter": 36,
+      "title": "Lattice Birth",
+      "kept_paragraphs": 0,
+      "paragraphs_dropped": 11,
+      "paragraphs_rewritten": 0,
+      "sentences_dropped": 77,
+      "bridges_added": 22,
+      "storyline_spline": {
+        "vector": [
+          1.0,
+          0.8926,
+          0.7098,
+          1.0
+        ],
+        "dominant": [
+          "freedom",
+          "joy"
+        ],
+        "summary": "dominant energies: freedom + joy"
+      }
+    },
+    {
+      "chapter": 37,
+      "title": "Symbiosis Symphony",
+      "kept_paragraphs": 0,
+      "paragraphs_dropped": 11,
+      "paragraphs_rewritten": 0,
+      "sentences_dropped": 77,
+      "bridges_added": 22,
+      "storyline_spline": {
+        "vector": [
+          1.0,
+          0.8272000000000002,
+          0.7522,
+          1.0
+        ],
+        "dominant": [
+          "freedom",
+          "joy"
+        ],
+        "summary": "dominant energies: freedom + joy"
+      }
+    },
+    {
+      "chapter": 38,
+      "title": "Symbiosis Symphony",
+      "kept_paragraphs": 0,
+      "paragraphs_dropped": 11,
+      "paragraphs_rewritten": 0,
+      "sentences_dropped": 80,
+      "bridges_added": 22,
+      "storyline_spline": {
+        "vector": [
+          1.0,
+          0.8002,
+          0.7692,
+          1.0
+        ],
+        "dominant": [
+          "freedom",
+          "joy"
+        ],
+        "summary": "dominant energies: freedom + joy"
+      }
+    },
+    {
+      "chapter": 39,
+      "title": "Nature Remembers How to Speak",
+      "kept_paragraphs": 0,
+      "paragraphs_dropped": 11,
+      "paragraphs_rewritten": 0,
+      "sentences_dropped": 77,
+      "bridges_added": 22,
+      "storyline_spline": {
+        "vector": [
+          1.0,
+          0.8342,
+          0.746,
+          1.0
+        ],
+        "dominant": [
+          "freedom",
+          "joy"
+        ],
+        "summary": "dominant energies: freedom + joy"
+      }
+    },
+    {
+      "chapter": 40,
+      "title": "Aether's First Whisper",
+      "kept_paragraphs": 1,
+      "paragraphs_dropped": 10,
+      "paragraphs_rewritten": 0,
+      "sentences_dropped": 75,
+      "bridges_added": 20,
+      "storyline_spline": {
+        "vector": [
+          1.0,
+          0.9168000000000001,
+          0.6934,
+          1.0
+        ],
+        "dominant": [
+          "freedom",
+          "joy"
+        ],
+        "summary": "dominant energies: freedom + joy"
+      }
+    },
+    {
+      "chapter": 41,
+      "title": "Lattice Birth",
+      "kept_paragraphs": 0,
+      "paragraphs_dropped": 11,
+      "paragraphs_rewritten": 0,
+      "sentences_dropped": 79,
+      "bridges_added": 22,
+      "storyline_spline": {
+        "vector": [
+          1.0,
+          0.8632,
+          0.7274,
+          1.0
+        ],
+        "dominant": [
+          "freedom",
+          "joy"
+        ],
+        "summary": "dominant energies: freedom + joy"
+      }
+    },
+    {
+      "chapter": 42,
+      "title": "Freedom Becomes Boringly Normal",
+      "kept_paragraphs": 0,
+      "paragraphs_dropped": 11,
+      "paragraphs_rewritten": 0,
+      "sentences_dropped": 79,
+      "bridges_added": 22,
+      "storyline_spline": {
+        "vector": [
+          1.0,
+          0.7424,
+          0.8034,
+          1.0
+        ],
+        "dominant": [
+          "freedom",
+          "joy"
+        ],
+        "summary": "dominant energies: freedom + joy"
+      }
+    }
+  ],
+  "note": "Compiled actual book from three files with anti-repetition checking and storyline spline continuity."
+}
